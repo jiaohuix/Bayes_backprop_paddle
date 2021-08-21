@@ -71,7 +71,7 @@ python main.py  --config ./conf/base.yaml --mode pred
 ############### Configuration file for Bayesian ###############
 data:
   name: MNIST # 'MNIST','CIFAR10','CIFAR100' # 数据集名
-  input_size: [1,28,28] # 数据集大小
+  input_size: [1,32,32] # 数据集大小
   # 归一化
   mean: [0.]
   std: [126.]
@@ -82,7 +82,7 @@ data:
 hparas:
   seeds: 2021 # 随机种子
   start_epoch: 0 # 开始训练轮数
-  num_epochs: 600 # 总训练轮数
+  num_epochs: 500 # 总训练轮数
   batch_size: 128 # batch大小
   learning_strategy:
     lr_start: 1e-3 # 初始学习率        
