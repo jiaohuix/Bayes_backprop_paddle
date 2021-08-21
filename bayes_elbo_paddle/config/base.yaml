@@ -1,1 +1,39 @@
+############### Configuration file for Bayesian ###############
+data:
+  name: MNIST # 'MNIST','CIFAR10','CIFAR100'
+  input_size: [1,28,28]
+  cifar10_classes: ['airplane', 'automobile', 'bird', 'cat', 'deer','dog', 'frog', 'horse', 'ship', 'truck'] # cifar10 classes
+  mean: [0.]
+  std: [126.]
+  class_dim: 10
+  valid_size: 10000 # float ∈(0,1): valid_ratio; int greater than 1: valid size
+  num_workers: 0
 
+hparas:
+  seeds: 2021
+  num_epochs: 500
+  batch_size: 128
+  learning_strategy:
+    warmup_steps: 200 # warmup步数（epoch）
+    lr_start: 5e-6 # 初始学习率           #确保初始不为nan，否则后面全是nan (不同优化器也对不同学习率敏感)
+    lr_peak: 1e-3 # 学习率巅峰   #1e-3 25个batch之后梯度爆炸nan了，所以没有学习
+    lr_decay: 0.95 # 学习率衰减比
+    weight_decay: 0.15
+  visual_epochs: 50
+  save_epochs: 50
+
+model:
+  name: BBBMlp
+  layer_type: bbb  # 'bbb' or 'lrt'
+  load_name: model_best_bbb.pdparams # model_best_bbb,model_best_lrt
+  train_ens: 2 # 训练集成数
+  valid_ens: 6 # 验证集成数
+  params:
+    # scale mixture prior (sigma is -logσ)
+    prior_pi:   0.75 #0.25 or 0.5 or 0.75
+    prior_sigma1: 2 # 0 or 1 or 2
+    prior_sigma2: 8 # 6 or 7 or 8
+    # gaussian posterior
+    posterior_mu_initial: [-0.2, 0.2]  # (low, high) uniform_  (yaml识别不了圆括号，会当成字符串)
+    posterior_rho_initial: [-5.0, -4.0] # (low, high) uniform_
+  save_dir: "checkpoints"
