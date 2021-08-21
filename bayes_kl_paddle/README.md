@@ -10,7 +10,7 @@
    本项目还原的是kumar-shridhar的repo，由于损失函数中kl用的是高斯的kl散度，故名为bayes_kl_paddle。
 
 ## 二、复现精度
- MNIST测试集上，Test Error=1.315%
+ MNIST测试集上，Test Error=1.3183%
 
 下面是跑了二百轮的指标，具体要达到精度还需要在跑会。
 
