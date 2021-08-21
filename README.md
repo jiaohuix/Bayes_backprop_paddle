@@ -129,7 +129,7 @@ model:
 
 | 数据集 | 模型                          | Test-error | 权重链接                                                     |
 | ------ | ----------------------------- | ---------- | ------------------------------------------------------------ |
-| MNIST  | bayesfc-bbb(1200units/layer)  | 1.3183%    | [链接:](https://pan.baidu.com/s/1z_SIme8HOhrxqctBbJ-S1w)  提取码: opq3 |
+| MNIST  | bayesfc2-bbb(1200units/layer)  | 1.3183%    | [链接:](https://pan.baidu.com/s/1z_SIme8HOhrxqctBbJ-S1w)  提取码: opq3 |
 | MNIST  | bayesfc2-lrt(1200units/layer) | 1.3183%    | 同上                                                         |
 
 注：用lrt加载bbb的权重能达到1.289%
