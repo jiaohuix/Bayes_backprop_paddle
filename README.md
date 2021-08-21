@@ -85,7 +85,7 @@ python main.py  --config ./conf/base.yaml --mode pred
 ############### Configuration file for Bayesian ###############
 data:
   name: MNIST # 'MNIST','CIFAR10','CIFAR100' # 数据集名
-  input_size: [1,28,28] # 数据集大小
+  input_size: [1,32,32] # 数据集大小
   # 归一化
   mean: [0.]
   std: [126.]
