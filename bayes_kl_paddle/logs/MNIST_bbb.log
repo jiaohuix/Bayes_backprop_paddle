@@ -1,0 +1,858 @@
+2021-08-21 01:26:36,474 | MNIST: Prep | Loading datasets...
+2021-08-21 01:26:41,131 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 01:26:41,131 | MNIST: Prep | Loading model...
+2021-08-21 01:26:44,503 | MNIST: Prep | Model loaded!
+2021-08-21 01:26:44,503 | MNIST: Train | Training...
+2021-08-21 01:27:48,252 | MNIST: Prep | Loading datasets...
+2021-08-21 01:27:52,188 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 01:27:52,188 | MNIST: Prep | Loading model...
+2021-08-21 01:27:55,169 | MNIST: Prep | Model loaded!
+2021-08-21 01:27:55,170 | MNIST: Train | Training...
+2021-08-21 01:28:04,669 | MNIST: Epoch: 0 | Train Loss: 88857.0547 | Train Acc: 0.8854 | Val Loss: 9468.2597 | Val Acc: 0.9436 | train_kl_div: 6251266.6939
+2021-08-21 01:28:04,669 | MNIST: Val Acc ⬆ (-inf --> 0.9436).  Saving model ...
+2021-08-21 01:28:14,394 | MNIST: Epoch: 1 | Train Loss: 37876.6523 | Train Acc: 0.9564 | Val Loss: 9463.0879 | Val Acc: 0.9410 | train_kl_div: 6055019.0000
+2021-08-21 01:28:23,585 | MNIST: Epoch: 2 | Train Loss: 37894.5938 | Train Acc: 0.9563 | Val Loss: 9627.0016 | Val Acc: 0.9415 | train_kl_div: 6055019.0000
+2021-08-21 01:28:32,769 | MNIST: Epoch: 3 | Train Loss: 37867.5078 | Train Acc: 0.9563 | Val Loss: 9422.4578 | Val Acc: 0.9443 | train_kl_div: 6055019.0000
+2021-08-21 01:28:32,769 | MNIST: Val Acc ⬆ (0.9436 --> 0.9443).  Saving model ...
+2021-08-21 01:28:42,208 | MNIST: Epoch: 4 | Train Loss: 37863.1875 | Train Acc: 0.9569 | Val Loss: 9584.4280 | Val Acc: 0.9425 | train_kl_div: 6055019.0000
+2021-08-21 01:28:51,172 | MNIST: Epoch: 5 | Train Loss: 37855.1523 | Train Acc: 0.9560 | Val Loss: 9606.7772 | Val Acc: 0.9408 | train_kl_div: 6055019.0000
+2021-08-21 01:29:00,271 | MNIST: Epoch: 6 | Train Loss: 37894.8867 | Train Acc: 0.9560 | Val Loss: 9580.7166 | Val Acc: 0.9414 | train_kl_div: 6055019.0000
+2021-08-21 01:29:09,239 | MNIST: Epoch: 7 | Train Loss: 37852.3672 | Train Acc: 0.9565 | Val Loss: 9398.9016 | Val Acc: 0.9435 | train_kl_div: 6055019.0000
+2021-08-21 01:29:18,891 | MNIST: Epoch: 8 | Train Loss: 37868.1875 | Train Acc: 0.9568 | Val Loss: 9519.4199 | Val Acc: 0.9427 | train_kl_div: 6055019.0000
+2021-08-21 01:29:27,681 | MNIST: Epoch: 9 | Train Loss: 37862.2500 | Train Acc: 0.9565 | Val Loss: 9562.7695 | Val Acc: 0.9429 | train_kl_div: 6055019.0000
+2021-08-21 01:29:36,829 | MNIST: Epoch: 10 | Train Loss: 37818.9062 | Train Acc: 0.9564 | Val Loss: 9500.2271 | Val Acc: 0.9440 | train_kl_div: 6055019.0000
+2021-08-21 01:29:45,650 | MNIST: Epoch: 11 | Train Loss: 37841.6562 | Train Acc: 0.9564 | Val Loss: 9694.6173 | Val Acc: 0.9427 | train_kl_div: 6055019.0000
+2021-08-21 01:29:54,666 | MNIST: Epoch: 12 | Train Loss: 37864.0781 | Train Acc: 0.9563 | Val Loss: 9473.6801 | Val Acc: 0.9436 | train_kl_div: 6055019.0000
+2021-08-21 01:30:03,980 | MNIST: Epoch: 13 | Train Loss: 37813.4609 | Train Acc: 0.9566 | Val Loss: 9631.9046 | Val Acc: 0.9422 | train_kl_div: 6055019.0000
+2021-08-21 01:30:13,017 | MNIST: Epoch: 14 | Train Loss: 37782.8594 | Train Acc: 0.9567 | Val Loss: 9488.5112 | Val Acc: 0.9410 | train_kl_div: 6055019.0000
+2021-08-21 01:30:22,650 | MNIST: Epoch: 15 | Train Loss: 37862.7812 | Train Acc: 0.9566 | Val Loss: 9476.4731 | Val Acc: 0.9440 | train_kl_div: 6055019.0000
+2021-08-21 01:30:31,530 | MNIST: Epoch: 16 | Train Loss: 37914.7773 | Train Acc: 0.9561 | Val Loss: 9424.6219 | Val Acc: 0.9436 | train_kl_div: 6055019.0000
+2021-08-21 01:30:40,632 | MNIST: Epoch: 17 | Train Loss: 37850.2383 | Train Acc: 0.9565 | Val Loss: 9492.0210 | Val Acc: 0.9434 | train_kl_div: 6055019.0000
+2021-08-21 01:30:49,611 | MNIST: Epoch: 18 | Train Loss: 37861.9688 | Train Acc: 0.9562 | Val Loss: 9525.6562 | Val Acc: 0.9422 | train_kl_div: 6055019.0000
+2021-08-21 01:30:58,558 | MNIST: Epoch: 19 | Train Loss: 37902.4023 | Train Acc: 0.9558 | Val Loss: 9577.8298 | Val Acc: 0.9423 | train_kl_div: 6055019.0000
+2021-08-21 01:31:07,398 | MNIST: Epoch: 20 | Train Loss: 37898.5117 | Train Acc: 0.9564 | Val Loss: 9457.7787 | Val Acc: 0.9424 | train_kl_div: 6055019.0000
+2021-08-21 01:31:20,175 | MNIST: Prep | Loading datasets...
+2021-08-21 01:31:24,193 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 01:31:24,193 | MNIST: Prep | Loading model...
+2021-08-21 01:31:27,287 | MNIST: Prep | Model loaded!
+2021-08-21 01:31:27,332 | MNIST: Prep | Model weight loaded!
+2021-08-21 01:31:27,332 | MNIST: Train | Training...
+2021-08-21 01:31:36,755 | MNIST: Epoch: 0 | Train Loss: 36066.3164 | Train Acc: 0.9691 | Val Loss: 6568.1742 | Val Acc: 0.9614 | train_kl_div: 5774094.8367
+2021-08-21 01:31:36,755 | MNIST: Val Acc ⬆ (-inf --> 0.9614).  Saving model ...
+2021-08-21 01:31:46,938 | MNIST: Epoch: 1 | Train Loss: 31852.4766 | Train Acc: 0.9791 | Val Loss: 6623.9372 | Val Acc: 0.9610 | train_kl_div: 5585784.5000
+2021-08-21 01:31:56,074 | MNIST: Epoch: 2 | Train Loss: 31868.9668 | Train Acc: 0.9789 | Val Loss: 6602.1507 | Val Acc: 0.9631 | train_kl_div: 5585784.5000
+2021-08-21 01:31:56,075 | MNIST: Val Acc ⬆ (0.9614 --> 0.9631).  Saving model ...
+2021-08-21 01:32:05,736 | MNIST: Epoch: 3 | Train Loss: 31841.6348 | Train Acc: 0.9793 | Val Loss: 6609.2790 | Val Acc: 0.9625 | train_kl_div: 5585784.5000
+2021-08-21 01:32:15,328 | MNIST: Epoch: 4 | Train Loss: 31831.8652 | Train Acc: 0.9794 | Val Loss: 6641.8692 | Val Acc: 0.9627 | train_kl_div: 5585784.5000
+2021-08-21 01:32:24,397 | MNIST: Epoch: 5 | Train Loss: 31857.3594 | Train Acc: 0.9788 | Val Loss: 6660.4284 | Val Acc: 0.9608 | train_kl_div: 5585784.5000
+2021-08-21 01:32:33,766 | MNIST: Epoch: 6 | Train Loss: 31858.7520 | Train Acc: 0.9791 | Val Loss: 6579.2119 | Val Acc: 0.9612 | train_kl_div: 5585784.5000
+2021-08-21 01:32:43,462 | MNIST: Epoch: 7 | Train Loss: 31842.1250 | Train Acc: 0.9788 | Val Loss: 6609.4523 | Val Acc: 0.9619 | train_kl_div: 5585784.5000
+2021-08-21 01:32:53,020 | MNIST: Epoch: 8 | Train Loss: 31891.0488 | Train Acc: 0.9790 | Val Loss: 6738.4412 | Val Acc: 0.9623 | train_kl_div: 5585784.5000
+2021-08-21 01:33:02,340 | MNIST: Epoch: 9 | Train Loss: 31869.6855 | Train Acc: 0.9792 | Val Loss: 6668.6549 | Val Acc: 0.9604 | train_kl_div: 5585784.5000
+2021-08-21 01:33:12,045 | MNIST: Prep | Loading datasets...
+2021-08-21 01:33:15,893 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 01:33:15,893 | MNIST: Prep | Loading model...
+2021-08-21 01:33:18,984 | MNIST: Prep | Model loaded!
+2021-08-21 01:33:19,033 | MNIST: Prep | Model weight loaded!
+2021-08-21 01:33:19,033 | MNIST: Train | Training...
+2021-08-21 01:33:28,625 | MNIST: Epoch: 0 | Train Loss: 31568.1934 | Train Acc: 0.9798 | Val Loss: 6889.4821 | Val Acc: 0.9628 | train_kl_div: 5293020.5638
+2021-08-21 01:33:28,625 | MNIST: Val Acc ⬆ (-inf --> 0.9628).  Saving model ...
+2021-08-21 01:33:37,990 | MNIST: Epoch: 1 | Train Loss: 28451.8945 | Train Acc: 0.9847 | Val Loss: 4423.9891 | Val Acc: 0.9746 | train_kl_div: 4858446.1760
+2021-08-21 01:33:37,990 | MNIST: Val Acc ⬆ (0.9628 --> 0.9746).  Saving model ...
+2021-08-21 01:33:47,992 | MNIST: Epoch: 2 | Train Loss: 25540.2324 | Train Acc: 0.9893 | Val Loss: 4522.2378 | Val Acc: 0.9771 | train_kl_div: 4402278.2474
+2021-08-21 01:33:47,992 | MNIST: Val Acc ⬆ (0.9746 --> 0.9771).  Saving model ...
+2021-08-21 01:33:58,223 | MNIST: Epoch: 3 | Train Loss: 23054.4824 | Train Acc: 0.9899 | Val Loss: 5377.4203 | Val Acc: 0.9732 | train_kl_div: 3971936.2959
+2021-08-21 01:34:07,697 | MNIST: Epoch: 4 | Train Loss: 20719.4805 | Train Acc: 0.9911 | Val Loss: 5035.8404 | Val Acc: 0.9755 | train_kl_div: 3608037.1531
+2021-08-21 01:34:16,987 | MNIST: Epoch: 5 | Train Loss: 18849.5898 | Train Acc: 0.9920 | Val Loss: 5084.1946 | Val Acc: 0.9771 | train_kl_div: 3205859.6926
+2021-08-21 01:34:25,688 | MNIST: Epoch: 6 | Train Loss: 16783.3574 | Train Acc: 0.9921 | Val Loss: 6481.0246 | Val Acc: 0.9715 | train_kl_div: 2828382.0702
+2021-08-21 01:34:34,484 | MNIST: Epoch: 7 | Train Loss: 14880.0244 | Train Acc: 0.9927 | Val Loss: 4433.0608 | Val Acc: 0.9783 | train_kl_div: 2542242.2398
+2021-08-21 01:34:34,484 | MNIST: Val Acc ⬆ (0.9771 --> 0.9783).  Saving model ...
+2021-08-21 01:34:44,042 | MNIST: Epoch: 8 | Train Loss: 13493.3369 | Train Acc: 0.9921 | Val Loss: 5368.8754 | Val Acc: 0.9754 | train_kl_div: 2208779.0855
+2021-08-21 01:34:53,528 | MNIST: Epoch: 9 | Train Loss: 11856.0557 | Train Acc: 0.9921 | Val Loss: 4769.8630 | Val Acc: 0.9769 | train_kl_div: 1948795.5791
+2021-08-21 01:35:02,375 | MNIST: Epoch: 10 | Train Loss: 10630.4092 | Train Acc: 0.9915 | Val Loss: 5680.2564 | Val Acc: 0.9732 | train_kl_div: 1702349.7309
+2021-08-21 01:35:12,441 | MNIST: Epoch: 11 | Train Loss: 9326.9824 | Train Acc: 0.9915 | Val Loss: 5713.1406 | Val Acc: 0.9715 | train_kl_div: 1473094.5395
+2021-08-21 01:35:21,685 | MNIST: Epoch: 12 | Train Loss: 8346.9590 | Train Acc: 0.9916 | Val Loss: 5220.8245 | Val Acc: 0.9722 | train_kl_div: 1255057.3489
+2021-08-21 01:35:30,707 | MNIST: Epoch: 13 | Train Loss: 7326.4692 | Train Acc: 0.9908 | Val Loss: 5057.4983 | Val Acc: 0.9767 | train_kl_div: 1068444.4228
+2021-08-21 01:35:39,942 | MNIST: Epoch: 14 | Train Loss: 6583.6294 | Train Acc: 0.9901 | Val Loss: 4924.1722 | Val Acc: 0.9771 | train_kl_div: 910266.4404
+2021-08-21 01:35:48,928 | MNIST: Epoch: 15 | Train Loss: 5817.5977 | Train Acc: 0.9898 | Val Loss: 6181.3129 | Val Acc: 0.9707 | train_kl_div: 770815.8182
+2021-08-21 01:35:58,942 | MNIST: Epoch: 16 | Train Loss: 5460.1172 | Train Acc: 0.9883 | Val Loss: 6540.0341 | Val Acc: 0.9717 | train_kl_div: 644816.4337
+2021-08-21 01:36:08,263 | MNIST: Epoch: 17 | Train Loss: 4931.0508 | Train Acc: 0.9881 | Val Loss: 7468.3232 | Val Acc: 0.9686 | train_kl_div: 522758.3045
+2021-08-21 01:36:17,501 | MNIST: Epoch: 18 | Train Loss: 4477.4785 | Train Acc: 0.9868 | Val Loss: 7300.5110 | Val Acc: 0.9681 | train_kl_div: 445251.5400
+2021-08-21 01:36:27,459 | MNIST: Epoch: 19 | Train Loss: 4698.1045 | Train Acc: 0.9841 | Val Loss: 8020.6006 | Val Acc: 0.9661 | train_kl_div: 372564.0872
+2021-08-21 01:36:36,563 | MNIST: Epoch: 20 | Train Loss: 4485.2368 | Train Acc: 0.9830 | Val Loss: 7717.7321 | Val Acc: 0.9638 | train_kl_div: 328223.7822
+2021-08-21 01:36:45,367 | MNIST: Epoch: 21 | Train Loss: 4760.6128 | Train Acc: 0.9812 | Val Loss: 7603.5095 | Val Acc: 0.9661 | train_kl_div: 308955.2604
+2021-08-21 01:36:54,615 | MNIST: Epoch: 22 | Train Loss: 5400.2393 | Train Acc: 0.9769 | Val Loss: 9378.8544 | Val Acc: 0.9604 | train_kl_div: 305033.8371
+2021-08-21 01:37:03,772 | MNIST: Epoch: 23 | Train Loss: 4433.7231 | Train Acc: 0.9818 | Val Loss: 6338.9901 | Val Acc: 0.9719 | train_kl_div: 313665.8901
+2021-08-21 01:37:13,002 | MNIST: Epoch: 24 | Train Loss: 3761.1628 | Train Acc: 0.9859 | Val Loss: 6903.0078 | Val Acc: 0.9701 | train_kl_div: 312793.6826
+2021-08-21 01:37:22,368 | MNIST: Epoch: 25 | Train Loss: 3887.3669 | Train Acc: 0.9851 | Val Loss: 6553.1497 | Val Acc: 0.9705 | train_kl_div: 312064.8229
+2021-08-21 01:37:31,384 | MNIST: Epoch: 26 | Train Loss: 3781.9678 | Train Acc: 0.9863 | Val Loss: 7480.1364 | Val Acc: 0.9667 | train_kl_div: 311426.3731
+2021-08-21 01:37:41,029 | MNIST: Epoch: 27 | Train Loss: 3908.7678 | Train Acc: 0.9858 | Val Loss: 7011.7256 | Val Acc: 0.9668 | train_kl_div: 311008.6456
+2021-08-21 01:37:49,972 | MNIST: Epoch: 28 | Train Loss: 3963.0334 | Train Acc: 0.9860 | Val Loss: 6383.3181 | Val Acc: 0.9696 | train_kl_div: 310622.2457
+2021-08-21 01:37:59,909 | MNIST: Epoch: 29 | Train Loss: 3873.4482 | Train Acc: 0.9860 | Val Loss: 7017.3024 | Val Acc: 0.9709 | train_kl_div: 311183.8648
+2021-08-21 01:38:09,002 | MNIST: Epoch: 30 | Train Loss: 3716.4148 | Train Acc: 0.9863 | Val Loss: 6911.9533 | Val Acc: 0.9691 | train_kl_div: 311257.4161
+2021-08-21 01:38:18,588 | MNIST: Epoch: 31 | Train Loss: 3997.3877 | Train Acc: 0.9845 | Val Loss: 6579.3912 | Val Acc: 0.9719 | train_kl_div: 311992.4973
+2021-08-21 01:38:28,272 | MNIST: Epoch: 32 | Train Loss: 4070.7957 | Train Acc: 0.9849 | Val Loss: 7085.3283 | Val Acc: 0.9704 | train_kl_div: 312664.7938
+2021-08-21 01:38:37,701 | MNIST: Epoch: 33 | Train Loss: 3970.9509 | Train Acc: 0.9851 | Val Loss: 7593.8484 | Val Acc: 0.9698 | train_kl_div: 313761.0890
+2021-08-21 01:38:47,439 | MNIST: Epoch: 34 | Train Loss: 4097.3735 | Train Acc: 0.9849 | Val Loss: 8101.0161 | Val Acc: 0.9668 | train_kl_div: 314434.6483
+2021-08-21 01:38:56,452 | MNIST: Epoch: 35 | Train Loss: 4305.5942 | Train Acc: 0.9843 | Val Loss: 7372.1297 | Val Acc: 0.9668 | train_kl_div: 316252.5183
+2021-08-21 01:39:06,399 | MNIST: Prep | Loading datasets...
+2021-08-21 01:39:10,226 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 01:39:10,226 | MNIST: Prep | Loading model...
+2021-08-21 01:39:13,179 | MNIST: Prep | Model loaded!
+2021-08-21 01:39:13,222 | MNIST: Prep | Model weight loaded!
+2021-08-21 01:39:13,222 | MNIST: Train | Training...
+2021-08-21 01:39:22,460 | MNIST: Epoch: 0 | Train Loss: 13291.0986 | Train Acc: 0.9936 | Val Loss: 4707.4820 | Val Acc: 0.9745 | train_kl_div: 2348945.8342
+2021-08-21 01:39:22,460 | MNIST: Val Acc ⬆ (-inf --> 0.9745).  Saving model ...
+2021-08-21 01:39:32,378 | MNIST: Epoch: 1 | Train Loss: 12792.7383 | Train Acc: 0.9941 | Val Loss: 4399.2988 | Val Acc: 0.9779 | train_kl_div: 2295355.0446
+2021-08-21 01:39:32,379 | MNIST: Val Acc ⬆ (0.9745 --> 0.9779).  Saving model ...
+2021-08-21 01:39:41,444 | MNIST: Epoch: 2 | Train Loss: 12386.1484 | Train Acc: 0.9956 | Val Loss: 4319.1501 | Val Acc: 0.9811 | train_kl_div: 2239597.1365
+2021-08-21 01:39:41,444 | MNIST: Val Acc ⬆ (0.9779 --> 0.9811).  Saving model ...
+2021-08-21 01:39:50,431 | MNIST: Epoch: 3 | Train Loss: 12062.7930 | Train Acc: 0.9955 | Val Loss: 4217.7307 | Val Acc: 0.9801 | train_kl_div: 2183552.6097
+2021-08-21 01:39:59,029 | MNIST: Epoch: 4 | Train Loss: 11659.2539 | Train Acc: 0.9963 | Val Loss: 6931.9860 | Val Acc: 0.9722 | train_kl_div: 2126181.3291
+2021-08-21 01:40:08,105 | MNIST: Epoch: 5 | Train Loss: 11457.4209 | Train Acc: 0.9955 | Val Loss: 4617.4544 | Val Acc: 0.9803 | train_kl_div: 2071804.4713
+2021-08-21 01:40:16,759 | MNIST: Epoch: 6 | Train Loss: 11200.9668 | Train Acc: 0.9955 | Val Loss: 4798.6621 | Val Acc: 0.9795 | train_kl_div: 2016526.4751
+2021-08-21 01:40:25,215 | MNIST: Epoch: 7 | Train Loss: 10778.3467 | Train Acc: 0.9967 | Val Loss: 4724.1931 | Val Acc: 0.9793 | train_kl_div: 1964485.4821
+2021-08-21 01:40:34,024 | MNIST: Epoch: 8 | Train Loss: 10706.4863 | Train Acc: 0.9953 | Val Loss: 5028.0462 | Val Acc: 0.9775 | train_kl_div: 1908719.5733
+2021-08-21 01:40:43,229 | MNIST: Epoch: 9 | Train Loss: 10316.5449 | Train Acc: 0.9959 | Val Loss: 4224.8576 | Val Acc: 0.9796 | train_kl_div: 1860868.9005
+2021-08-21 01:40:51,848 | MNIST: Epoch: 10 | Train Loss: 9678.7275 | Train Acc: 0.9985 | Val Loss: 4905.8603 | Val Acc: 0.9795 | train_kl_div: 1802547.8463
+2021-08-21 01:41:01,025 | MNIST: Epoch: 11 | Train Loss: 9622.6846 | Train Acc: 0.9970 | Val Loss: 5286.7871 | Val Acc: 0.9789 | train_kl_div: 1746649.9923
+2021-08-21 01:41:09,998 | MNIST: Epoch: 12 | Train Loss: 9488.1309 | Train Acc: 0.9959 | Val Loss: 4589.7842 | Val Acc: 0.9790 | train_kl_div: 1697461.7360
+2021-08-21 01:41:19,270 | MNIST: Epoch: 13 | Train Loss: 8963.1631 | Train Acc: 0.9979 | Val Loss: 4105.4674 | Val Acc: 0.9844 | train_kl_div: 1646843.1932
+2021-08-21 01:41:19,271 | MNIST: Val Acc ⬆ (0.9811 --> 0.9844).  Saving model ...
+2021-08-21 01:41:28,195 | MNIST: Epoch: 14 | Train Loss: 8643.4785 | Train Acc: 0.9980 | Val Loss: 4746.6688 | Val Acc: 0.9813 | train_kl_div: 1590820.5548
+2021-08-21 01:41:37,326 | MNIST: Epoch: 15 | Train Loss: 8689.4678 | Train Acc: 0.9957 | Val Loss: 5022.8820 | Val Acc: 0.9772 | train_kl_div: 1542301.0619
+2021-08-21 01:41:47,026 | MNIST: Epoch: 16 | Train Loss: 8287.5459 | Train Acc: 0.9973 | Val Loss: 5564.2157 | Val Acc: 0.9765 | train_kl_div: 1496635.5261
+2021-08-21 01:41:55,715 | MNIST: Epoch: 17 | Train Loss: 8222.6885 | Train Acc: 0.9962 | Val Loss: 5829.1504 | Val Acc: 0.9774 | train_kl_div: 1452621.3463
+2021-08-21 01:42:04,366 | MNIST: Epoch: 18 | Train Loss: 7737.5830 | Train Acc: 0.9980 | Val Loss: 5110.0396 | Val Acc: 0.9794 | train_kl_div: 1405707.3731
+2021-08-21 01:42:13,467 | MNIST: Epoch: 19 | Train Loss: 7490.6021 | Train Acc: 0.9973 | Val Loss: 4834.0129 | Val Acc: 0.9812 | train_kl_div: 1356353.4713
+2021-08-21 01:42:22,188 | MNIST: Epoch: 20 | Train Loss: 7276.8701 | Train Acc: 0.9977 | Val Loss: 5741.0999 | Val Acc: 0.9775 | train_kl_div: 1310296.6008
+2021-08-21 01:42:31,236 | MNIST: Epoch: 21 | Train Loss: 7156.3286 | Train Acc: 0.9965 | Val Loss: 5607.9932 | Val Acc: 0.9790 | train_kl_div: 1267699.4209
+2021-08-21 01:42:40,800 | MNIST: Epoch: 22 | Train Loss: 6979.0459 | Train Acc: 0.9968 | Val Loss: 5958.3482 | Val Acc: 0.9761 | train_kl_div: 1228439.6295
+2021-08-21 01:42:50,681 | MNIST: Epoch: 23 | Train Loss: 6705.7368 | Train Acc: 0.9969 | Val Loss: 4864.0134 | Val Acc: 0.9824 | train_kl_div: 1189757.1658
+2021-08-21 01:43:00,948 | MNIST: Epoch: 24 | Train Loss: 6397.8330 | Train Acc: 0.9977 | Val Loss: 5322.3570 | Val Acc: 0.9774 | train_kl_div: 1148114.8801
+2021-08-21 01:43:09,994 | MNIST: Epoch: 25 | Train Loss: 6068.9995 | Train Acc: 0.9985 | Val Loss: 4331.6533 | Val Acc: 0.9830 | train_kl_div: 1111170.5121
+2021-08-21 01:43:18,889 | MNIST: Epoch: 26 | Train Loss: 5712.8086 | Train Acc: 0.9995 | Val Loss: 4647.6267 | Val Acc: 0.9836 | train_kl_div: 1070855.1709
+2021-08-21 01:43:27,242 | MNIST: Epoch: 27 | Train Loss: 5499.2832 | Train Acc: 0.9995 | Val Loss: 5075.4234 | Val Acc: 0.9826 | train_kl_div: 1029956.9483
+2021-08-21 01:43:36,173 | MNIST: Epoch: 28 | Train Loss: 5408.2397 | Train Acc: 0.9987 | Val Loss: 5088.5036 | Val Acc: 0.9831 | train_kl_div: 993589.5054
+2021-08-21 01:43:44,607 | MNIST: Epoch: 29 | Train Loss: 5510.0312 | Train Acc: 0.9969 | Val Loss: 5386.8324 | Val Acc: 0.9819 | train_kl_div: 966607.8316
+2021-08-21 01:43:53,211 | MNIST: Epoch: 30 | Train Loss: 5305.3838 | Train Acc: 0.9974 | Val Loss: 4395.6371 | Val Acc: 0.9832 | train_kl_div: 942308.1856
+2021-08-21 01:44:02,576 | MNIST: Epoch: 31 | Train Loss: 5080.6108 | Train Acc: 0.9982 | Val Loss: 4601.7076 | Val Acc: 0.9824 | train_kl_div: 912429.3304
+2021-08-21 01:44:11,139 | MNIST: Epoch: 32 | Train Loss: 4902.2041 | Train Acc: 0.9984 | Val Loss: 4426.9459 | Val Acc: 0.9812 | train_kl_div: 883267.6352
+2021-08-21 01:44:20,370 | MNIST: Epoch: 33 | Train Loss: 4722.9673 | Train Acc: 0.9984 | Val Loss: 5101.0669 | Val Acc: 0.9812 | train_kl_div: 853767.4850
+2021-08-21 01:44:29,762 | MNIST: Epoch: 34 | Train Loss: 4685.0381 | Train Acc: 0.9977 | Val Loss: 5354.6193 | Val Acc: 0.9794 | train_kl_div: 828336.6843
+2021-08-21 01:44:38,384 | MNIST: Epoch: 35 | Train Loss: 4460.3516 | Train Acc: 0.9985 | Val Loss: 4835.9856 | Val Acc: 0.9837 | train_kl_div: 804299.5325
+2021-08-21 01:44:46,968 | MNIST: Epoch: 36 | Train Loss: 4215.7822 | Train Acc: 0.9993 | Val Loss: 4930.1994 | Val Acc: 0.9828 | train_kl_div: 780411.5778
+2021-08-21 01:44:56,194 | MNIST: Epoch: 37 | Train Loss: 4100.5273 | Train Acc: 0.9991 | Val Loss: 5373.3492 | Val Acc: 0.9817 | train_kl_div: 756525.8546
+2021-08-21 01:45:05,345 | MNIST: Epoch: 38 | Train Loss: 3988.1851 | Train Acc: 0.9992 | Val Loss: 4312.6242 | Val Acc: 0.9849 | train_kl_div: 735464.0220
+2021-08-21 01:45:05,345 | MNIST: Val Acc ⬆ (0.9844 --> 0.9849).  Saving model ...
+2021-08-21 01:45:13,844 | MNIST: Epoch: 39 | Train Loss: 3847.7649 | Train Acc: 0.9992 | Val Loss: 5587.3486 | Val Acc: 0.9796 | train_kl_div: 712343.5835
+2021-08-21 01:45:22,599 | MNIST: Epoch: 40 | Train Loss: 3867.3196 | Train Acc: 0.9983 | Val Loss: 4493.9022 | Val Acc: 0.9821 | train_kl_div: 693392.1279
+2021-08-21 01:45:31,541 | MNIST: Epoch: 41 | Train Loss: 3789.0613 | Train Acc: 0.9983 | Val Loss: 5356.8435 | Val Acc: 0.9793 | train_kl_div: 677974.3511
+2021-08-21 01:45:40,745 | MNIST: Epoch: 42 | Train Loss: 3720.6550 | Train Acc: 0.9982 | Val Loss: 5076.6995 | Val Acc: 0.9805 | train_kl_div: 663001.5236
+2021-08-21 01:45:50,344 | MNIST: Epoch: 43 | Train Loss: 3624.0659 | Train Acc: 0.9986 | Val Loss: 4918.5609 | Val Acc: 0.9819 | train_kl_div: 646574.0995
+2021-08-21 01:45:59,144 | MNIST: Epoch: 44 | Train Loss: 3497.4988 | Train Acc: 0.9984 | Val Loss: 4787.3540 | Val Acc: 0.9825 | train_kl_div: 630498.2714
+2021-08-21 01:46:08,102 | MNIST: Epoch: 45 | Train Loss: 3364.4185 | Train Acc: 0.9989 | Val Loss: 4958.4218 | Val Acc: 0.9823 | train_kl_div: 613753.5443
+2021-08-21 01:46:17,903 | MNIST: Epoch: 46 | Train Loss: 3322.2261 | Train Acc: 0.9986 | Val Loss: 5706.6111 | Val Acc: 0.9789 | train_kl_div: 598999.0434
+2021-08-21 01:46:27,176 | MNIST: Epoch: 47 | Train Loss: 3221.2886 | Train Acc: 0.9988 | Val Loss: 5105.1412 | Val Acc: 0.9817 | train_kl_div: 586125.4467
+2021-08-21 01:46:36,284 | MNIST: Epoch: 48 | Train Loss: 3132.3577 | Train Acc: 0.9989 | Val Loss: 4686.2835 | Val Acc: 0.9819 | train_kl_div: 573117.7012
+2021-08-21 01:46:45,366 | MNIST: Epoch: 49 | Train Loss: 3024.1814 | Train Acc: 0.9993 | Val Loss: 4436.7492 | Val Acc: 0.9826 | train_kl_div: 559759.8195
+2021-08-21 01:46:55,345 | MNIST: Epoch: 50 | Train Loss: 2958.2300 | Train Acc: 0.9995 | Val Loss: 4863.6989 | Val Acc: 0.9833 | train_kl_div: 545854.2573
+2021-08-21 01:47:05,290 | MNIST: Epoch: 51 | Train Loss: 2962.0637 | Train Acc: 0.9987 | Val Loss: 5327.2063 | Val Acc: 0.9787 | train_kl_div: 534788.2950
+2021-08-21 01:47:14,099 | MNIST: Epoch: 52 | Train Loss: 2907.0044 | Train Acc: 0.9987 | Val Loss: 5177.5250 | Val Acc: 0.9815 | train_kl_div: 525507.7031
+2021-08-21 01:47:22,886 | MNIST: Epoch: 53 | Train Loss: 2817.6472 | Train Acc: 0.9991 | Val Loss: 5126.6300 | Val Acc: 0.9798 | train_kl_div: 514779.3321
+2021-08-21 01:47:32,076 | MNIST: Epoch: 54 | Train Loss: 2847.5820 | Train Acc: 0.9985 | Val Loss: 5675.4353 | Val Acc: 0.9773 | train_kl_div: 505796.3320
+2021-08-21 01:47:41,310 | MNIST: Epoch: 55 | Train Loss: 2746.4822 | Train Acc: 0.9989 | Val Loss: 5101.9447 | Val Acc: 0.9830 | train_kl_div: 497414.2095
+2021-08-21 01:47:50,621 | MNIST: Epoch: 56 | Train Loss: 2784.4565 | Train Acc: 0.9985 | Val Loss: 5974.7225 | Val Acc: 0.9782 | train_kl_div: 489212.1409
+2021-08-21 01:47:59,768 | MNIST: Epoch: 57 | Train Loss: 2723.0747 | Train Acc: 0.9984 | Val Loss: 4859.7439 | Val Acc: 0.9818 | train_kl_div: 481160.1006
+2021-08-21 01:48:08,203 | MNIST: Epoch: 58 | Train Loss: 2638.6099 | Train Acc: 0.9990 | Val Loss: 4375.5940 | Val Acc: 0.9803 | train_kl_div: 475425.3844
+2021-08-21 01:48:17,693 | MNIST: Epoch: 59 | Train Loss: 2485.9827 | Train Acc: 0.9996 | Val Loss: 4870.4207 | Val Acc: 0.9804 | train_kl_div: 466526.2548
+2021-08-21 01:48:26,578 | MNIST: Epoch: 60 | Train Loss: 2462.5496 | Train Acc: 0.9993 | Val Loss: 5265.1938 | Val Acc: 0.9815 | train_kl_div: 457465.5143
+2021-08-21 01:48:35,512 | MNIST: Epoch: 61 | Train Loss: 2438.9690 | Train Acc: 0.9994 | Val Loss: 4760.9475 | Val Acc: 0.9814 | train_kl_div: 450087.6601
+2021-08-21 01:48:44,256 | MNIST: Epoch: 62 | Train Loss: 2438.0854 | Train Acc: 0.9991 | Val Loss: 5445.1260 | Val Acc: 0.9820 | train_kl_div: 442985.2656
+2021-08-21 01:48:53,083 | MNIST: Epoch: 63 | Train Loss: 2454.4644 | Train Acc: 0.9985 | Val Loss: 5525.9162 | Val Acc: 0.9791 | train_kl_div: 436944.7443
+2021-08-21 01:49:02,246 | MNIST: Epoch: 64 | Train Loss: 2416.2302 | Train Acc: 0.9988 | Val Loss: 5633.6671 | Val Acc: 0.9802 | train_kl_div: 431597.2156
+2021-08-21 01:49:11,478 | MNIST: Epoch: 65 | Train Loss: 2328.8542 | Train Acc: 0.9993 | Val Loss: 4543.4055 | Val Acc: 0.9846 | train_kl_div: 425982.5582
+2021-08-21 01:49:20,234 | MNIST: Epoch: 66 | Train Loss: 2303.2590 | Train Acc: 0.9991 | Val Loss: 5590.0166 | Val Acc: 0.9796 | train_kl_div: 419868.3624
+2021-08-21 01:49:28,829 | MNIST: Epoch: 67 | Train Loss: 2270.4514 | Train Acc: 0.9992 | Val Loss: 4951.7933 | Val Acc: 0.9811 | train_kl_div: 413628.3042
+2021-08-21 01:49:37,645 | MNIST: Epoch: 68 | Train Loss: 2299.9080 | Train Acc: 0.9989 | Val Loss: 5501.8846 | Val Acc: 0.9805 | train_kl_div: 408330.3605
+2021-08-21 01:49:46,192 | MNIST: Epoch: 69 | Train Loss: 2212.5305 | Train Acc: 0.9992 | Val Loss: 5414.1127 | Val Acc: 0.9795 | train_kl_div: 403557.9126
+2021-08-21 01:49:55,520 | MNIST: Epoch: 70 | Train Loss: 2164.5818 | Train Acc: 0.9992 | Val Loss: 4997.5104 | Val Acc: 0.9801 | train_kl_div: 398715.2342
+2021-08-21 01:50:04,338 | MNIST: Epoch: 71 | Train Loss: 2131.8403 | Train Acc: 0.9995 | Val Loss: 4444.4133 | Val Acc: 0.9836 | train_kl_div: 393462.1636
+2021-08-21 01:50:13,309 | MNIST: Epoch: 72 | Train Loss: 2111.3401 | Train Acc: 0.9993 | Val Loss: 4928.1025 | Val Acc: 0.9838 | train_kl_div: 388280.7932
+2021-08-21 01:50:22,236 | MNIST: Epoch: 73 | Train Loss: 2045.4788 | Train Acc: 0.9996 | Val Loss: 5729.0038 | Val Acc: 0.9796 | train_kl_div: 382725.1403
+2021-08-21 01:50:31,837 | MNIST: Epoch: 74 | Train Loss: 2016.0468 | Train Acc: 0.9996 | Val Loss: 5172.6482 | Val Acc: 0.9816 | train_kl_div: 377454.5738
+2021-08-21 01:50:41,279 | MNIST: Epoch: 75 | Train Loss: 2043.6942 | Train Acc: 0.9991 | Val Loss: 5657.0474 | Val Acc: 0.9810 | train_kl_div: 372718.1323
+2021-08-21 01:50:50,226 | MNIST: Epoch: 76 | Train Loss: 2072.9277 | Train Acc: 0.9989 | Val Loss: 5196.5674 | Val Acc: 0.9814 | train_kl_div: 369576.1370
+2021-08-21 01:51:00,563 | MNIST: Epoch: 77 | Train Loss: 2065.0095 | Train Acc: 0.9987 | Val Loss: 5254.0762 | Val Acc: 0.9806 | train_kl_div: 366797.6376
+2021-08-21 01:51:10,739 | MNIST: Epoch: 78 | Train Loss: 1979.7069 | Train Acc: 0.9992 | Val Loss: 4973.2368 | Val Acc: 0.9817 | train_kl_div: 363347.5499
+2021-08-21 01:51:20,109 | MNIST: Epoch: 79 | Train Loss: 1954.1392 | Train Acc: 0.9994 | Val Loss: 4865.5489 | Val Acc: 0.9821 | train_kl_div: 359121.1339
+2021-08-21 01:51:28,963 | MNIST: Epoch: 80 | Train Loss: 1930.4530 | Train Acc: 0.9994 | Val Loss: 5718.9337 | Val Acc: 0.9794 | train_kl_div: 355544.8962
+2021-08-21 01:51:37,933 | MNIST: Epoch: 81 | Train Loss: 1892.4406 | Train Acc: 0.9994 | Val Loss: 5142.7731 | Val Acc: 0.9819 | train_kl_div: 351722.9389
+2021-08-21 01:51:46,874 | MNIST: Epoch: 82 | Train Loss: 1911.8702 | Train Acc: 0.9992 | Val Loss: 5168.2746 | Val Acc: 0.9823 | train_kl_div: 348510.7328
+2021-08-21 01:51:55,403 | MNIST: Epoch: 83 | Train Loss: 1907.0787 | Train Acc: 0.9989 | Val Loss: 5818.5638 | Val Acc: 0.9805 | train_kl_div: 345480.9351
+2021-08-21 01:52:04,204 | MNIST: Epoch: 84 | Train Loss: 1858.1936 | Train Acc: 0.9994 | Val Loss: 5178.1224 | Val Acc: 0.9832 | train_kl_div: 342275.0110
+2021-08-21 01:52:13,690 | MNIST: Epoch: 85 | Train Loss: 1829.8547 | Train Acc: 0.9995 | Val Loss: 4609.2838 | Val Acc: 0.9812 | train_kl_div: 338871.5818
+2021-08-21 01:52:22,129 | MNIST: Epoch: 86 | Train Loss: 1833.9309 | Train Acc: 0.9993 | Val Loss: 5215.8709 | Val Acc: 0.9821 | train_kl_div: 335653.5716
+2021-08-21 01:52:31,475 | MNIST: Epoch: 87 | Train Loss: 1843.8719 | Train Acc: 0.9992 | Val Loss: 4693.2171 | Val Acc: 0.9847 | train_kl_div: 332941.1936
+2021-08-21 01:52:39,976 | MNIST: Epoch: 88 | Train Loss: 1822.9968 | Train Acc: 0.9993 | Val Loss: 5109.7461 | Val Acc: 0.9819 | train_kl_div: 329772.2449
+2021-08-21 01:52:49,305 | MNIST: Epoch: 89 | Train Loss: 1814.1339 | Train Acc: 0.9991 | Val Loss: 5003.6003 | Val Acc: 0.9820 | train_kl_div: 327240.7900
+2021-08-21 01:52:58,123 | MNIST: Epoch: 90 | Train Loss: 1826.5233 | Train Acc: 0.9990 | Val Loss: 5471.7705 | Val Acc: 0.9799 | train_kl_div: 325083.8117
+2021-08-21 01:53:07,699 | MNIST: Epoch: 91 | Train Loss: 1756.1287 | Train Acc: 0.9994 | Val Loss: 5229.0082 | Val Acc: 0.9789 | train_kl_div: 323088.4475
+2021-08-21 01:53:16,476 | MNIST: Epoch: 92 | Train Loss: 1713.9741 | Train Acc: 0.9996 | Val Loss: 5061.0468 | Val Acc: 0.9820 | train_kl_div: 320516.9383
+2021-08-21 01:53:25,356 | MNIST: Epoch: 93 | Train Loss: 1751.3986 | Train Acc: 0.9992 | Val Loss: 5828.4178 | Val Acc: 0.9813 | train_kl_div: 317856.1661
+2021-08-21 01:53:34,631 | MNIST: Epoch: 94 | Train Loss: 1711.5281 | Train Acc: 0.9995 | Val Loss: 4943.0056 | Val Acc: 0.9832 | train_kl_div: 315619.8139
+2021-08-21 01:53:43,922 | MNIST: Epoch: 95 | Train Loss: 1685.4963 | Train Acc: 0.9996 | Val Loss: 5117.2834 | Val Acc: 0.9799 | train_kl_div: 312954.2084
+2021-08-21 01:53:53,042 | MNIST: Epoch: 96 | Train Loss: 1682.6580 | Train Acc: 0.9995 | Val Loss: 5021.5914 | Val Acc: 0.9832 | train_kl_div: 310496.4688
+2021-08-21 01:54:02,357 | MNIST: Epoch: 97 | Train Loss: 1680.9316 | Train Acc: 0.9993 | Val Loss: 5547.5096 | Val Acc: 0.9816 | train_kl_div: 308018.4511
+2021-08-21 01:54:11,977 | MNIST: Epoch: 98 | Train Loss: 1685.9657 | Train Acc: 0.9993 | Val Loss: 5005.5254 | Val Acc: 0.9825 | train_kl_div: 306118.7211
+2021-08-21 01:54:20,836 | MNIST: Epoch: 99 | Train Loss: 1645.3531 | Train Acc: 0.9995 | Val Loss: 5323.9591 | Val Acc: 0.9811 | train_kl_div: 303790.5378
+2021-08-21 01:54:31,021 | MNIST: Epoch: 100 | Train Loss: 1648.7277 | Train Acc: 0.9993 | Val Loss: 5068.2483 | Val Acc: 0.9813 | train_kl_div: 301749.8970
+2021-08-21 01:54:39,814 | MNIST: Epoch: 101 | Train Loss: 1640.0194 | Train Acc: 0.9994 | Val Loss: 5674.1626 | Val Acc: 0.9803 | train_kl_div: 299900.7600
+2021-08-21 01:54:50,258 | MNIST: Epoch: 102 | Train Loss: 1595.6752 | Train Acc: 0.9997 | Val Loss: 5567.9845 | Val Acc: 0.9815 | train_kl_div: 297951.6757
+2021-08-21 01:54:59,068 | MNIST: Epoch: 103 | Train Loss: 1612.2130 | Train Acc: 0.9993 | Val Loss: 5707.5294 | Val Acc: 0.9827 | train_kl_div: 296095.4088
+2021-08-21 01:55:08,428 | MNIST: Epoch: 104 | Train Loss: 1599.0912 | Train Acc: 0.9994 | Val Loss: 5384.9683 | Val Acc: 0.9821 | train_kl_div: 294435.6199
+2021-08-21 01:55:17,390 | MNIST: Epoch: 105 | Train Loss: 1608.2827 | Train Acc: 0.9994 | Val Loss: 5225.4940 | Val Acc: 0.9829 | train_kl_div: 292835.6344
+2021-08-21 01:55:25,820 | MNIST: Epoch: 106 | Train Loss: 1570.0480 | Train Acc: 0.9995 | Val Loss: 4978.4888 | Val Acc: 0.9816 | train_kl_div: 291127.1020
+2021-08-21 01:55:34,421 | MNIST: Epoch: 107 | Train Loss: 1568.0037 | Train Acc: 0.9995 | Val Loss: 4797.3538 | Val Acc: 0.9837 | train_kl_div: 289342.1197
+2021-08-21 01:55:43,299 | MNIST: Epoch: 108 | Train Loss: 1568.8608 | Train Acc: 0.9994 | Val Loss: 5358.9057 | Val Acc: 0.9827 | train_kl_div: 287490.4994
+2021-08-21 01:55:52,110 | MNIST: Epoch: 109 | Train Loss: 1565.7269 | Train Acc: 0.9993 | Val Loss: 5266.0483 | Val Acc: 0.9795 | train_kl_div: 286006.8809
+2021-08-21 01:56:01,083 | MNIST: Epoch: 110 | Train Loss: 1558.9780 | Train Acc: 0.9993 | Val Loss: 5237.6925 | Val Acc: 0.9809 | train_kl_div: 284460.1177
+2021-08-21 01:56:10,428 | MNIST: Epoch: 111 | Train Loss: 1568.6520 | Train Acc: 0.9993 | Val Loss: 5328.1381 | Val Acc: 0.9816 | train_kl_div: 283090.8469
+2021-08-21 01:56:19,355 | MNIST: Epoch: 112 | Train Loss: 1558.6049 | Train Acc: 0.9992 | Val Loss: 5344.9101 | Val Acc: 0.9803 | train_kl_div: 281864.8602
+2021-08-21 01:56:28,842 | MNIST: Epoch: 113 | Train Loss: 1507.2974 | Train Acc: 0.9996 | Val Loss: 5304.3414 | Val Acc: 0.9812 | train_kl_div: 280576.9911
+2021-08-21 01:56:37,916 | MNIST: Epoch: 114 | Train Loss: 1512.9766 | Train Acc: 0.9994 | Val Loss: 5614.4729 | Val Acc: 0.9804 | train_kl_div: 279179.4923
+2021-08-21 01:56:46,452 | MNIST: Epoch: 115 | Train Loss: 1499.5422 | Train Acc: 0.9996 | Val Loss: 5132.3232 | Val Acc: 0.9814 | train_kl_div: 277897.8892
+2021-08-21 01:56:55,422 | MNIST: Epoch: 116 | Train Loss: 1490.8469 | Train Acc: 0.9995 | Val Loss: 5035.7050 | Val Acc: 0.9820 | train_kl_div: 276536.9949
+2021-08-21 01:57:04,811 | MNIST: Epoch: 117 | Train Loss: 1503.1121 | Train Acc: 0.9994 | Val Loss: 5973.1043 | Val Acc: 0.9804 | train_kl_div: 275216.9627
+2021-08-21 01:57:14,466 | MNIST: Epoch: 118 | Train Loss: 1479.1631 | Train Acc: 0.9996 | Val Loss: 5112.4447 | Val Acc: 0.9815 | train_kl_div: 273851.9369
+2021-08-21 01:57:23,730 | MNIST: Epoch: 119 | Train Loss: 1461.2307 | Train Acc: 0.9996 | Val Loss: 5348.8887 | Val Acc: 0.9798 | train_kl_div: 272412.0477
+2021-08-21 01:57:33,040 | MNIST: Epoch: 120 | Train Loss: 1461.5483 | Train Acc: 0.9995 | Val Loss: 5433.6610 | Val Acc: 0.9814 | train_kl_div: 271055.1924
+2021-08-21 01:57:42,095 | MNIST: Epoch: 121 | Train Loss: 1470.8798 | Train Acc: 0.9993 | Val Loss: 5361.9532 | Val Acc: 0.9812 | train_kl_div: 269801.1317
+2021-08-21 01:57:50,734 | MNIST: Epoch: 122 | Train Loss: 1484.2391 | Train Acc: 0.9993 | Val Loss: 6438.5088 | Val Acc: 0.9798 | train_kl_div: 268635.4200
+2021-08-21 01:57:59,268 | MNIST: Epoch: 123 | Train Loss: 1501.9622 | Train Acc: 0.9989 | Val Loss: 5118.3721 | Val Acc: 0.9799 | train_kl_div: 267726.9115
+2021-08-21 01:58:07,741 | MNIST: Epoch: 124 | Train Loss: 1435.7943 | Train Acc: 0.9996 | Val Loss: 5213.7290 | Val Acc: 0.9811 | train_kl_div: 266939.5088
+2021-08-21 01:58:16,607 | MNIST: Epoch: 125 | Train Loss: 1454.8844 | Train Acc: 0.9994 | Val Loss: 4477.7133 | Val Acc: 0.9828 | train_kl_div: 265931.7664
+2021-08-21 01:58:25,677 | MNIST: Epoch: 126 | Train Loss: 1419.7875 | Train Acc: 0.9996 | Val Loss: 5328.2330 | Val Acc: 0.9808 | train_kl_div: 264890.5655
+2021-08-21 01:58:35,336 | MNIST: Epoch: 127 | Train Loss: 1418.4934 | Train Acc: 0.9996 | Val Loss: 4789.1843 | Val Acc: 0.9842 | train_kl_div: 263843.8026
+2021-08-21 01:58:45,085 | MNIST: Epoch: 128 | Train Loss: 1420.5137 | Train Acc: 0.9995 | Val Loss: 4980.5160 | Val Acc: 0.9813 | train_kl_div: 262863.4372
+2021-08-21 01:58:53,549 | MNIST: Epoch: 129 | Train Loss: 1414.3468 | Train Acc: 0.9996 | Val Loss: 5007.3257 | Val Acc: 0.9817 | train_kl_div: 261872.0682
+2021-08-21 01:59:02,923 | MNIST: Epoch: 130 | Train Loss: 1407.3901 | Train Acc: 0.9995 | Val Loss: 5098.7754 | Val Acc: 0.9793 | train_kl_div: 260854.3036
+2021-08-21 01:59:12,186 | MNIST: Epoch: 131 | Train Loss: 1406.4297 | Train Acc: 0.9995 | Val Loss: 4863.6749 | Val Acc: 0.9815 | train_kl_div: 259849.3123
+2021-08-21 01:59:21,666 | MNIST: Epoch: 132 | Train Loss: 1431.6932 | Train Acc: 0.9992 | Val Loss: 5232.8999 | Val Acc: 0.9827 | train_kl_div: 259005.2491
+2021-08-21 01:59:31,166 | MNIST: Epoch: 133 | Train Loss: 1423.9642 | Train Acc: 0.9992 | Val Loss: 5292.3215 | Val Acc: 0.9818 | train_kl_div: 258294.5605
+2021-08-21 01:59:40,053 | MNIST: Epoch: 134 | Train Loss: 1427.4561 | Train Acc: 0.9992 | Val Loss: 5323.3636 | Val Acc: 0.9799 | train_kl_div: 257607.7625
+2021-08-21 01:59:48,599 | MNIST: Epoch: 135 | Train Loss: 1390.5499 | Train Acc: 0.9995 | Val Loss: 4860.1874 | Val Acc: 0.9821 | train_kl_div: 256950.0698
+2021-08-21 01:59:57,035 | MNIST: Epoch: 136 | Train Loss: 1397.2969 | Train Acc: 0.9994 | Val Loss: 4861.8056 | Val Acc: 0.9838 | train_kl_div: 256143.0491
+2021-08-21 02:00:06,139 | MNIST: Epoch: 137 | Train Loss: 1375.3198 | Train Acc: 0.9996 | Val Loss: 5257.1227 | Val Acc: 0.9809 | train_kl_div: 255396.2076
+2021-08-21 02:00:15,133 | MNIST: Epoch: 138 | Train Loss: 1388.8788 | Train Acc: 0.9994 | Val Loss: 4949.8518 | Val Acc: 0.9815 | train_kl_div: 254612.4193
+2021-08-21 02:00:24,123 | MNIST: Epoch: 139 | Train Loss: 1370.7994 | Train Acc: 0.9995 | Val Loss: 5196.6683 | Val Acc: 0.9812 | train_kl_div: 253843.8306
+2021-08-21 02:00:33,165 | MNIST: Epoch: 140 | Train Loss: 1348.5757 | Train Acc: 0.9997 | Val Loss: 5329.2092 | Val Acc: 0.9805 | train_kl_div: 252994.8276
+2021-08-21 02:00:42,066 | MNIST: Epoch: 141 | Train Loss: 1372.8202 | Train Acc: 0.9994 | Val Loss: 5244.2404 | Val Acc: 0.9823 | train_kl_div: 252207.2809
+2021-08-21 02:00:51,304 | MNIST: Epoch: 142 | Train Loss: 1378.1017 | Train Acc: 0.9993 | Val Loss: 4539.7932 | Val Acc: 0.9834 | train_kl_div: 251514.6154
+2021-08-21 02:00:59,935 | MNIST: Epoch: 143 | Train Loss: 1364.4132 | Train Acc: 0.9995 | Val Loss: 5268.6761 | Val Acc: 0.9789 | train_kl_div: 250771.6118
+2021-08-21 02:01:09,069 | MNIST: Epoch: 144 | Train Loss: 1381.0881 | Train Acc: 0.9994 | Val Loss: 5696.0262 | Val Acc: 0.9806 | train_kl_div: 250081.6595
+2021-08-21 02:01:17,671 | MNIST: Epoch: 145 | Train Loss: 1362.5389 | Train Acc: 0.9995 | Val Loss: 5831.8537 | Val Acc: 0.9800 | train_kl_div: 249392.6246
+2021-08-21 02:01:26,375 | MNIST: Epoch: 146 | Train Loss: 1350.7745 | Train Acc: 0.9996 | Val Loss: 5260.1331 | Val Acc: 0.9831 | train_kl_div: 248864.8939
+2021-08-21 02:01:35,699 | MNIST: Epoch: 147 | Train Loss: 1332.8975 | Train Acc: 0.9996 | Val Loss: 4722.0985 | Val Acc: 0.9812 | train_kl_div: 248268.5300
+2021-08-21 02:01:44,749 | MNIST: Epoch: 148 | Train Loss: 1379.7712 | Train Acc: 0.9993 | Val Loss: 5457.3565 | Val Acc: 0.9806 | train_kl_div: 247673.9846
+2021-08-21 02:01:53,988 | MNIST: Epoch: 149 | Train Loss: 1340.9536 | Train Acc: 0.9995 | Val Loss: 4896.1418 | Val Acc: 0.9812 | train_kl_div: 247160.5441
+2021-08-21 02:02:03,763 | MNIST: Epoch: 150 | Train Loss: 1314.1042 | Train Acc: 0.9997 | Val Loss: 5679.2299 | Val Acc: 0.9806 | train_kl_div: 246539.8187
+2021-08-21 02:02:12,663 | MNIST: Epoch: 151 | Train Loss: 1329.7678 | Train Acc: 0.9995 | Val Loss: 5105.1314 | Val Acc: 0.9839 | train_kl_div: 245889.0267
+2021-08-21 02:02:21,074 | MNIST: Epoch: 152 | Train Loss: 1337.5916 | Train Acc: 0.9995 | Val Loss: 4974.5290 | Val Acc: 0.9815 | train_kl_div: 245314.1783
+2021-08-21 02:02:29,799 | MNIST: Epoch: 153 | Train Loss: 1348.1309 | Train Acc: 0.9994 | Val Loss: 5530.7318 | Val Acc: 0.9816 | train_kl_div: 244739.1335
+2021-08-21 02:02:38,916 | MNIST: Epoch: 154 | Train Loss: 1332.1405 | Train Acc: 0.9994 | Val Loss: 5069.8266 | Val Acc: 0.9830 | train_kl_div: 244194.1350
+2021-08-21 02:02:48,342 | MNIST: Epoch: 155 | Train Loss: 1315.8215 | Train Acc: 0.9995 | Val Loss: 5303.9862 | Val Acc: 0.9799 | train_kl_div: 243706.5407
+2021-08-21 02:02:57,168 | MNIST: Epoch: 156 | Train Loss: 1323.0282 | Train Acc: 0.9993 | Val Loss: 4776.9410 | Val Acc: 0.9831 | train_kl_div: 243179.2379
+2021-08-21 02:03:05,774 | MNIST: Epoch: 157 | Train Loss: 1337.4167 | Train Acc: 0.9994 | Val Loss: 5163.7307 | Val Acc: 0.9801 | train_kl_div: 242763.0126
+2021-08-21 02:03:14,604 | MNIST: Epoch: 158 | Train Loss: 1307.9606 | Train Acc: 0.9995 | Val Loss: 5484.8627 | Val Acc: 0.9809 | train_kl_div: 242308.1930
+2021-08-21 02:03:24,094 | MNIST: Epoch: 159 | Train Loss: 1309.1343 | Train Acc: 0.9995 | Val Loss: 5263.2283 | Val Acc: 0.9798 | train_kl_div: 241868.0069
+2021-08-21 02:03:33,776 | MNIST: Epoch: 160 | Train Loss: 1305.5421 | Train Acc: 0.9994 | Val Loss: 5472.7136 | Val Acc: 0.9824 | train_kl_div: 241422.0512
+2021-08-21 02:03:43,238 | MNIST: Epoch: 161 | Train Loss: 1298.3563 | Train Acc: 0.9995 | Val Loss: 5326.2639 | Val Acc: 0.9809 | train_kl_div: 240988.6804
+2021-08-21 02:03:52,471 | MNIST: Epoch: 162 | Train Loss: 1296.6686 | Train Acc: 0.9996 | Val Loss: 5001.9660 | Val Acc: 0.9829 | train_kl_div: 240517.4291
+2021-08-21 02:04:01,776 | MNIST: Epoch: 163 | Train Loss: 1300.7853 | Train Acc: 0.9995 | Val Loss: 5088.2931 | Val Acc: 0.9809 | train_kl_div: 240045.1920
+2021-08-21 02:04:10,204 | MNIST: Epoch: 164 | Train Loss: 1287.3944 | Train Acc: 0.9996 | Val Loss: 5342.7725 | Val Acc: 0.9798 | train_kl_div: 239619.0254
+2021-08-21 02:04:19,423 | MNIST: Epoch: 165 | Train Loss: 1295.6825 | Train Acc: 0.9995 | Val Loss: 4987.3424 | Val Acc: 0.9832 | train_kl_div: 239152.1008
+2021-08-21 02:04:28,142 | MNIST: Epoch: 166 | Train Loss: 1314.7167 | Train Acc: 0.9993 | Val Loss: 5314.1108 | Val Acc: 0.9814 | train_kl_div: 238717.4823
+2021-08-21 02:04:37,303 | MNIST: Epoch: 167 | Train Loss: 1295.8192 | Train Acc: 0.9994 | Val Loss: 5380.0341 | Val Acc: 0.9810 | train_kl_div: 238332.6564
+2021-08-21 02:04:45,920 | MNIST: Epoch: 168 | Train Loss: 1294.5787 | Train Acc: 0.9996 | Val Loss: 5165.7260 | Val Acc: 0.9806 | train_kl_div: 238009.1547
+2021-08-21 02:04:55,264 | MNIST: Epoch: 169 | Train Loss: 1287.5054 | Train Acc: 0.9997 | Val Loss: 4954.3652 | Val Acc: 0.9830 | train_kl_div: 237652.7904
+2021-08-21 02:05:05,078 | MNIST: Epoch: 170 | Train Loss: 1299.2651 | Train Acc: 0.9994 | Val Loss: 4698.8147 | Val Acc: 0.9823 | train_kl_div: 237325.1790
+2021-08-21 02:05:14,438 | MNIST: Epoch: 171 | Train Loss: 1277.7673 | Train Acc: 0.9995 | Val Loss: 4953.9066 | Val Acc: 0.9817 | train_kl_div: 236969.1832
+2021-08-21 02:05:23,333 | MNIST: Epoch: 172 | Train Loss: 1275.2761 | Train Acc: 0.9996 | Val Loss: 5601.2394 | Val Acc: 0.9795 | train_kl_div: 236633.6738
+2021-08-21 02:05:32,753 | MNIST: Epoch: 173 | Train Loss: 1282.6887 | Train Acc: 0.9995 | Val Loss: 4824.5475 | Val Acc: 0.9844 | train_kl_div: 236276.5747
+2021-08-21 02:05:42,217 | MNIST: Epoch: 174 | Train Loss: 1270.3324 | Train Acc: 0.9995 | Val Loss: 5432.2437 | Val Acc: 0.9818 | train_kl_div: 235959.2846
+2021-08-21 02:05:51,535 | MNIST: Epoch: 175 | Train Loss: 1283.0985 | Train Acc: 0.9994 | Val Loss: 5306.5744 | Val Acc: 0.9811 | train_kl_div: 235611.1781
+2021-08-21 02:06:00,884 | MNIST: Epoch: 176 | Train Loss: 1270.7322 | Train Acc: 0.9996 | Val Loss: 5267.6754 | Val Acc: 0.9831 | train_kl_div: 235288.5368
+2021-08-21 02:06:09,489 | MNIST: Epoch: 177 | Train Loss: 1280.1954 | Train Acc: 0.9994 | Val Loss: 5043.3376 | Val Acc: 0.9807 | train_kl_div: 234952.2237
+2021-08-21 02:06:18,577 | MNIST: Epoch: 178 | Train Loss: 1281.3820 | Train Acc: 0.9994 | Val Loss: 5389.7825 | Val Acc: 0.9798 | train_kl_div: 234622.4644
+2021-08-21 02:06:27,757 | MNIST: Epoch: 179 | Train Loss: 1255.3113 | Train Acc: 0.9996 | Val Loss: 4991.9122 | Val Acc: 0.9825 | train_kl_div: 234339.0154
+2021-08-21 02:06:36,389 | MNIST: Epoch: 180 | Train Loss: 1272.1812 | Train Acc: 0.9995 | Val Loss: 4990.6103 | Val Acc: 0.9816 | train_kl_div: 234068.6302
+2021-08-21 02:06:45,035 | MNIST: Epoch: 181 | Train Loss: 1263.4949 | Train Acc: 0.9995 | Val Loss: 4585.4547 | Val Acc: 0.9814 | train_kl_div: 233789.2096
+2021-08-21 02:06:54,112 | MNIST: Epoch: 182 | Train Loss: 1258.7285 | Train Acc: 0.9996 | Val Loss: 4879.8214 | Val Acc: 0.9819 | train_kl_div: 233496.8373
+2021-08-21 02:07:02,702 | MNIST: Epoch: 183 | Train Loss: 1269.5424 | Train Acc: 0.9995 | Val Loss: 5229.9710 | Val Acc: 0.9833 | train_kl_div: 233214.8877
+2021-08-21 02:07:12,356 | MNIST: Epoch: 184 | Train Loss: 1252.9769 | Train Acc: 0.9996 | Val Loss: 5398.1673 | Val Acc: 0.9799 | train_kl_div: 232948.0588
+2021-08-21 02:07:21,065 | MNIST: Epoch: 185 | Train Loss: 1258.4462 | Train Acc: 0.9995 | Val Loss: 5178.8103 | Val Acc: 0.9811 | train_kl_div: 232652.1531
+2021-08-21 02:07:30,155 | MNIST: Epoch: 186 | Train Loss: 1258.9580 | Train Acc: 0.9995 | Val Loss: 5059.9045 | Val Acc: 0.9835 | train_kl_div: 232355.0780
+2021-08-21 02:07:39,367 | MNIST: Epoch: 187 | Train Loss: 1265.2439 | Train Acc: 0.9996 | Val Loss: 5935.6086 | Val Acc: 0.9778 | train_kl_div: 232084.2757
+2021-08-21 02:07:48,255 | MNIST: Epoch: 188 | Train Loss: 1251.1637 | Train Acc: 0.9995 | Val Loss: 5710.5549 | Val Acc: 0.9814 | train_kl_div: 231815.7573
+2021-08-21 02:07:57,736 | MNIST: Epoch: 189 | Train Loss: 1244.8376 | Train Acc: 0.9997 | Val Loss: 5203.2836 | Val Acc: 0.9816 | train_kl_div: 231530.5140
+2021-08-21 02:08:06,987 | MNIST: Epoch: 190 | Train Loss: 1239.5898 | Train Acc: 0.9996 | Val Loss: 5289.2323 | Val Acc: 0.9798 | train_kl_div: 231292.9660
+2021-08-21 02:08:16,264 | MNIST: Epoch: 191 | Train Loss: 1258.2771 | Train Acc: 0.9995 | Val Loss: 5058.4092 | Val Acc: 0.9808 | train_kl_div: 231059.9885
+2021-08-21 02:08:24,708 | MNIST: Epoch: 192 | Train Loss: 1258.8202 | Train Acc: 0.9994 | Val Loss: 5091.8294 | Val Acc: 0.9834 | train_kl_div: 230863.7424
+2021-08-21 02:08:33,609 | MNIST: Epoch: 193 | Train Loss: 1264.6030 | Train Acc: 0.9993 | Val Loss: 5197.0426 | Val Acc: 0.9813 | train_kl_div: 230657.7989
+2021-08-21 02:08:43,396 | MNIST: Epoch: 194 | Train Loss: 1242.5647 | Train Acc: 0.9996 | Val Loss: 5115.0985 | Val Acc: 0.9812 | train_kl_div: 230462.2681
+2021-08-21 02:08:52,362 | MNIST: Epoch: 195 | Train Loss: 1250.0562 | Train Acc: 0.9994 | Val Loss: 5214.8061 | Val Acc: 0.9816 | train_kl_div: 230259.4759
+2021-08-21 02:09:01,355 | MNIST: Epoch: 196 | Train Loss: 1257.0712 | Train Acc: 0.9995 | Val Loss: 4919.9715 | Val Acc: 0.9833 | train_kl_div: 230049.4639
+2021-08-21 02:09:10,367 | MNIST: Epoch: 197 | Train Loss: 1246.1569 | Train Acc: 0.9996 | Val Loss: 4736.8494 | Val Acc: 0.9843 | train_kl_div: 229865.4688
+2021-08-21 02:09:19,025 | MNIST: Epoch: 198 | Train Loss: 1241.8219 | Train Acc: 0.9995 | Val Loss: 5031.3212 | Val Acc: 0.9825 | train_kl_div: 229667.0024
+2021-08-21 02:09:27,789 | MNIST: Epoch: 199 | Train Loss: 1247.1035 | Train Acc: 0.9995 | Val Loss: 4932.0394 | Val Acc: 0.9816 | train_kl_div: 229455.5189
+2021-08-21 02:09:37,070 | MNIST: Epoch: 200 | Train Loss: 1241.4376 | Train Acc: 0.9996 | Val Loss: 4525.5829 | Val Acc: 0.9827 | train_kl_div: 229243.9825
+2021-08-21 02:09:46,673 | MNIST: Epoch: 201 | Train Loss: 1254.0787 | Train Acc: 0.9995 | Val Loss: 5637.3493 | Val Acc: 0.9800 | train_kl_div: 229077.0274
+2021-08-21 02:09:55,540 | MNIST: Epoch: 202 | Train Loss: 1237.3334 | Train Acc: 0.9996 | Val Loss: 4816.5102 | Val Acc: 0.9830 | train_kl_div: 228899.2886
+2021-08-21 02:10:04,624 | MNIST: Epoch: 203 | Train Loss: 1235.0426 | Train Acc: 0.9996 | Val Loss: 5286.1386 | Val Acc: 0.9786 | train_kl_div: 228724.8934
+2021-08-21 02:10:13,422 | MNIST: Epoch: 204 | Train Loss: 1220.8440 | Train Acc: 0.9997 | Val Loss: 5071.3903 | Val Acc: 0.9791 | train_kl_div: 228531.1493
+2021-08-21 02:10:22,282 | MNIST: Epoch: 205 | Train Loss: 1269.6779 | Train Acc: 0.9993 | Val Loss: 5670.2406 | Val Acc: 0.9815 | train_kl_div: 228358.1605
+2021-08-21 02:10:31,192 | MNIST: Epoch: 206 | Train Loss: 1242.5829 | Train Acc: 0.9995 | Val Loss: 5432.3378 | Val Acc: 0.9803 | train_kl_div: 228194.6564
+2021-08-21 02:10:39,942 | MNIST: Epoch: 207 | Train Loss: 1229.4598 | Train Acc: 0.9996 | Val Loss: 4599.7720 | Val Acc: 0.9820 | train_kl_div: 228026.6477
+2021-08-21 02:10:49,874 | MNIST: Epoch: 208 | Train Loss: 1238.0045 | Train Acc: 0.9995 | Val Loss: 5305.8361 | Val Acc: 0.9817 | train_kl_div: 227848.5206
+2021-08-21 02:10:59,480 | MNIST: Epoch: 209 | Train Loss: 1259.8516 | Train Acc: 0.9993 | Val Loss: 4924.8950 | Val Acc: 0.9824 | train_kl_div: 227682.8119
+2021-08-21 02:11:08,590 | MNIST: Epoch: 210 | Train Loss: 1222.4868 | Train Acc: 0.9996 | Val Loss: 5109.8957 | Val Acc: 0.9811 | train_kl_div: 227514.0149
+2021-08-21 02:11:17,377 | MNIST: Epoch: 211 | Train Loss: 1217.3828 | Train Acc: 0.9996 | Val Loss: 5119.7179 | Val Acc: 0.9828 | train_kl_div: 227328.0262
+2021-08-21 02:11:26,174 | MNIST: Epoch: 212 | Train Loss: 1226.1879 | Train Acc: 0.9996 | Val Loss: 5005.1209 | Val Acc: 0.9838 | train_kl_div: 227184.5089
+2021-08-21 02:11:35,153 | MNIST: Epoch: 213 | Train Loss: 1215.2125 | Train Acc: 0.9996 | Val Loss: 5319.2298 | Val Acc: 0.9815 | train_kl_div: 227030.9613
+2021-08-21 02:11:44,761 | MNIST: Epoch: 214 | Train Loss: 1238.0228 | Train Acc: 0.9995 | Val Loss: 4987.2421 | Val Acc: 0.9820 | train_kl_div: 226885.5413
+2021-08-21 02:11:53,466 | MNIST: Epoch: 215 | Train Loss: 1232.3693 | Train Acc: 0.9996 | Val Loss: 4922.0541 | Val Acc: 0.9828 | train_kl_div: 226728.5788
+2021-08-21 02:12:02,584 | MNIST: Epoch: 216 | Train Loss: 1221.4481 | Train Acc: 0.9996 | Val Loss: 5345.9365 | Val Acc: 0.9814 | train_kl_div: 226577.5477
+2021-08-21 02:12:11,645 | MNIST: Epoch: 217 | Train Loss: 1229.9025 | Train Acc: 0.9995 | Val Loss: 5518.0319 | Val Acc: 0.9800 | train_kl_div: 226446.1717
+2021-08-21 02:12:20,322 | MNIST: Epoch: 218 | Train Loss: 1225.1895 | Train Acc: 0.9996 | Val Loss: 5712.4881 | Val Acc: 0.9810 | train_kl_div: 226312.5736
+2021-08-21 02:12:28,859 | MNIST: Epoch: 219 | Train Loss: 1209.2334 | Train Acc: 0.9997 | Val Loss: 5210.8029 | Val Acc: 0.9838 | train_kl_div: 226158.3102
+2021-08-21 02:12:37,781 | MNIST: Epoch: 220 | Train Loss: 1232.3207 | Train Acc: 0.9995 | Val Loss: 5477.8412 | Val Acc: 0.9805 | train_kl_div: 226007.4407
+2021-08-21 02:12:47,241 | MNIST: Epoch: 221 | Train Loss: 1241.4261 | Train Acc: 0.9994 | Val Loss: 5696.2391 | Val Acc: 0.9793 | train_kl_div: 225878.1504
+2021-08-21 02:12:56,648 | MNIST: Epoch: 222 | Train Loss: 1222.9110 | Train Acc: 0.9995 | Val Loss: 4891.2887 | Val Acc: 0.9812 | train_kl_div: 225748.9302
+2021-08-21 02:13:05,755 | MNIST: Epoch: 223 | Train Loss: 1215.9503 | Train Acc: 0.9996 | Val Loss: 5669.1421 | Val Acc: 0.9804 | train_kl_div: 225640.4057
+2021-08-21 02:13:14,360 | MNIST: Epoch: 224 | Train Loss: 1206.9801 | Train Acc: 0.9996 | Val Loss: 5614.5566 | Val Acc: 0.9770 | train_kl_div: 225517.4073
+2021-08-21 02:13:23,815 | MNIST: Epoch: 225 | Train Loss: 1205.4713 | Train Acc: 0.9997 | Val Loss: 5339.9347 | Val Acc: 0.9819 | train_kl_div: 225385.8187
+2021-08-21 02:13:33,305 | MNIST: Epoch: 226 | Train Loss: 1215.8342 | Train Acc: 0.9996 | Val Loss: 4767.4740 | Val Acc: 0.9831 | train_kl_div: 225259.4248
+2021-08-21 02:13:42,143 | MNIST: Epoch: 227 | Train Loss: 1231.0305 | Train Acc: 0.9995 | Val Loss: 4905.2426 | Val Acc: 0.9820 | train_kl_div: 225143.9990
+2021-08-21 02:13:50,971 | MNIST: Epoch: 228 | Train Loss: 1225.9041 | Train Acc: 0.9995 | Val Loss: 5609.1445 | Val Acc: 0.9792 | train_kl_div: 225027.6520
+2021-08-21 02:13:59,367 | MNIST: Epoch: 229 | Train Loss: 1221.0950 | Train Acc: 0.9996 | Val Loss: 5308.7694 | Val Acc: 0.9803 | train_kl_div: 224904.3848
+2021-08-21 02:14:08,509 | MNIST: Epoch: 230 | Train Loss: 1220.5105 | Train Acc: 0.9996 | Val Loss: 4847.4084 | Val Acc: 0.9832 | train_kl_div: 224790.3587
+2021-08-21 02:14:17,305 | MNIST: Epoch: 231 | Train Loss: 1210.5911 | Train Acc: 0.9996 | Val Loss: 5644.1533 | Val Acc: 0.9816 | train_kl_div: 224672.7544
+2021-08-21 02:14:26,790 | MNIST: Epoch: 232 | Train Loss: 1215.3363 | Train Acc: 0.9996 | Val Loss: 5082.2264 | Val Acc: 0.9812 | train_kl_div: 224548.5123
+2021-08-21 02:14:35,597 | MNIST: Epoch: 233 | Train Loss: 1210.5319 | Train Acc: 0.9997 | Val Loss: 5365.2664 | Val Acc: 0.9835 | train_kl_div: 224429.0442
+2021-08-21 02:14:45,101 | MNIST: Epoch: 234 | Train Loss: 1209.2679 | Train Acc: 0.9996 | Val Loss: 5115.5864 | Val Acc: 0.9817 | train_kl_div: 224328.6757
+2021-08-21 02:14:54,089 | MNIST: Epoch: 235 | Train Loss: 1200.2858 | Train Acc: 0.9997 | Val Loss: 5575.8046 | Val Acc: 0.9809 | train_kl_div: 224237.7453
+2021-08-21 02:15:03,844 | MNIST: Epoch: 236 | Train Loss: 1223.7042 | Train Acc: 0.9995 | Val Loss: 5264.4179 | Val Acc: 0.9810 | train_kl_div: 224148.7737
+2021-08-21 02:15:13,099 | MNIST: Epoch: 237 | Train Loss: 1232.5153 | Train Acc: 0.9993 | Val Loss: 5073.7610 | Val Acc: 0.9826 | train_kl_div: 224068.8584
+2021-08-21 02:15:22,002 | MNIST: Epoch: 238 | Train Loss: 1200.7513 | Train Acc: 0.9998 | Val Loss: 4662.0772 | Val Acc: 0.9846 | train_kl_div: 223981.2515
+2021-08-21 02:15:30,796 | MNIST: Epoch: 239 | Train Loss: 1202.8191 | Train Acc: 0.9996 | Val Loss: 5250.0626 | Val Acc: 0.9797 | train_kl_div: 223887.0753
+2021-08-21 02:15:39,453 | MNIST: Epoch: 240 | Train Loss: 1235.9512 | Train Acc: 0.9994 | Val Loss: 4981.8723 | Val Acc: 0.9804 | train_kl_div: 223802.5698
+2021-08-21 02:15:48,969 | MNIST: Epoch: 241 | Train Loss: 1223.2413 | Train Acc: 0.9994 | Val Loss: 5287.4679 | Val Acc: 0.9807 | train_kl_div: 223721.8138
+2021-08-21 02:15:58,001 | MNIST: Epoch: 242 | Train Loss: 1228.3939 | Train Acc: 0.9994 | Val Loss: 4945.1373 | Val Acc: 0.9819 | train_kl_div: 223641.2085
+2021-08-21 02:16:07,599 | MNIST: Epoch: 243 | Train Loss: 1221.7793 | Train Acc: 0.9995 | Val Loss: 5545.7747 | Val Acc: 0.9809 | train_kl_div: 223563.9833
+2021-08-21 02:16:16,420 | MNIST: Epoch: 244 | Train Loss: 1206.6361 | Train Acc: 0.9996 | Val Loss: 5356.4198 | Val Acc: 0.9776 | train_kl_div: 223483.6951
+2021-08-21 02:16:26,240 | MNIST: Epoch: 245 | Train Loss: 1213.9551 | Train Acc: 0.9996 | Val Loss: 5279.0039 | Val Acc: 0.9812 | train_kl_div: 223420.9739
+2021-08-21 02:16:35,027 | MNIST: Epoch: 246 | Train Loss: 1225.4385 | Train Acc: 0.9994 | Val Loss: 5207.8032 | Val Acc: 0.9815 | train_kl_div: 223364.9391
+2021-08-21 02:16:44,344 | MNIST: Epoch: 247 | Train Loss: 1190.9412 | Train Acc: 0.9997 | Val Loss: 5831.8217 | Val Acc: 0.9793 | train_kl_div: 223306.1706
+2021-08-21 02:16:54,161 | MNIST: Epoch: 248 | Train Loss: 1208.0364 | Train Acc: 0.9995 | Val Loss: 5157.5562 | Val Acc: 0.9824 | train_kl_div: 223247.6294
+2021-08-21 02:17:03,865 | MNIST: Epoch: 249 | Train Loss: 1209.3751 | Train Acc: 0.9995 | Val Loss: 5132.5883 | Val Acc: 0.9819 | train_kl_div: 223196.7992
+2021-08-21 02:17:13,525 | MNIST: Epoch: 250 | Train Loss: 1210.9619 | Train Acc: 0.9995 | Val Loss: 5304.9658 | Val Acc: 0.9829 | train_kl_div: 223146.1435
+2021-08-21 02:17:22,252 | MNIST: Epoch: 251 | Train Loss: 1205.6476 | Train Acc: 0.9995 | Val Loss: 5321.8862 | Val Acc: 0.9795 | train_kl_div: 223091.1133
+2021-08-21 02:17:30,815 | MNIST: Epoch: 252 | Train Loss: 1209.4150 | Train Acc: 0.9994 | Val Loss: 5198.0476 | Val Acc: 0.9815 | train_kl_div: 223034.6027
+2021-08-21 02:17:40,310 | MNIST: Epoch: 253 | Train Loss: 1200.3964 | Train Acc: 0.9996 | Val Loss: 4993.6764 | Val Acc: 0.9830 | train_kl_div: 222981.8714
+2021-08-21 02:17:49,356 | MNIST: Epoch: 254 | Train Loss: 1213.6167 | Train Acc: 0.9996 | Val Loss: 5255.5431 | Val Acc: 0.9820 | train_kl_div: 222927.6839
+2021-08-21 02:17:58,297 | MNIST: Epoch: 255 | Train Loss: 1203.1279 | Train Acc: 0.9997 | Val Loss: 5289.6161 | Val Acc: 0.9817 | train_kl_div: 222865.0926
+2021-08-21 02:18:07,694 | MNIST: Epoch: 256 | Train Loss: 1198.7103 | Train Acc: 0.9996 | Val Loss: 5315.8872 | Val Acc: 0.9812 | train_kl_div: 222818.3868
+2021-08-21 02:18:16,119 | MNIST: Epoch: 257 | Train Loss: 1221.5952 | Train Acc: 0.9995 | Val Loss: 5363.5786 | Val Acc: 0.9793 | train_kl_div: 222770.3672
+2021-08-21 02:18:25,904 | MNIST: Epoch: 258 | Train Loss: 1210.4873 | Train Acc: 0.9996 | Val Loss: 5095.4470 | Val Acc: 0.9839 | train_kl_div: 222720.3905
+2021-08-21 02:18:34,822 | MNIST: Epoch: 259 | Train Loss: 1199.8678 | Train Acc: 0.9995 | Val Loss: 5309.3683 | Val Acc: 0.9816 | train_kl_div: 222670.7733
+2021-08-21 02:18:43,289 | MNIST: Epoch: 260 | Train Loss: 1218.3120 | Train Acc: 0.9994 | Val Loss: 5872.9511 | Val Acc: 0.9799 | train_kl_div: 222621.2565
+2021-08-21 02:18:52,270 | MNIST: Epoch: 261 | Train Loss: 1221.4750 | Train Acc: 0.9994 | Val Loss: 5353.7720 | Val Acc: 0.9798 | train_kl_div: 222574.7073
+2021-08-21 02:19:01,012 | MNIST: Epoch: 262 | Train Loss: 1221.9365 | Train Acc: 0.9996 | Val Loss: 5163.8692 | Val Acc: 0.9808 | train_kl_div: 222528.3236
+2021-08-21 02:19:09,524 | MNIST: Epoch: 263 | Train Loss: 1214.6066 | Train Acc: 0.9996 | Val Loss: 5003.9501 | Val Acc: 0.9821 | train_kl_div: 222475.7146
+2021-08-21 02:19:18,209 | MNIST: Epoch: 264 | Train Loss: 1208.8917 | Train Acc: 0.9995 | Val Loss: 5656.7213 | Val Acc: 0.9816 | train_kl_div: 222425.6001
+2021-08-21 02:19:28,201 | MNIST: Epoch: 265 | Train Loss: 1206.0459 | Train Acc: 0.9995 | Val Loss: 5409.7373 | Val Acc: 0.9805 | train_kl_div: 222379.4807
+2021-08-21 02:19:37,926 | MNIST: Epoch: 266 | Train Loss: 1195.9512 | Train Acc: 0.9997 | Val Loss: 5028.0093 | Val Acc: 0.9809 | train_kl_div: 222332.4672
+2021-08-21 02:19:47,251 | MNIST: Epoch: 267 | Train Loss: 1215.3455 | Train Acc: 0.9995 | Val Loss: 5076.8732 | Val Acc: 0.9818 | train_kl_div: 222289.9764
+2021-08-21 02:19:55,662 | MNIST: Epoch: 268 | Train Loss: 1185.6765 | Train Acc: 0.9997 | Val Loss: 5322.0701 | Val Acc: 0.9791 | train_kl_div: 222243.4882
+2021-08-21 02:20:04,378 | MNIST: Epoch: 269 | Train Loss: 1221.4952 | Train Acc: 0.9993 | Val Loss: 5019.6866 | Val Acc: 0.9811 | train_kl_div: 222200.9132
+2021-08-21 02:20:13,120 | MNIST: Epoch: 270 | Train Loss: 1203.8392 | Train Acc: 0.9995 | Val Loss: 5565.0953 | Val Acc: 0.9811 | train_kl_div: 222160.0104
+2021-08-21 02:20:21,804 | MNIST: Epoch: 271 | Train Loss: 1197.8032 | Train Acc: 0.9996 | Val Loss: 5675.6317 | Val Acc: 0.9793 | train_kl_div: 222116.3035
+2021-08-21 02:20:30,667 | MNIST: Epoch: 272 | Train Loss: 1214.8101 | Train Acc: 0.9994 | Val Loss: 4981.9942 | Val Acc: 0.9828 | train_kl_div: 222079.3547
+2021-08-21 02:20:41,621 | MNIST: Epoch: 273 | Train Loss: 1205.1055 | Train Acc: 0.9995 | Val Loss: 5239.1574 | Val Acc: 0.9804 | train_kl_div: 222040.9581
+2021-08-21 02:20:50,338 | MNIST: Epoch: 274 | Train Loss: 1203.9783 | Train Acc: 0.9996 | Val Loss: 5527.7822 | Val Acc: 0.9797 | train_kl_div: 221994.8501
+2021-08-21 02:20:59,502 | MNIST: Epoch: 275 | Train Loss: 1198.6207 | Train Acc: 0.9997 | Val Loss: 5724.5623 | Val Acc: 0.9795 | train_kl_div: 221950.3497
+2021-08-21 02:21:08,364 | MNIST: Epoch: 276 | Train Loss: 1201.3884 | Train Acc: 0.9995 | Val Loss: 5423.2114 | Val Acc: 0.9815 | train_kl_div: 221907.3044
+2021-08-21 02:21:17,103 | MNIST: Epoch: 277 | Train Loss: 1181.7736 | Train Acc: 0.9997 | Val Loss: 5386.1721 | Val Acc: 0.9827 | train_kl_div: 221864.2373
+2021-08-21 02:21:26,151 | MNIST: Epoch: 278 | Train Loss: 1211.8438 | Train Acc: 0.9994 | Val Loss: 5224.2446 | Val Acc: 0.9813 | train_kl_div: 221824.2291
+2021-08-21 02:21:35,476 | MNIST: Epoch: 279 | Train Loss: 1207.9969 | Train Acc: 0.9995 | Val Loss: 5380.2547 | Val Acc: 0.9797 | train_kl_div: 221787.1494
+2021-08-21 02:21:44,295 | MNIST: Epoch: 280 | Train Loss: 1195.3564 | Train Acc: 0.9997 | Val Loss: 5374.1432 | Val Acc: 0.9808 | train_kl_div: 221748.1678
+2021-08-21 02:21:53,169 | MNIST: Epoch: 281 | Train Loss: 1210.6805 | Train Acc: 0.9995 | Val Loss: 5554.6341 | Val Acc: 0.9809 | train_kl_div: 221710.3856
+2021-08-21 02:22:02,035 | MNIST: Epoch: 282 | Train Loss: 1190.8785 | Train Acc: 0.9997 | Val Loss: 5389.1774 | Val Acc: 0.9807 | train_kl_div: 221674.6615
+2021-08-21 02:22:10,760 | MNIST: Epoch: 283 | Train Loss: 1205.8416 | Train Acc: 0.9995 | Val Loss: 5156.3863 | Val Acc: 0.9813 | train_kl_div: 221637.0756
+2021-08-21 02:22:19,957 | MNIST: Epoch: 284 | Train Loss: 1197.3135 | Train Acc: 0.9995 | Val Loss: 4764.5559 | Val Acc: 0.9840 | train_kl_div: 221601.1157
+2021-08-21 02:22:28,794 | MNIST: Epoch: 285 | Train Loss: 1182.9774 | Train Acc: 0.9997 | Val Loss: 5504.0162 | Val Acc: 0.9828 | train_kl_div: 221560.2772
+2021-08-21 02:22:37,369 | MNIST: Epoch: 286 | Train Loss: 1194.2391 | Train Acc: 0.9997 | Val Loss: 5298.4636 | Val Acc: 0.9814 | train_kl_div: 221516.9398
+2021-08-21 02:22:46,992 | MNIST: Epoch: 287 | Train Loss: 1204.8004 | Train Acc: 0.9996 | Val Loss: 5466.1830 | Val Acc: 0.9810 | train_kl_div: 221479.3327
+2021-08-21 02:22:56,429 | MNIST: Epoch: 288 | Train Loss: 1195.9296 | Train Acc: 0.9996 | Val Loss: 4741.1243 | Val Acc: 0.9829 | train_kl_div: 221442.8638
+2021-08-21 02:23:05,915 | MNIST: Epoch: 289 | Train Loss: 1214.6002 | Train Acc: 0.9995 | Val Loss: 5082.3006 | Val Acc: 0.9825 | train_kl_div: 221407.9683
+2021-08-21 02:23:14,920 | MNIST: Epoch: 290 | Train Loss: 1222.3218 | Train Acc: 0.9995 | Val Loss: 4974.9821 | Val Acc: 0.9815 | train_kl_div: 221374.4142
+2021-08-21 02:23:23,729 | MNIST: Epoch: 291 | Train Loss: 1199.3503 | Train Acc: 0.9995 | Val Loss: 5092.8499 | Val Acc: 0.9812 | train_kl_div: 221339.0894
+2021-08-21 02:23:33,058 | MNIST: Epoch: 292 | Train Loss: 1203.2374 | Train Acc: 0.9995 | Val Loss: 4675.0318 | Val Acc: 0.9832 | train_kl_div: 221303.9357
+2021-08-21 02:23:41,966 | MNIST: Epoch: 293 | Train Loss: 1193.2845 | Train Acc: 0.9996 | Val Loss: 5204.3674 | Val Acc: 0.9822 | train_kl_div: 221266.1928
+2021-08-21 02:23:50,435 | MNIST: Epoch: 294 | Train Loss: 1202.9644 | Train Acc: 0.9995 | Val Loss: 5351.2077 | Val Acc: 0.9809 | train_kl_div: 221233.0969
+2021-08-21 02:23:59,176 | MNIST: Epoch: 295 | Train Loss: 1207.8120 | Train Acc: 0.9994 | Val Loss: 5569.6739 | Val Acc: 0.9795 | train_kl_div: 221200.9209
+2021-08-21 02:24:08,738 | MNIST: Epoch: 296 | Train Loss: 1199.5109 | Train Acc: 0.9995 | Val Loss: 4939.3995 | Val Acc: 0.9806 | train_kl_div: 221167.2734
+2021-08-21 02:24:18,147 | MNIST: Epoch: 297 | Train Loss: 1182.6604 | Train Acc: 0.9996 | Val Loss: 5639.9430 | Val Acc: 0.9807 | train_kl_div: 221132.9439
+2021-08-21 02:24:27,331 | MNIST: Epoch: 298 | Train Loss: 1190.0568 | Train Acc: 0.9997 | Val Loss: 4832.6887 | Val Acc: 0.9819 | train_kl_div: 221097.9774
+2021-08-21 02:24:36,754 | MNIST: Epoch: 299 | Train Loss: 1186.0654 | Train Acc: 0.9996 | Val Loss: 5175.2016 | Val Acc: 0.9828 | train_kl_div: 221062.7948
+2021-08-21 02:24:46,771 | MNIST: Epoch: 300 | Train Loss: 1188.9994 | Train Acc: 0.9997 | Val Loss: 5760.7680 | Val Acc: 0.9805 | train_kl_div: 221030.7342
+2021-08-21 02:24:56,479 | MNIST: Epoch: 301 | Train Loss: 1200.7135 | Train Acc: 0.9994 | Val Loss: 5074.6553 | Val Acc: 0.9824 | train_kl_div: 220998.7262
+2021-08-21 02:25:05,046 | MNIST: Epoch: 302 | Train Loss: 1200.2217 | Train Acc: 0.9995 | Val Loss: 5505.0415 | Val Acc: 0.9814 | train_kl_div: 220967.3128
+2021-08-21 02:25:13,692 | MNIST: Epoch: 303 | Train Loss: 1185.3069 | Train Acc: 0.9997 | Val Loss: 5348.6007 | Val Acc: 0.9819 | train_kl_div: 220934.5085
+2021-08-21 02:25:22,383 | MNIST: Epoch: 304 | Train Loss: 1190.1644 | Train Acc: 0.9997 | Val Loss: 5197.6395 | Val Acc: 0.9812 | train_kl_div: 220900.1669
+2021-08-21 02:25:31,293 | MNIST: Epoch: 305 | Train Loss: 1206.7280 | Train Acc: 0.9995 | Val Loss: 5390.2407 | Val Acc: 0.9799 | train_kl_div: 220867.8143
+2021-08-21 02:25:40,023 | MNIST: Epoch: 306 | Train Loss: 1213.7360 | Train Acc: 0.9994 | Val Loss: 5006.4920 | Val Acc: 0.9824 | train_kl_div: 220837.2944
+2021-08-21 02:25:48,804 | MNIST: Epoch: 307 | Train Loss: 1202.6340 | Train Acc: 0.9996 | Val Loss: 5391.9637 | Val Acc: 0.9818 | train_kl_div: 220804.0062
+2021-08-21 02:25:57,474 | MNIST: Epoch: 308 | Train Loss: 1205.4663 | Train Acc: 0.9994 | Val Loss: 5339.4543 | Val Acc: 0.9813 | train_kl_div: 220773.0105
+2021-08-21 02:26:05,973 | MNIST: Epoch: 309 | Train Loss: 1216.3937 | Train Acc: 0.9994 | Val Loss: 4957.3921 | Val Acc: 0.9819 | train_kl_div: 220742.2655
+2021-08-21 02:26:15,535 | MNIST: Epoch: 310 | Train Loss: 1190.2755 | Train Acc: 0.9997 | Val Loss: 4902.2240 | Val Acc: 0.9815 | train_kl_div: 220711.9558
+2021-08-21 02:26:24,288 | MNIST: Epoch: 311 | Train Loss: 1207.0205 | Train Acc: 0.9995 | Val Loss: 5226.8773 | Val Acc: 0.9812 | train_kl_div: 220682.5757
+2021-08-21 02:26:34,041 | MNIST: Epoch: 312 | Train Loss: 1188.4066 | Train Acc: 0.9996 | Val Loss: 4832.2036 | Val Acc: 0.9819 | train_kl_div: 220653.0919
+2021-08-21 02:26:43,897 | MNIST: Epoch: 313 | Train Loss: 1191.3722 | Train Acc: 0.9997 | Val Loss: 5388.3533 | Val Acc: 0.9812 | train_kl_div: 220621.7357
+2021-08-21 02:26:52,846 | MNIST: Epoch: 314 | Train Loss: 1193.1531 | Train Acc: 0.9996 | Val Loss: 5486.5631 | Val Acc: 0.9818 | train_kl_div: 220591.1652
+2021-08-21 02:27:02,280 | MNIST: Epoch: 315 | Train Loss: 1204.0774 | Train Acc: 0.9994 | Val Loss: 5340.0142 | Val Acc: 0.9810 | train_kl_div: 220561.3458
+2021-08-21 02:27:11,078 | MNIST: Epoch: 316 | Train Loss: 1188.0565 | Train Acc: 0.9996 | Val Loss: 5309.6245 | Val Acc: 0.9807 | train_kl_div: 220531.2347
+2021-08-21 02:27:20,390 | MNIST: Epoch: 317 | Train Loss: 1195.3818 | Train Acc: 0.9996 | Val Loss: 5140.0948 | Val Acc: 0.9811 | train_kl_div: 220501.4357
+2021-08-21 02:27:29,188 | MNIST: Epoch: 318 | Train Loss: 1200.2910 | Train Acc: 0.9995 | Val Loss: 5141.4202 | Val Acc: 0.9834 | train_kl_div: 220471.6661
+2021-08-21 02:27:38,621 | MNIST: Epoch: 319 | Train Loss: 1201.0938 | Train Acc: 0.9994 | Val Loss: 4922.5853 | Val Acc: 0.9815 | train_kl_div: 220443.4809
+2021-08-21 02:27:47,774 | MNIST: Epoch: 320 | Train Loss: 1202.6382 | Train Acc: 0.9994 | Val Loss: 5097.1821 | Val Acc: 0.9821 | train_kl_div: 220415.6617
+2021-08-21 02:27:56,459 | MNIST: Epoch: 321 | Train Loss: 1202.0724 | Train Acc: 0.9995 | Val Loss: 5272.2157 | Val Acc: 0.9823 | train_kl_div: 220387.3378
+2021-08-21 02:28:05,087 | MNIST: Epoch: 322 | Train Loss: 1189.7986 | Train Acc: 0.9995 | Val Loss: 5061.2375 | Val Acc: 0.9802 | train_kl_div: 220371.0379
+2021-08-21 02:28:14,033 | MNIST: Epoch: 323 | Train Loss: 1194.9270 | Train Acc: 0.9995 | Val Loss: 4981.6365 | Val Acc: 0.9820 | train_kl_div: 220364.4223
+2021-08-21 02:28:23,629 | MNIST: Epoch: 324 | Train Loss: 1191.6770 | Train Acc: 0.9996 | Val Loss: 5398.7031 | Val Acc: 0.9804 | train_kl_div: 220357.5850
+2021-08-21 02:28:32,942 | MNIST: Epoch: 325 | Train Loss: 1194.4680 | Train Acc: 0.9995 | Val Loss: 5204.6937 | Val Acc: 0.9814 | train_kl_div: 220351.5558
+2021-08-21 02:28:41,612 | MNIST: Epoch: 326 | Train Loss: 1217.1765 | Train Acc: 0.9994 | Val Loss: 4950.2693 | Val Acc: 0.9826 | train_kl_div: 220346.1431
+2021-08-21 02:28:50,771 | MNIST: Epoch: 327 | Train Loss: 1190.7747 | Train Acc: 0.9997 | Val Loss: 5963.7316 | Val Acc: 0.9791 | train_kl_div: 220341.0542
+2021-08-21 02:28:59,955 | MNIST: Epoch: 328 | Train Loss: 1191.8022 | Train Acc: 0.9996 | Val Loss: 4949.6047 | Val Acc: 0.9816 | train_kl_div: 220334.1692
+2021-08-21 02:29:08,668 | MNIST: Epoch: 329 | Train Loss: 1193.0851 | Train Acc: 0.9995 | Val Loss: 5005.6872 | Val Acc: 0.9819 | train_kl_div: 220328.0517
+2021-08-21 02:29:17,383 | MNIST: Epoch: 330 | Train Loss: 1199.0181 | Train Acc: 0.9995 | Val Loss: 5015.6783 | Val Acc: 0.9819 | train_kl_div: 220321.6031
+2021-08-21 02:29:27,172 | MNIST: Epoch: 331 | Train Loss: 1196.9629 | Train Acc: 0.9995 | Val Loss: 5456.7134 | Val Acc: 0.9814 | train_kl_div: 220316.5260
+2021-08-21 02:29:35,717 | MNIST: Epoch: 332 | Train Loss: 1198.0699 | Train Acc: 0.9996 | Val Loss: 5419.6604 | Val Acc: 0.9811 | train_kl_div: 220310.2954
+2021-08-21 02:29:45,203 | MNIST: Epoch: 333 | Train Loss: 1198.0803 | Train Acc: 0.9995 | Val Loss: 4710.4674 | Val Acc: 0.9829 | train_kl_div: 220305.9017
+2021-08-21 02:29:53,865 | MNIST: Epoch: 334 | Train Loss: 1194.4888 | Train Acc: 0.9996 | Val Loss: 5783.7464 | Val Acc: 0.9795 | train_kl_div: 220300.8920
+2021-08-21 02:30:02,784 | MNIST: Epoch: 335 | Train Loss: 1197.1820 | Train Acc: 0.9995 | Val Loss: 5866.4824 | Val Acc: 0.9820 | train_kl_div: 220296.1853
+2021-08-21 02:30:12,579 | MNIST: Epoch: 336 | Train Loss: 1194.1112 | Train Acc: 0.9996 | Val Loss: 5318.3133 | Val Acc: 0.9812 | train_kl_div: 220291.2563
+2021-08-21 02:30:21,835 | MNIST: Epoch: 337 | Train Loss: 1193.1559 | Train Acc: 0.9995 | Val Loss: 5590.5150 | Val Acc: 0.9811 | train_kl_div: 220286.0288
+2021-08-21 02:30:31,120 | MNIST: Epoch: 338 | Train Loss: 1182.2001 | Train Acc: 0.9998 | Val Loss: 5641.4615 | Val Acc: 0.9810 | train_kl_div: 220280.5450
+2021-08-21 02:30:40,077 | MNIST: Epoch: 339 | Train Loss: 1191.3770 | Train Acc: 0.9995 | Val Loss: 5246.1200 | Val Acc: 0.9815 | train_kl_div: 220275.8582
+2021-08-21 02:30:49,547 | MNIST: Epoch: 340 | Train Loss: 1199.5968 | Train Acc: 0.9996 | Val Loss: 4825.2053 | Val Acc: 0.9818 | train_kl_div: 220271.5225
+2021-08-21 02:30:58,434 | MNIST: Epoch: 341 | Train Loss: 1195.7712 | Train Acc: 0.9997 | Val Loss: 5492.7907 | Val Acc: 0.9802 | train_kl_div: 220265.8404
+2021-08-21 02:31:08,176 | MNIST: Epoch: 342 | Train Loss: 1204.7196 | Train Acc: 0.9994 | Val Loss: 5103.5379 | Val Acc: 0.9809 | train_kl_div: 220260.1732
+2021-08-21 02:31:18,400 | MNIST: Epoch: 343 | Train Loss: 1182.7563 | Train Acc: 0.9997 | Val Loss: 5242.9106 | Val Acc: 0.9788 | train_kl_div: 220254.9346
+2021-08-21 02:31:28,137 | MNIST: Epoch: 344 | Train Loss: 1187.0459 | Train Acc: 0.9996 | Val Loss: 5291.3026 | Val Acc: 0.9798 | train_kl_div: 220252.1643
+2021-08-21 02:31:37,535 | MNIST: Epoch: 345 | Train Loss: 1195.6639 | Train Acc: 0.9996 | Val Loss: 5069.0144 | Val Acc: 0.9820 | train_kl_div: 220248.4696
+2021-08-21 02:31:46,401 | MNIST: Epoch: 346 | Train Loss: 1212.2837 | Train Acc: 0.9995 | Val Loss: 4899.0620 | Val Acc: 0.9827 | train_kl_div: 220245.6354
+2021-08-21 02:31:54,841 | MNIST: Epoch: 347 | Train Loss: 1194.5026 | Train Acc: 0.9995 | Val Loss: 5504.9368 | Val Acc: 0.9809 | train_kl_div: 220242.6975
+2021-08-21 02:32:04,051 | MNIST: Epoch: 348 | Train Loss: 1182.6576 | Train Acc: 0.9997 | Val Loss: 4831.5891 | Val Acc: 0.9836 | train_kl_div: 220239.4553
+2021-08-21 02:32:12,688 | MNIST: Epoch: 349 | Train Loss: 1187.8667 | Train Acc: 0.9995 | Val Loss: 4901.8111 | Val Acc: 0.9821 | train_kl_div: 220235.1673
+2021-08-21 02:32:22,598 | MNIST: Epoch: 350 | Train Loss: 1213.3601 | Train Acc: 0.9994 | Val Loss: 5008.6025 | Val Acc: 0.9829 | train_kl_div: 220231.2659
+2021-08-21 02:32:31,368 | MNIST: Epoch: 351 | Train Loss: 1201.3174 | Train Acc: 0.9995 | Val Loss: 5722.3424 | Val Acc: 0.9807 | train_kl_div: 220228.4597
+2021-08-21 02:32:40,476 | MNIST: Epoch: 352 | Train Loss: 1187.9893 | Train Acc: 0.9996 | Val Loss: 5682.5219 | Val Acc: 0.9784 | train_kl_div: 220225.4395
+2021-08-21 02:32:49,579 | MNIST: Epoch: 353 | Train Loss: 1205.0782 | Train Acc: 0.9995 | Val Loss: 5139.8053 | Val Acc: 0.9818 | train_kl_div: 220221.4440
+2021-08-21 02:32:58,301 | MNIST: Epoch: 354 | Train Loss: 1192.1302 | Train Acc: 0.9996 | Val Loss: 5694.4291 | Val Acc: 0.9820 | train_kl_div: 220217.8988
+2021-08-21 02:33:06,962 | MNIST: Epoch: 355 | Train Loss: 1181.6621 | Train Acc: 0.9996 | Val Loss: 5145.9301 | Val Acc: 0.9817 | train_kl_div: 220215.0573
+2021-08-21 02:33:16,530 | MNIST: Epoch: 356 | Train Loss: 1201.3726 | Train Acc: 0.9995 | Val Loss: 4903.5698 | Val Acc: 0.9818 | train_kl_div: 220212.4452
+2021-08-21 02:33:25,390 | MNIST: Epoch: 357 | Train Loss: 1190.1498 | Train Acc: 0.9995 | Val Loss: 5567.5020 | Val Acc: 0.9815 | train_kl_div: 220209.9759
+2021-08-21 02:33:34,301 | MNIST: Epoch: 358 | Train Loss: 1219.6066 | Train Acc: 0.9995 | Val Loss: 5348.8002 | Val Acc: 0.9799 | train_kl_div: 220206.9938
+2021-08-21 02:33:43,777 | MNIST: Epoch: 359 | Train Loss: 1196.1221 | Train Acc: 0.9996 | Val Loss: 5014.1487 | Val Acc: 0.9827 | train_kl_div: 220204.3071
+2021-08-21 02:33:53,211 | MNIST: Epoch: 360 | Train Loss: 1190.5460 | Train Acc: 0.9995 | Val Loss: 5414.7070 | Val Acc: 0.9811 | train_kl_div: 220200.8643
+2021-08-21 02:34:02,050 | MNIST: Epoch: 361 | Train Loss: 1193.0852 | Train Acc: 0.9995 | Val Loss: 4931.6164 | Val Acc: 0.9821 | train_kl_div: 220197.6535
+2021-08-21 02:34:10,772 | MNIST: Epoch: 362 | Train Loss: 1194.0374 | Train Acc: 0.9995 | Val Loss: 5134.1488 | Val Acc: 0.9817 | train_kl_div: 220194.3359
+2021-08-21 02:34:20,125 | MNIST: Epoch: 363 | Train Loss: 1200.6017 | Train Acc: 0.9995 | Val Loss: 5078.6835 | Val Acc: 0.9831 | train_kl_div: 220191.2863
+2021-08-21 02:34:29,038 | MNIST: Epoch: 364 | Train Loss: 1190.3873 | Train Acc: 0.9994 | Val Loss: 5054.2958 | Val Acc: 0.9807 | train_kl_div: 220188.0147
+2021-08-21 02:34:38,017 | MNIST: Epoch: 365 | Train Loss: 1200.7445 | Train Acc: 0.9995 | Val Loss: 4936.8194 | Val Acc: 0.9837 | train_kl_div: 220185.0863
+2021-08-21 02:34:47,215 | MNIST: Epoch: 366 | Train Loss: 1200.9480 | Train Acc: 0.9995 | Val Loss: 5110.4387 | Val Acc: 0.9815 | train_kl_div: 220183.2144
+2021-08-21 02:34:56,097 | MNIST: Epoch: 367 | Train Loss: 1199.6189 | Train Acc: 0.9995 | Val Loss: 5527.6169 | Val Acc: 0.9794 | train_kl_div: 220181.1944
+2021-08-21 02:35:04,517 | MNIST: Epoch: 368 | Train Loss: 1200.3892 | Train Acc: 0.9996 | Val Loss: 5066.2037 | Val Acc: 0.9824 | train_kl_div: 220179.1779
+2021-08-21 02:35:12,919 | MNIST: Epoch: 369 | Train Loss: 1192.9137 | Train Acc: 0.9996 | Val Loss: 5280.5430 | Val Acc: 0.9817 | train_kl_div: 220176.4357
+2021-08-21 02:35:23,139 | MNIST: Epoch: 370 | Train Loss: 1182.0570 | Train Acc: 0.9997 | Val Loss: 5596.3096 | Val Acc: 0.9811 | train_kl_div: 220174.2788
+2021-08-21 02:35:32,423 | MNIST: Epoch: 371 | Train Loss: 1204.9030 | Train Acc: 0.9994 | Val Loss: 5366.6759 | Val Acc: 0.9785 | train_kl_div: 220171.6720
+2021-08-21 02:35:41,599 | MNIST: Epoch: 372 | Train Loss: 1190.7369 | Train Acc: 0.9996 | Val Loss: 5560.6113 | Val Acc: 0.9800 | train_kl_div: 220169.7585
+2021-08-21 02:35:50,884 | MNIST: Epoch: 373 | Train Loss: 1208.2076 | Train Acc: 0.9994 | Val Loss: 4832.1531 | Val Acc: 0.9832 | train_kl_div: 220167.5921
+2021-08-21 02:35:59,602 | MNIST: Epoch: 374 | Train Loss: 1198.2865 | Train Acc: 0.9996 | Val Loss: 4621.4184 | Val Acc: 0.9807 | train_kl_div: 220165.5827
+2021-08-21 02:36:08,550 | MNIST: Epoch: 375 | Train Loss: 1201.0851 | Train Acc: 0.9995 | Val Loss: 5629.8079 | Val Acc: 0.9799 | train_kl_div: 220162.8436
+2021-08-21 02:36:18,205 | MNIST: Epoch: 376 | Train Loss: 1179.1984 | Train Acc: 0.9997 | Val Loss: 5313.9268 | Val Acc: 0.9814 | train_kl_div: 220160.7771
+2021-08-21 02:36:27,467 | MNIST: Epoch: 377 | Train Loss: 1195.8739 | Train Acc: 0.9995 | Val Loss: 4884.0680 | Val Acc: 0.9839 | train_kl_div: 220158.4935
+2021-08-21 02:36:36,553 | MNIST: Epoch: 378 | Train Loss: 1199.1713 | Train Acc: 0.9995 | Val Loss: 4858.4153 | Val Acc: 0.9812 | train_kl_div: 220156.1614
+2021-08-21 02:36:45,411 | MNIST: Epoch: 379 | Train Loss: 1202.7021 | Train Acc: 0.9996 | Val Loss: 4926.3830 | Val Acc: 0.9815 | train_kl_div: 220154.5478
+2021-08-21 02:36:54,091 | MNIST: Epoch: 380 | Train Loss: 1181.4204 | Train Acc: 0.9997 | Val Loss: 5547.9358 | Val Acc: 0.9809 | train_kl_div: 220152.6143
+2021-08-21 02:37:02,856 | MNIST: Epoch: 381 | Train Loss: 1192.0800 | Train Acc: 0.9996 | Val Loss: 5659.2045 | Val Acc: 0.9805 | train_kl_div: 220150.4526
+2021-08-21 02:37:11,798 | MNIST: Epoch: 382 | Train Loss: 1201.6475 | Train Acc: 0.9994 | Val Loss: 5661.4326 | Val Acc: 0.9800 | train_kl_div: 220148.6429
+2021-08-21 02:37:20,613 | MNIST: Epoch: 383 | Train Loss: 1187.3746 | Train Acc: 0.9995 | Val Loss: 5191.8599 | Val Acc: 0.9826 | train_kl_div: 220147.2329
+2021-08-21 02:37:30,566 | MNIST: Epoch: 384 | Train Loss: 1188.1520 | Train Acc: 0.9996 | Val Loss: 5718.7519 | Val Acc: 0.9799 | train_kl_div: 220145.3968
+2021-08-21 02:37:39,804 | MNIST: Epoch: 385 | Train Loss: 1189.9053 | Train Acc: 0.9995 | Val Loss: 5642.4315 | Val Acc: 0.9809 | train_kl_div: 220143.6544
+2021-08-21 02:37:48,841 | MNIST: Epoch: 386 | Train Loss: 1197.2517 | Train Acc: 0.9995 | Val Loss: 5154.8868 | Val Acc: 0.9809 | train_kl_div: 220141.5989
+2021-08-21 02:37:57,971 | MNIST: Epoch: 387 | Train Loss: 1198.9895 | Train Acc: 0.9995 | Val Loss: 5285.1404 | Val Acc: 0.9803 | train_kl_div: 220139.8728
+2021-08-21 02:38:06,703 | MNIST: Epoch: 388 | Train Loss: 1177.2136 | Train Acc: 0.9996 | Val Loss: 4957.0843 | Val Acc: 0.9837 | train_kl_div: 220138.6245
+2021-08-21 02:38:15,998 | MNIST: Epoch: 389 | Train Loss: 1191.4221 | Train Acc: 0.9996 | Val Loss: 5333.8742 | Val Acc: 0.9803 | train_kl_div: 220136.9505
+2021-08-21 02:38:24,606 | MNIST: Epoch: 390 | Train Loss: 1212.9938 | Train Acc: 0.9995 | Val Loss: 5214.1547 | Val Acc: 0.9822 | train_kl_div: 220135.2192
+2021-08-21 02:38:34,113 | MNIST: Epoch: 391 | Train Loss: 1196.7451 | Train Acc: 0.9995 | Val Loss: 5121.1038 | Val Acc: 0.9802 | train_kl_div: 220133.8485
+2021-08-21 02:38:43,064 | MNIST: Epoch: 392 | Train Loss: 1202.7432 | Train Acc: 0.9995 | Val Loss: 5216.8722 | Val Acc: 0.9831 | train_kl_div: 220132.4031
+2021-08-21 02:38:52,004 | MNIST: Epoch: 393 | Train Loss: 1209.9473 | Train Acc: 0.9995 | Val Loss: 5986.6703 | Val Acc: 0.9790 | train_kl_div: 220130.9386
+2021-08-21 02:39:01,001 | MNIST: Epoch: 394 | Train Loss: 1188.2991 | Train Acc: 0.9995 | Val Loss: 4971.7454 | Val Acc: 0.9824 | train_kl_div: 220129.9129
+2021-08-21 02:39:10,087 | MNIST: Epoch: 395 | Train Loss: 1191.3350 | Train Acc: 0.9995 | Val Loss: 5188.1354 | Val Acc: 0.9825 | train_kl_div: 220128.3544
+2021-08-21 02:39:18,962 | MNIST: Epoch: 396 | Train Loss: 1191.9994 | Train Acc: 0.9996 | Val Loss: 5037.0820 | Val Acc: 0.9800 | train_kl_div: 220127.2552
+2021-08-21 02:39:27,998 | MNIST: Epoch: 397 | Train Loss: 1203.2393 | Train Acc: 0.9994 | Val Loss: 4840.1889 | Val Acc: 0.9814 | train_kl_div: 220125.8901
+2021-08-21 02:39:37,590 | MNIST: Epoch: 398 | Train Loss: 1186.0880 | Train Acc: 0.9997 | Val Loss: 5029.3677 | Val Acc: 0.9837 | train_kl_div: 220124.3807
+2021-08-21 02:39:47,218 | MNIST: Epoch: 399 | Train Loss: 1190.8475 | Train Acc: 0.9996 | Val Loss: 4934.9011 | Val Acc: 0.9844 | train_kl_div: 220123.2370
+2021-08-21 02:39:56,240 | MNIST: Epoch: 400 | Train Loss: 1199.1536 | Train Acc: 0.9995 | Val Loss: 5271.3521 | Val Acc: 0.9839 | train_kl_div: 220121.9115
+2021-08-21 02:40:05,180 | MNIST: Epoch: 401 | Train Loss: 1185.9772 | Train Acc: 0.9996 | Val Loss: 4846.5230 | Val Acc: 0.9834 | train_kl_div: 220120.7785
+2021-08-21 02:40:13,883 | MNIST: Epoch: 402 | Train Loss: 1187.2513 | Train Acc: 0.9995 | Val Loss: 5232.7136 | Val Acc: 0.9802 | train_kl_div: 220119.4936
+2021-08-21 02:40:22,564 | MNIST: Epoch: 403 | Train Loss: 1178.4606 | Train Acc: 0.9996 | Val Loss: 5059.6070 | Val Acc: 0.9807 | train_kl_div: 220118.0642
+2021-08-21 02:40:31,980 | MNIST: Epoch: 404 | Train Loss: 1184.7844 | Train Acc: 0.9996 | Val Loss: 5121.0703 | Val Acc: 0.9817 | train_kl_div: 220116.7222
+2021-08-21 02:40:40,943 | MNIST: Epoch: 405 | Train Loss: 1195.7426 | Train Acc: 0.9995 | Val Loss: 5442.5924 | Val Acc: 0.9803 | train_kl_div: 220115.3846
+2021-08-21 02:40:50,165 | MNIST: Epoch: 406 | Train Loss: 1180.3564 | Train Acc: 0.9996 | Val Loss: 4611.4140 | Val Acc: 0.9826 | train_kl_div: 220114.0728
+2021-08-21 02:40:59,338 | MNIST: Epoch: 407 | Train Loss: 1195.3678 | Train Acc: 0.9995 | Val Loss: 5059.0682 | Val Acc: 0.9830 | train_kl_div: 220112.8807
+2021-08-21 02:41:08,205 | MNIST: Epoch: 408 | Train Loss: 1199.4003 | Train Acc: 0.9994 | Val Loss: 5135.1600 | Val Acc: 0.9803 | train_kl_div: 220111.7942
+2021-08-21 02:41:17,346 | MNIST: Epoch: 409 | Train Loss: 1175.9202 | Train Acc: 0.9998 | Val Loss: 5117.8380 | Val Acc: 0.9817 | train_kl_div: 220110.3174
+2021-08-21 02:41:26,298 | MNIST: Epoch: 410 | Train Loss: 1198.8212 | Train Acc: 0.9995 | Val Loss: 5898.4305 | Val Acc: 0.9801 | train_kl_div: 220109.4442
+2021-08-21 02:41:35,716 | MNIST: Epoch: 411 | Train Loss: 1188.4385 | Train Acc: 0.9996 | Val Loss: 5328.4226 | Val Acc: 0.9804 | train_kl_div: 220108.5094
+2021-08-21 02:41:45,120 | MNIST: Epoch: 412 | Train Loss: 1190.6321 | Train Acc: 0.9996 | Val Loss: 5016.7087 | Val Acc: 0.9801 | train_kl_div: 220107.4023
+2021-08-21 02:41:54,125 | MNIST: Epoch: 413 | Train Loss: 1176.2220 | Train Acc: 0.9997 | Val Loss: 5253.8562 | Val Acc: 0.9812 | train_kl_div: 220106.5804
+2021-08-21 02:42:02,606 | MNIST: Epoch: 414 | Train Loss: 1205.0409 | Train Acc: 0.9995 | Val Loss: 6440.7662 | Val Acc: 0.9792 | train_kl_div: 220105.5157
+2021-08-21 02:42:11,334 | MNIST: Epoch: 415 | Train Loss: 1205.9066 | Train Acc: 0.9994 | Val Loss: 5206.9295 | Val Acc: 0.9815 | train_kl_div: 220104.7298
+2021-08-21 02:42:20,723 | MNIST: Epoch: 416 | Train Loss: 1194.7622 | Train Acc: 0.9996 | Val Loss: 5565.7938 | Val Acc: 0.9804 | train_kl_div: 220103.9710
+2021-08-21 02:42:29,628 | MNIST: Epoch: 417 | Train Loss: 1200.5566 | Train Acc: 0.9994 | Val Loss: 5292.4411 | Val Acc: 0.9810 | train_kl_div: 220103.0862
+2021-08-21 02:42:38,795 | MNIST: Epoch: 418 | Train Loss: 1197.7123 | Train Acc: 0.9996 | Val Loss: 5357.0408 | Val Acc: 0.9817 | train_kl_div: 220102.3438
+2021-08-21 02:42:47,350 | MNIST: Epoch: 419 | Train Loss: 1201.1846 | Train Acc: 0.9995 | Val Loss: 5327.0013 | Val Acc: 0.9799 | train_kl_div: 220101.6656
+2021-08-21 02:42:56,841 | MNIST: Epoch: 420 | Train Loss: 1175.5354 | Train Acc: 0.9997 | Val Loss: 4749.6742 | Val Acc: 0.9819 | train_kl_div: 220100.8261
+2021-08-21 02:43:06,555 | MNIST: Epoch: 421 | Train Loss: 1189.9934 | Train Acc: 0.9996 | Val Loss: 5081.4534 | Val Acc: 0.9831 | train_kl_div: 220100.2394
+2021-08-21 02:43:15,439 | MNIST: Epoch: 422 | Train Loss: 1194.2238 | Train Acc: 0.9995 | Val Loss: 5008.3771 | Val Acc: 0.9832 | train_kl_div: 220099.6802
+2021-08-21 02:43:24,336 | MNIST: Epoch: 423 | Train Loss: 1190.2288 | Train Acc: 0.9997 | Val Loss: 5628.9877 | Val Acc: 0.9802 | train_kl_div: 220099.0167
+2021-08-21 02:43:33,180 | MNIST: Epoch: 424 | Train Loss: 1222.1106 | Train Acc: 0.9993 | Val Loss: 5316.7313 | Val Acc: 0.9818 | train_kl_div: 220098.4638
+2021-08-21 02:43:42,305 | MNIST: Epoch: 425 | Train Loss: 1194.2152 | Train Acc: 0.9995 | Val Loss: 5123.0709 | Val Acc: 0.9837 | train_kl_div: 220097.8404
+2021-08-21 02:43:51,682 | MNIST: Epoch: 426 | Train Loss: 1196.9298 | Train Acc: 0.9996 | Val Loss: 5191.7349 | Val Acc: 0.9807 | train_kl_div: 220097.2594
+2021-08-21 02:44:00,355 | MNIST: Epoch: 427 | Train Loss: 1200.1738 | Train Acc: 0.9996 | Val Loss: 5620.2862 | Val Acc: 0.9815 | train_kl_div: 220096.8006
+2021-08-21 02:44:09,336 | MNIST: Epoch: 428 | Train Loss: 1201.4399 | Train Acc: 0.9994 | Val Loss: 5795.3856 | Val Acc: 0.9813 | train_kl_div: 220096.5014
+2021-08-21 02:44:18,559 | MNIST: Epoch: 429 | Train Loss: 1183.8861 | Train Acc: 0.9995 | Val Loss: 5079.5941 | Val Acc: 0.9827 | train_kl_div: 220095.8913
+2021-08-21 02:44:27,748 | MNIST: Epoch: 430 | Train Loss: 1203.7986 | Train Acc: 0.9995 | Val Loss: 5082.1881 | Val Acc: 0.9830 | train_kl_div: 220095.3438
+2021-08-21 02:44:36,848 | MNIST: Epoch: 431 | Train Loss: 1212.4226 | Train Acc: 0.9994 | Val Loss: 5174.3279 | Val Acc: 0.9799 | train_kl_div: 220094.9326
+2021-08-21 02:44:46,472 | MNIST: Epoch: 432 | Train Loss: 1192.9736 | Train Acc: 0.9996 | Val Loss: 5814.9768 | Val Acc: 0.9794 | train_kl_div: 220094.7901
+2021-08-21 02:44:54,969 | MNIST: Epoch: 433 | Train Loss: 1200.6976 | Train Acc: 0.9995 | Val Loss: 5164.8503 | Val Acc: 0.9818 | train_kl_div: 220094.4353
+2021-08-21 02:45:03,681 | MNIST: Epoch: 434 | Train Loss: 1201.3721 | Train Acc: 0.9994 | Val Loss: 5521.5108 | Val Acc: 0.9792 | train_kl_div: 220094.2020
+2021-08-21 02:45:12,835 | MNIST: Epoch: 435 | Train Loss: 1194.2378 | Train Acc: 0.9996 | Val Loss: 5254.3264 | Val Acc: 0.9803 | train_kl_div: 220093.8067
+2021-08-21 02:45:21,973 | MNIST: Epoch: 436 | Train Loss: 1191.0535 | Train Acc: 0.9997 | Val Loss: 5382.7785 | Val Acc: 0.9809 | train_kl_div: 220093.3394
+2021-08-21 02:45:31,239 | MNIST: Epoch: 437 | Train Loss: 1211.0366 | Train Acc: 0.9994 | Val Loss: 5936.2086 | Val Acc: 0.9813 | train_kl_div: 220093.0961
+2021-08-21 02:45:39,652 | MNIST: Epoch: 438 | Train Loss: 1187.5105 | Train Acc: 0.9996 | Val Loss: 5361.4428 | Val Acc: 0.9812 | train_kl_div: 220092.8543
+2021-08-21 02:45:48,348 | MNIST: Epoch: 439 | Train Loss: 1188.4274 | Train Acc: 0.9996 | Val Loss: 5102.0526 | Val Acc: 0.9812 | train_kl_div: 220092.3614
+2021-08-21 02:45:57,255 | MNIST: Epoch: 440 | Train Loss: 1210.0894 | Train Acc: 0.9993 | Val Loss: 4991.3921 | Val Acc: 0.9833 | train_kl_div: 220092.0113
+2021-08-21 02:46:05,843 | MNIST: Epoch: 441 | Train Loss: 1185.1345 | Train Acc: 0.9996 | Val Loss: 5703.2385 | Val Acc: 0.9798 | train_kl_div: 220091.6597
+2021-08-21 02:46:15,395 | MNIST: Epoch: 442 | Train Loss: 1200.6892 | Train Acc: 0.9995 | Val Loss: 5375.8127 | Val Acc: 0.9814 | train_kl_div: 220091.2928
+2021-08-21 02:46:24,694 | MNIST: Epoch: 443 | Train Loss: 1192.6193 | Train Acc: 0.9996 | Val Loss: 5492.2717 | Val Acc: 0.9808 | train_kl_div: 220091.1724
+2021-08-21 02:46:33,566 | MNIST: Epoch: 444 | Train Loss: 1188.0148 | Train Acc: 0.9996 | Val Loss: 5456.4843 | Val Acc: 0.9810 | train_kl_div: 220090.8503
+2021-08-21 02:46:42,894 | MNIST: Epoch: 445 | Train Loss: 1172.9581 | Train Acc: 0.9998 | Val Loss: 5407.3928 | Val Acc: 0.9811 | train_kl_div: 220090.4679
+2021-08-21 02:46:51,382 | MNIST: Epoch: 446 | Train Loss: 1213.8062 | Train Acc: 0.9994 | Val Loss: 5452.6873 | Val Acc: 0.9795 | train_kl_div: 220090.1436
+2021-08-21 02:46:59,958 | MNIST: Epoch: 447 | Train Loss: 1188.4663 | Train Acc: 0.9996 | Val Loss: 5053.8347 | Val Acc: 0.9819 | train_kl_div: 220089.9341
+2021-08-21 02:47:08,919 | MNIST: Epoch: 448 | Train Loss: 1197.5240 | Train Acc: 0.9997 | Val Loss: 5347.0221 | Val Acc: 0.9810 | train_kl_div: 220089.6140
+2021-08-21 02:47:17,433 | MNIST: Epoch: 449 | Train Loss: 1198.4143 | Train Acc: 0.9995 | Val Loss: 5078.0323 | Val Acc: 0.9836 | train_kl_div: 220089.2830
+2021-08-21 02:47:27,523 | MNIST: Epoch: 450 | Train Loss: 1182.4093 | Train Acc: 0.9996 | Val Loss: 5280.5510 | Val Acc: 0.9811 | train_kl_div: 220088.8626
+2021-08-21 02:47:36,666 | MNIST: Epoch: 451 | Train Loss: 1180.0457 | Train Acc: 0.9998 | Val Loss: 5122.4234 | Val Acc: 0.9809 | train_kl_div: 220088.4018
+2021-08-21 02:47:45,375 | MNIST: Epoch: 452 | Train Loss: 1188.2679 | Train Acc: 0.9995 | Val Loss: 5047.5284 | Val Acc: 0.9825 | train_kl_div: 220088.0206
+2021-08-21 02:47:53,885 | MNIST: Epoch: 453 | Train Loss: 1192.6891 | Train Acc: 0.9996 | Val Loss: 4937.6724 | Val Acc: 0.9820 | train_kl_div: 220087.5788
+2021-08-21 02:48:02,898 | MNIST: Epoch: 454 | Train Loss: 1193.5385 | Train Acc: 0.9996 | Val Loss: 4994.5139 | Val Acc: 0.9835 | train_kl_div: 220087.3970
+2021-08-21 02:48:11,623 | MNIST: Epoch: 455 | Train Loss: 1191.5433 | Train Acc: 0.9995 | Val Loss: 5100.9781 | Val Acc: 0.9817 | train_kl_div: 220087.2117
+2021-08-21 02:48:20,236 | MNIST: Epoch: 456 | Train Loss: 1183.1288 | Train Acc: 0.9996 | Val Loss: 5307.2229 | Val Acc: 0.9838 | train_kl_div: 220086.9353
+2021-08-21 02:48:28,835 | MNIST: Epoch: 457 | Train Loss: 1193.5590 | Train Acc: 0.9996 | Val Loss: 4843.7637 | Val Acc: 0.9834 | train_kl_div: 220086.5639
+2021-08-21 02:48:37,377 | MNIST: Epoch: 458 | Train Loss: 1210.5554 | Train Acc: 0.9994 | Val Loss: 4880.6816 | Val Acc: 0.9812 | train_kl_div: 220086.2389
+2021-08-21 02:48:46,175 | MNIST: Epoch: 459 | Train Loss: 1193.9490 | Train Acc: 0.9995 | Val Loss: 5367.1406 | Val Acc: 0.9797 | train_kl_div: 220085.9745
+2021-08-21 02:48:55,742 | MNIST: Epoch: 460 | Train Loss: 1201.1621 | Train Acc: 0.9995 | Val Loss: 5103.4334 | Val Acc: 0.9835 | train_kl_div: 220085.6707
+2021-08-21 02:49:05,022 | MNIST: Epoch: 461 | Train Loss: 1187.5690 | Train Acc: 0.9997 | Val Loss: 5521.1829 | Val Acc: 0.9815 | train_kl_div: 220085.4095
+2021-08-21 02:49:13,805 | MNIST: Epoch: 462 | Train Loss: 1190.2134 | Train Acc: 0.9996 | Val Loss: 4647.5963 | Val Acc: 0.9840 | train_kl_div: 220085.1549
+2021-08-21 02:49:22,299 | MNIST: Epoch: 463 | Train Loss: 1216.8926 | Train Acc: 0.9992 | Val Loss: 5024.2251 | Val Acc: 0.9832 | train_kl_div: 220084.9164
+2021-08-21 02:49:31,861 | MNIST: Epoch: 464 | Train Loss: 1197.7926 | Train Acc: 0.9996 | Val Loss: 4991.4320 | Val Acc: 0.9812 | train_kl_div: 220084.6897
+2021-08-21 02:49:41,534 | MNIST: Epoch: 465 | Train Loss: 1218.4200 | Train Acc: 0.9993 | Val Loss: 5112.1370 | Val Acc: 0.9818 | train_kl_div: 220084.5331
+2021-08-21 02:49:51,067 | MNIST: Epoch: 466 | Train Loss: 1185.2058 | Train Acc: 0.9996 | Val Loss: 5328.2175 | Val Acc: 0.9814 | train_kl_div: 220084.4686
+2021-08-21 02:49:59,635 | MNIST: Epoch: 467 | Train Loss: 1188.4746 | Train Acc: 0.9996 | Val Loss: 5252.1073 | Val Acc: 0.9809 | train_kl_div: 220084.2960
+2021-08-21 02:50:08,531 | MNIST: Epoch: 468 | Train Loss: 1188.5834 | Train Acc: 0.9996 | Val Loss: 4722.9657 | Val Acc: 0.9844 | train_kl_div: 220084.1486
+2021-08-21 02:50:17,697 | MNIST: Epoch: 469 | Train Loss: 1195.8131 | Train Acc: 0.9996 | Val Loss: 4890.8823 | Val Acc: 0.9840 | train_kl_div: 220083.8962
+2021-08-21 02:50:27,375 | MNIST: Epoch: 470 | Train Loss: 1203.8119 | Train Acc: 0.9994 | Val Loss: 5341.6183 | Val Acc: 0.9811 | train_kl_div: 220083.7560
+2021-08-21 02:50:36,788 | MNIST: Epoch: 471 | Train Loss: 1189.7605 | Train Acc: 0.9995 | Val Loss: 4674.7281 | Val Acc: 0.9824 | train_kl_div: 220083.6057
+2021-08-21 02:50:46,499 | MNIST: Epoch: 472 | Train Loss: 1197.5280 | Train Acc: 0.9995 | Val Loss: 4896.8872 | Val Acc: 0.9825 | train_kl_div: 220083.4748
+2021-08-21 02:50:55,509 | MNIST: Epoch: 473 | Train Loss: 1188.0452 | Train Acc: 0.9996 | Val Loss: 4749.8404 | Val Acc: 0.9828 | train_kl_div: 220083.3219
+2021-08-21 02:51:04,412 | MNIST: Epoch: 474 | Train Loss: 1191.0135 | Train Acc: 0.9997 | Val Loss: 5527.4723 | Val Acc: 0.9769 | train_kl_div: 220083.1174
+2021-08-21 02:51:12,857 | MNIST: Epoch: 475 | Train Loss: 1177.5488 | Train Acc: 0.9997 | Val Loss: 5294.9142 | Val Acc: 0.9816 | train_kl_div: 220082.9431
+2021-08-21 02:51:21,800 | MNIST: Epoch: 476 | Train Loss: 1199.0760 | Train Acc: 0.9995 | Val Loss: 4960.2035 | Val Acc: 0.9833 | train_kl_div: 220082.8647
+2021-08-21 02:51:30,722 | MNIST: Epoch: 477 | Train Loss: 1218.2914 | Train Acc: 0.9994 | Val Loss: 5357.3519 | Val Acc: 0.9796 | train_kl_div: 220082.7818
+2021-08-21 02:51:39,633 | MNIST: Epoch: 478 | Train Loss: 1203.9009 | Train Acc: 0.9996 | Val Loss: 5109.5612 | Val Acc: 0.9819 | train_kl_div: 220082.6473
+2021-08-21 02:51:48,766 | MNIST: Epoch: 479 | Train Loss: 1198.7277 | Train Acc: 0.9997 | Val Loss: 5180.0287 | Val Acc: 0.9823 | train_kl_div: 220082.5285
+2021-08-21 02:51:57,387 | MNIST: Epoch: 480 | Train Loss: 1189.8243 | Train Acc: 0.9996 | Val Loss: 5082.8090 | Val Acc: 0.9832 | train_kl_div: 220082.3257
+2021-08-21 02:52:06,674 | MNIST: Epoch: 481 | Train Loss: 1189.8071 | Train Acc: 0.9997 | Val Loss: 5240.1005 | Val Acc: 0.9822 | train_kl_div: 220082.1539
+2021-08-21 02:52:15,914 | MNIST: Epoch: 482 | Train Loss: 1178.7604 | Train Acc: 0.9998 | Val Loss: 5016.6534 | Val Acc: 0.9818 | train_kl_div: 220081.9213
+2021-08-21 02:52:24,758 | MNIST: Epoch: 483 | Train Loss: 1189.8015 | Train Acc: 0.9996 | Val Loss: 5080.9038 | Val Acc: 0.9812 | train_kl_div: 220081.7203
+2021-08-21 02:52:33,842 | MNIST: Epoch: 484 | Train Loss: 1190.2522 | Train Acc: 0.9996 | Val Loss: 5286.8068 | Val Acc: 0.9807 | train_kl_div: 220081.5581
+2021-08-21 02:52:42,561 | MNIST: Epoch: 485 | Train Loss: 1179.4005 | Train Acc: 0.9997 | Val Loss: 4780.6475 | Val Acc: 0.9826 | train_kl_div: 220081.3744
+2021-08-21 02:52:51,386 | MNIST: Epoch: 486 | Train Loss: 1194.2465 | Train Acc: 0.9996 | Val Loss: 5353.9334 | Val Acc: 0.9826 | train_kl_div: 220081.1346
+2021-08-21 02:52:59,942 | MNIST: Epoch: 487 | Train Loss: 1194.0208 | Train Acc: 0.9994 | Val Loss: 4961.7465 | Val Acc: 0.9822 | train_kl_div: 220081.0203
+2021-08-21 02:53:09,211 | MNIST: Epoch: 488 | Train Loss: 1192.8246 | Train Acc: 0.9996 | Val Loss: 5027.3951 | Val Acc: 0.9819 | train_kl_div: 220080.8764
+2021-08-21 02:53:18,536 | MNIST: Epoch: 489 | Train Loss: 1174.1366 | Train Acc: 0.9997 | Val Loss: 5036.9179 | Val Acc: 0.9813 | train_kl_div: 220080.7070
+2021-08-21 02:53:27,754 | MNIST: Epoch: 490 | Train Loss: 1192.4766 | Train Acc: 0.9996 | Val Loss: 5213.3016 | Val Acc: 0.9810 | train_kl_div: 220080.5083
+2021-08-21 02:53:36,389 | MNIST: Epoch: 491 | Train Loss: 1201.4293 | Train Acc: 0.9995 | Val Loss: 4901.0469 | Val Acc: 0.9828 | train_kl_div: 220080.4047
+2021-08-21 02:53:45,149 | MNIST: Epoch: 492 | Train Loss: 1191.5070 | Train Acc: 0.9996 | Val Loss: 5371.2805 | Val Acc: 0.9787 | train_kl_div: 220080.3410
+2021-08-21 02:53:54,567 | MNIST: Epoch: 493 | Train Loss: 1182.1635 | Train Acc: 0.9996 | Val Loss: 5136.2383 | Val Acc: 0.9832 | train_kl_div: 220080.2190
+2021-08-21 02:54:03,680 | MNIST: Epoch: 494 | Train Loss: 1201.1986 | Train Acc: 0.9995 | Val Loss: 4856.0614 | Val Acc: 0.9839 | train_kl_div: 220080.1379
+2021-08-21 02:54:12,747 | MNIST: Epoch: 495 | Train Loss: 1196.7161 | Train Acc: 0.9994 | Val Loss: 4804.7471 | Val Acc: 0.9818 | train_kl_div: 220080.0426
+2021-08-21 02:54:21,437 | MNIST: Epoch: 496 | Train Loss: 1195.1481 | Train Acc: 0.9996 | Val Loss: 5033.5978 | Val Acc: 0.9814 | train_kl_div: 220079.9314
+2021-08-21 02:54:30,840 | MNIST: Epoch: 497 | Train Loss: 1183.7115 | Train Acc: 0.9996 | Val Loss: 5760.7686 | Val Acc: 0.9802 | train_kl_div: 220079.7968
+2021-08-21 02:54:39,702 | MNIST: Epoch: 498 | Train Loss: 1205.6511 | Train Acc: 0.9994 | Val Loss: 5156.4547 | Val Acc: 0.9821 | train_kl_div: 220079.7407
+2021-08-21 02:54:48,508 | MNIST: Epoch: 499 | Train Loss: 1184.9330 | Train Acc: 0.9997 | Val Loss: 4727.4244 | Val Acc: 0.9834 | train_kl_div: 220079.6483
+2021-08-21 07:36:23,705 | MNIST: Prep | Loading datasets...
+2021-08-21 07:36:27,889 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 07:36:27,890 | MNIST: Prep | Loading model...
+2021-08-21 07:36:30,827 | MNIST: Prep | Model loaded!
+2021-08-21 07:36:30,874 | MNIST: Prep | Model weight loaded!
+2021-08-21 07:36:30,874 | MNIST: Train | Training...
+2021-08-21 07:36:39,558 | MNIST: Epoch: 0 | Train Loss: 4224.4731 | Train Acc: 0.9967 | Val Loss: 5230.5609 | Val Acc: 0.9775 | train_kl_div: 629435.4978
+2021-08-21 07:36:48,323 | MNIST: Epoch: 1 | Train Loss: 3589.9055 | Train Acc: 0.9956 | Val Loss: 5597.0402 | Val Acc: 0.9771 | train_kl_div: 520443.2309
+2021-08-21 07:36:57,085 | MNIST: Epoch: 2 | Train Loss: 3362.8103 | Train Acc: 0.9938 | Val Loss: 4936.2666 | Val Acc: 0.9776 | train_kl_div: 439734.9295
+2021-08-21 07:37:06,490 | MNIST: Epoch: 3 | Train Loss: 2909.2795 | Train Acc: 0.9947 | Val Loss: 5186.3753 | Val Acc: 0.9767 | train_kl_div: 373335.1217
+2021-08-21 07:37:15,577 | MNIST: Epoch: 4 | Train Loss: 3069.5466 | Train Acc: 0.9917 | Val Loss: 5735.7692 | Val Acc: 0.9735 | train_kl_div: 330486.4868
+2021-08-21 07:37:24,285 | MNIST: Epoch: 5 | Train Loss: 2777.6091 | Train Acc: 0.9928 | Val Loss: 6677.1092 | Val Acc: 0.9696 | train_kl_div: 303237.3170
+2021-08-21 07:37:32,954 | MNIST: Epoch: 6 | Train Loss: 3239.8049 | Train Acc: 0.9892 | Val Loss: 6305.1812 | Val Acc: 0.9732 | train_kl_div: 294147.5285
+2021-08-21 07:37:42,087 | MNIST: Epoch: 7 | Train Loss: 3549.1377 | Train Acc: 0.9873 | Val Loss: 5444.3143 | Val Acc: 0.9745 | train_kl_div: 305851.0330
+2021-08-21 07:37:51,320 | MNIST: Epoch: 8 | Train Loss: 3935.2598 | Train Acc: 0.9858 | Val Loss: 7108.2348 | Val Acc: 0.9647 | train_kl_div: 329195.5124
+2021-08-21 07:38:00,356 | MNIST: Epoch: 9 | Train Loss: 4799.6138 | Train Acc: 0.9825 | Val Loss: 8117.4275 | Val Acc: 0.9651 | train_kl_div: 370135.4538
+2021-08-21 07:38:09,828 | MNIST: Epoch: 10 | Train Loss: 5011.3359 | Train Acc: 0.9820 | Val Loss: 8495.0089 | Val Acc: 0.9640 | train_kl_div: 426328.6794
+2021-08-21 07:38:19,333 | MNIST: Epoch: 11 | Train Loss: 6182.1631 | Train Acc: 0.9785 | Val Loss: 9264.5754 | Val Acc: 0.9595 | train_kl_div: 499073.9217
+2021-08-21 07:38:28,592 | MNIST: Epoch: 12 | Train Loss: 7392.7070 | Train Acc: 0.9760 | Val Loss: 8775.5095 | Val Acc: 0.9600 | train_kl_div: 586383.2787
+2021-08-21 07:38:37,367 | MNIST: Epoch: 13 | Train Loss: 8613.2666 | Train Acc: 0.9723 | Val Loss: 9976.4372 | Val Acc: 0.9596 | train_kl_div: 691621.0539
+2021-08-21 07:38:46,452 | MNIST: Epoch: 14 | Train Loss: 9175.2861 | Train Acc: 0.9740 | Val Loss: 10837.9493 | Val Acc: 0.9576 | train_kl_div: 797928.6170
+2021-08-21 07:38:55,721 | MNIST: Epoch: 15 | Train Loss: 10013.1846 | Train Acc: 0.9715 | Val Loss: 12097.3985 | Val Acc: 0.9499 | train_kl_div: 896315.1307
+2021-08-21 07:39:05,562 | MNIST: Epoch: 16 | Train Loss: 11450.7324 | Train Acc: 0.9682 | Val Loss: 12437.9097 | Val Acc: 0.9524 | train_kl_div: 1004375.7229
+2021-08-21 07:39:11,046 | MNIST: Prep | Loading datasets...
+2021-08-21 07:39:14,868 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 07:39:14,869 | MNIST: Prep | Loading model...
+2021-08-21 07:39:17,839 | MNIST: Prep | Model loaded!
+2021-08-21 07:39:17,888 | MNIST: Prep | Model weight loaded!
+2021-08-21 07:39:17,888 | MNIST: Train | Training...
+2021-08-21 07:39:27,254 | MNIST: Epoch: 0 | Train Loss: 4224.4731 | Train Acc: 0.9967 | Val Loss: 5230.5609 | Val Acc: 0.9775 | train_kl_div: 629435.4978
+2021-08-21 07:39:36,161 | MNIST: Epoch: 1 | Train Loss: 3589.9055 | Train Acc: 0.9956 | Val Loss: 5597.0402 | Val Acc: 0.9771 | train_kl_div: 520443.2309
+2021-08-21 07:39:44,860 | MNIST: Epoch: 2 | Train Loss: 3362.8103 | Train Acc: 0.9938 | Val Loss: 4936.2666 | Val Acc: 0.9776 | train_kl_div: 439734.9295
+2021-08-21 07:39:53,802 | MNIST: Epoch: 3 | Train Loss: 2909.2795 | Train Acc: 0.9947 | Val Loss: 5186.3753 | Val Acc: 0.9767 | train_kl_div: 373335.1217
+2021-08-21 07:40:02,530 | MNIST: Epoch: 4 | Train Loss: 3069.5466 | Train Acc: 0.9917 | Val Loss: 5735.7692 | Val Acc: 0.9735 | train_kl_div: 330486.4868
+2021-08-21 07:40:11,170 | MNIST: Epoch: 5 | Train Loss: 2777.6091 | Train Acc: 0.9928 | Val Loss: 6677.1092 | Val Acc: 0.9696 | train_kl_div: 303237.3170
+2021-08-21 07:40:19,744 | MNIST: Epoch: 6 | Train Loss: 3239.8049 | Train Acc: 0.9892 | Val Loss: 6305.1812 | Val Acc: 0.9732 | train_kl_div: 294147.5285
+2021-08-21 07:40:28,140 | MNIST: Epoch: 7 | Train Loss: 3549.1377 | Train Acc: 0.9873 | Val Loss: 5444.3143 | Val Acc: 0.9745 | train_kl_div: 305851.0330
+2021-08-21 07:40:37,465 | MNIST: Epoch: 8 | Train Loss: 3935.2598 | Train Acc: 0.9858 | Val Loss: 7108.2348 | Val Acc: 0.9647 | train_kl_div: 329195.5124
+2021-08-21 07:40:46,409 | MNIST: Epoch: 9 | Train Loss: 4799.6138 | Train Acc: 0.9825 | Val Loss: 8117.4275 | Val Acc: 0.9651 | train_kl_div: 370135.4538
+2021-08-21 07:40:55,431 | MNIST: Epoch: 10 | Train Loss: 5011.3359 | Train Acc: 0.9820 | Val Loss: 8495.0089 | Val Acc: 0.9640 | train_kl_div: 426328.6794
+2021-08-21 07:41:03,834 | MNIST: Epoch: 11 | Train Loss: 6182.1631 | Train Acc: 0.9785 | Val Loss: 9264.5754 | Val Acc: 0.9595 | train_kl_div: 499073.9217
+2021-08-21 07:41:13,174 | MNIST: Epoch: 12 | Train Loss: 7392.7070 | Train Acc: 0.9760 | Val Loss: 8775.5095 | Val Acc: 0.9600 | train_kl_div: 586383.2787
+2021-08-21 07:41:21,792 | MNIST: Epoch: 13 | Train Loss: 8613.2666 | Train Acc: 0.9723 | Val Loss: 9976.4372 | Val Acc: 0.9596 | train_kl_div: 691621.0539
+2021-08-21 07:41:30,390 | MNIST: Epoch: 14 | Train Loss: 9175.2861 | Train Acc: 0.9740 | Val Loss: 10837.9493 | Val Acc: 0.9576 | train_kl_div: 797928.6170
+2021-08-21 07:41:39,040 | MNIST: Epoch: 15 | Train Loss: 10013.1846 | Train Acc: 0.9715 | Val Loss: 12097.3985 | Val Acc: 0.9499 | train_kl_div: 896315.1307
+2021-08-21 07:41:47,900 | MNIST: Epoch: 16 | Train Loss: 11450.7324 | Train Acc: 0.9682 | Val Loss: 12437.9097 | Val Acc: 0.9524 | train_kl_div: 1004375.7229
+2021-08-21 07:41:56,883 | MNIST: Epoch: 17 | Train Loss: 13071.2891 | Train Acc: 0.9643 | Val Loss: 14817.2972 | Val Acc: 0.9464 | train_kl_div: 1127359.0191
+2021-08-21 07:42:05,677 | MNIST: Epoch: 18 | Train Loss: 15015.7529 | Train Acc: 0.9612 | Val Loss: 15844.4458 | Val Acc: 0.9408 | train_kl_div: 1262612.8463
+2021-08-21 07:42:14,263 | MNIST: Epoch: 19 | Train Loss: 16638.9043 | Train Acc: 0.9581 | Val Loss: 16648.4939 | Val Acc: 0.9437 | train_kl_div: 1406582.3769
+2021-08-21 07:42:22,864 | MNIST: Epoch: 20 | Train Loss: 18490.1230 | Train Acc: 0.9554 | Val Loss: 17850.3966 | Val Acc: 0.9394 | train_kl_div: 1561252.2608
+2021-08-21 07:42:50,840 | MNIST: Prep | Loading datasets...
+2021-08-21 07:42:54,692 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 07:42:54,692 | MNIST: Prep | Loading model...
+2021-08-21 07:42:57,626 | MNIST: Prep | Model loaded!
+2021-08-21 07:42:57,677 | MNIST: Prep | Model weight loaded!
+2021-08-21 07:42:57,677 | MNIST: Train | Training...
+2021-08-21 07:43:07,364 | MNIST: Epoch: 0 | Train Loss: 3783.6799 | Train Acc: 0.9998 | Val Loss: 4432.2392 | Val Acc: 0.9842 | train_kl_div: 731770.4066
+2021-08-21 07:43:16,872 | MNIST: Epoch: 1 | Train Loss: 3770.5278 | Train Acc: 0.9997 | Val Loss: 4129.6363 | Val Acc: 0.9852 | train_kl_div: 730705.4471
+2021-08-21 07:43:26,412 | MNIST: Epoch: 2 | Train Loss: 3758.5364 | Train Acc: 0.9999 | Val Loss: 4339.8679 | Val Acc: 0.9849 | train_kl_div: 729630.8638
+2021-08-21 07:43:35,852 | MNIST: Epoch: 3 | Train Loss: 3750.3333 | Train Acc: 0.9999 | Val Loss: 4377.9130 | Val Acc: 0.9852 | train_kl_div: 728547.9506
+2021-08-21 07:43:45,372 | MNIST: Epoch: 4 | Train Loss: 3739.5876 | Train Acc: 0.9999 | Val Loss: 4539.5856 | Val Acc: 0.9852 | train_kl_div: 727459.9330
+2021-08-21 07:43:54,814 | MNIST: Epoch: 5 | Train Loss: 3730.1177 | Train Acc: 0.9999 | Val Loss: 4353.3640 | Val Acc: 0.9835 | train_kl_div: 726372.6747
+2021-08-21 07:44:04,016 | MNIST: Epoch: 6 | Train Loss: 3731.7986 | Train Acc: 0.9999 | Val Loss: 4246.7563 | Val Acc: 0.9851 | train_kl_div: 725277.1457
+2021-08-21 07:44:12,885 | MNIST: Epoch: 7 | Train Loss: 3716.3533 | Train Acc: 1.0000 | Val Loss: 4128.5787 | Val Acc: 0.9834 | train_kl_div: 724186.1827
+2021-08-21 07:44:22,344 | MNIST: Epoch: 8 | Train Loss: 3716.5269 | Train Acc: 0.9999 | Val Loss: 4221.1078 | Val Acc: 0.9837 | train_kl_div: 723091.1916
+2021-08-21 07:44:30,949 | MNIST: Epoch: 9 | Train Loss: 3707.8813 | Train Acc: 0.9999 | Val Loss: 4192.3758 | Val Acc: 0.9865 | train_kl_div: 721992.5475
+2021-08-21 07:44:40,427 | MNIST: Epoch: 10 | Train Loss: 3702.1736 | Train Acc: 1.0000 | Val Loss: 4267.8629 | Val Acc: 0.9857 | train_kl_div: 720893.0134
+2021-08-21 07:44:49,664 | MNIST: Epoch: 11 | Train Loss: 3696.1331 | Train Acc: 0.9999 | Val Loss: 4666.6069 | Val Acc: 0.9832 | train_kl_div: 719793.7245
+2021-08-21 07:44:58,719 | MNIST: Epoch: 12 | Train Loss: 3689.8291 | Train Acc: 0.9999 | Val Loss: 4294.5368 | Val Acc: 0.9841 | train_kl_div: 718692.1135
+2021-08-21 07:45:07,951 | MNIST: Epoch: 13 | Train Loss: 3687.1936 | Train Acc: 0.9999 | Val Loss: 4118.6023 | Val Acc: 0.9861 | train_kl_div: 717591.0998
+2021-08-21 07:45:17,061 | MNIST: Epoch: 14 | Train Loss: 3677.4841 | Train Acc: 0.9999 | Val Loss: 4514.7496 | Val Acc: 0.9817 | train_kl_div: 716491.2564
+2021-08-21 07:45:26,357 | MNIST: Epoch: 15 | Train Loss: 3670.1436 | Train Acc: 1.0000 | Val Loss: 4586.1168 | Val Acc: 0.9835 | train_kl_div: 715387.4815
+2021-08-21 07:45:34,939 | MNIST: Epoch: 16 | Train Loss: 3669.6152 | Train Acc: 0.9999 | Val Loss: 4347.5113 | Val Acc: 0.9842 | train_kl_div: 714281.9885
+2021-08-21 07:45:43,783 | MNIST: Epoch: 17 | Train Loss: 3658.9678 | Train Acc: 1.0000 | Val Loss: 4404.2585 | Val Acc: 0.9839 | train_kl_div: 713184.0408
+2021-08-21 07:45:52,651 | MNIST: Epoch: 18 | Train Loss: 3651.6206 | Train Acc: 1.0000 | Val Loss: 4454.4754 | Val Acc: 0.9840 | train_kl_div: 712084.4850
+2021-08-21 07:46:02,089 | MNIST: Epoch: 19 | Train Loss: 3652.0793 | Train Acc: 0.9999 | Val Loss: 4287.1719 | Val Acc: 0.9864 | train_kl_div: 710981.8868
+2021-08-21 07:46:11,215 | MNIST: Epoch: 20 | Train Loss: 3638.5479 | Train Acc: 1.0000 | Val Loss: 4099.9059 | Val Acc: 0.9845 | train_kl_div: 709878.9697
+2021-08-21 07:46:19,914 | MNIST: Epoch: 21 | Train Loss: 3634.0852 | Train Acc: 0.9999 | Val Loss: 4195.9240 | Val Acc: 0.9846 | train_kl_div: 708774.5274
+2021-08-21 07:46:28,416 | MNIST: Epoch: 22 | Train Loss: 3631.7866 | Train Acc: 0.9999 | Val Loss: 4542.7755 | Val Acc: 0.9819 | train_kl_div: 707670.8160
+2021-08-21 07:46:38,169 | MNIST: Epoch: 23 | Train Loss: 3625.2175 | Train Acc: 1.0000 | Val Loss: 4316.0961 | Val Acc: 0.9846 | train_kl_div: 706570.7994
+2021-08-21 07:46:47,069 | MNIST: Epoch: 24 | Train Loss: 3616.8684 | Train Acc: 1.0000 | Val Loss: 4301.2683 | Val Acc: 0.9834 | train_kl_div: 705469.5073
+2021-08-21 07:46:55,673 | MNIST: Epoch: 25 | Train Loss: 3613.3333 | Train Acc: 1.0000 | Val Loss: 4089.7245 | Val Acc: 0.9835 | train_kl_div: 704364.6814
+2021-08-21 07:47:04,466 | MNIST: Epoch: 26 | Train Loss: 3608.3633 | Train Acc: 1.0000 | Val Loss: 4458.6962 | Val Acc: 0.9829 | train_kl_div: 703264.5555
+2021-08-21 07:47:13,843 | MNIST: Epoch: 27 | Train Loss: 3602.8606 | Train Acc: 1.0000 | Val Loss: 4586.1584 | Val Acc: 0.9837 | train_kl_div: 702160.5778
+2021-08-21 07:47:23,162 | MNIST: Epoch: 28 | Train Loss: 3596.3960 | Train Acc: 0.9999 | Val Loss: 4176.3312 | Val Acc: 0.9840 | train_kl_div: 701057.3055
+2021-08-21 07:47:32,076 | MNIST: Epoch: 29 | Train Loss: 3591.8269 | Train Acc: 0.9999 | Val Loss: 4232.1435 | Val Acc: 0.9824 | train_kl_div: 699960.0890
+2021-08-21 07:47:41,488 | MNIST: Epoch: 30 | Train Loss: 3580.2764 | Train Acc: 1.0000 | Val Loss: 4290.5627 | Val Acc: 0.9828 | train_kl_div: 698863.7124
+2021-08-21 07:47:50,194 | MNIST: Epoch: 31 | Train Loss: 3577.3750 | Train Acc: 1.0000 | Val Loss: 4410.7361 | Val Acc: 0.9838 | train_kl_div: 697759.5539
+2021-08-21 07:47:59,344 | MNIST: Epoch: 32 | Train Loss: 3573.0947 | Train Acc: 0.9999 | Val Loss: 4314.2878 | Val Acc: 0.9852 | train_kl_div: 696661.7105
+2021-08-21 07:48:08,779 | MNIST: Epoch: 33 | Train Loss: 3564.4785 | Train Acc: 1.0000 | Val Loss: 4231.6094 | Val Acc: 0.9844 | train_kl_div: 695565.4404
+2021-08-21 07:48:17,318 | MNIST: Epoch: 34 | Train Loss: 3564.2710 | Train Acc: 1.0000 | Val Loss: 4455.6553 | Val Acc: 0.9832 | train_kl_div: 694466.6527
+2021-08-21 07:48:26,635 | MNIST: Epoch: 35 | Train Loss: 3552.8562 | Train Acc: 1.0000 | Val Loss: 4459.9173 | Val Acc: 0.9851 | train_kl_div: 693370.2758
+2021-08-21 07:48:35,905 | MNIST: Epoch: 36 | Train Loss: 3544.2417 | Train Acc: 1.0000 | Val Loss: 4573.3805 | Val Acc: 0.9848 | train_kl_div: 692269.2207
+2021-08-21 07:48:44,359 | MNIST: Epoch: 37 | Train Loss: 3537.5188 | Train Acc: 1.0000 | Val Loss: 4370.4930 | Val Acc: 0.9851 | train_kl_div: 691318.6754
+2021-08-21 07:48:52,929 | MNIST: Epoch: 38 | Train Loss: 3532.9258 | Train Acc: 1.0000 | Val Loss: 4179.4531 | Val Acc: 0.9829 | train_kl_div: 690441.5029
+2021-08-21 07:49:02,217 | MNIST: Epoch: 39 | Train Loss: 3537.7231 | Train Acc: 0.9999 | Val Loss: 4594.0178 | Val Acc: 0.9811 | train_kl_div: 689557.8549
+2021-08-21 07:49:32,730 | MNIST: Prep | Loading datasets...
+2021-08-21 07:49:36,680 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 07:49:36,680 | MNIST: Prep | Loading model...
+2021-08-21 07:49:39,611 | MNIST: Prep | Model loaded!
+2021-08-21 07:49:39,652 | MNIST: Prep | Model weight loaded!
+2021-08-21 07:49:39,652 | MNIST: Train | Training...
+2021-08-21 07:49:49,377 | MNIST: Epoch: 0 | Train Loss: 3783.6799 | Train Acc: 0.9998 | Val Loss: 4432.2392 | Val Acc: 0.9842 | train_kl_div: 731770.4066
+2021-08-21 07:49:58,410 | MNIST: Epoch: 1 | Train Loss: 3770.5278 | Train Acc: 0.9997 | Val Loss: 4129.6363 | Val Acc: 0.9852 | train_kl_div: 730705.4471
+2021-08-21 07:49:58,410 | MNIST: Val Acc ⬆ (0.9849 --> 0.9852).  Saving model ...
+2021-08-21 07:50:07,683 | MNIST: Epoch: 2 | Train Loss: 3758.5364 | Train Acc: 0.9999 | Val Loss: 4339.8679 | Val Acc: 0.9849 | train_kl_div: 729630.8638
+2021-08-21 07:50:16,912 | MNIST: Epoch: 3 | Train Loss: 3750.3333 | Train Acc: 0.9999 | Val Loss: 4377.9130 | Val Acc: 0.9852 | train_kl_div: 728547.9506
+2021-08-21 07:50:26,169 | MNIST: Epoch: 4 | Train Loss: 3739.5876 | Train Acc: 0.9999 | Val Loss: 4539.5856 | Val Acc: 0.9852 | train_kl_div: 727459.9330
+2021-08-21 07:50:34,676 | MNIST: Epoch: 5 | Train Loss: 3730.1177 | Train Acc: 0.9999 | Val Loss: 4353.3640 | Val Acc: 0.9835 | train_kl_div: 726372.6747
+2021-08-21 07:50:44,499 | MNIST: Epoch: 6 | Train Loss: 3731.7986 | Train Acc: 0.9999 | Val Loss: 4246.7563 | Val Acc: 0.9851 | train_kl_div: 725277.1457
+2021-08-21 07:50:54,051 | MNIST: Epoch: 7 | Train Loss: 3716.3533 | Train Acc: 1.0000 | Val Loss: 4128.5787 | Val Acc: 0.9834 | train_kl_div: 724186.1827
+2021-08-21 07:51:03,219 | MNIST: Epoch: 8 | Train Loss: 3716.5269 | Train Acc: 0.9999 | Val Loss: 4221.1078 | Val Acc: 0.9837 | train_kl_div: 723091.1916
+2021-08-21 07:51:12,431 | MNIST: Epoch: 9 | Train Loss: 3707.8813 | Train Acc: 0.9999 | Val Loss: 4192.3758 | Val Acc: 0.9865 | train_kl_div: 721992.5475
+2021-08-21 07:51:12,431 | MNIST: Val Acc ⬆ (0.9852 --> 0.9865).  Saving model ...
+2021-08-21 07:51:22,136 | MNIST: Epoch: 10 | Train Loss: 3702.1736 | Train Acc: 1.0000 | Val Loss: 4267.8629 | Val Acc: 0.9857 | train_kl_div: 720893.0134
+2021-08-21 07:51:31,420 | MNIST: Epoch: 11 | Train Loss: 3696.1331 | Train Acc: 0.9999 | Val Loss: 4666.6069 | Val Acc: 0.9832 | train_kl_div: 719793.7245
+2021-08-21 07:51:40,069 | MNIST: Epoch: 12 | Train Loss: 3689.8291 | Train Acc: 0.9999 | Val Loss: 4294.5368 | Val Acc: 0.9841 | train_kl_div: 718692.1135
+2021-08-21 07:51:48,682 | MNIST: Epoch: 13 | Train Loss: 3687.1936 | Train Acc: 0.9999 | Val Loss: 4118.6023 | Val Acc: 0.9861 | train_kl_div: 717591.0998
+2021-08-21 07:51:57,172 | MNIST: Epoch: 14 | Train Loss: 3677.4841 | Train Acc: 0.9999 | Val Loss: 4514.7496 | Val Acc: 0.9817 | train_kl_div: 716491.2564
+2021-08-21 07:52:05,589 | MNIST: Epoch: 15 | Train Loss: 3670.1436 | Train Acc: 1.0000 | Val Loss: 4586.1168 | Val Acc: 0.9835 | train_kl_div: 715387.4815
+2021-08-21 07:52:14,781 | MNIST: Epoch: 16 | Train Loss: 3669.6152 | Train Acc: 0.9999 | Val Loss: 4347.5113 | Val Acc: 0.9842 | train_kl_div: 714281.9885
+2021-08-21 07:52:23,697 | MNIST: Epoch: 17 | Train Loss: 3658.9678 | Train Acc: 1.0000 | Val Loss: 4404.2585 | Val Acc: 0.9839 | train_kl_div: 713184.0408
+2021-08-21 07:52:32,963 | MNIST: Epoch: 18 | Train Loss: 3651.6206 | Train Acc: 1.0000 | Val Loss: 4454.4754 | Val Acc: 0.9840 | train_kl_div: 712084.4850
+2021-08-21 07:52:42,367 | MNIST: Epoch: 19 | Train Loss: 3652.0793 | Train Acc: 0.9999 | Val Loss: 4287.1719 | Val Acc: 0.9864 | train_kl_div: 710981.8868
+2021-08-21 07:52:51,556 | MNIST: Epoch: 20 | Train Loss: 3638.5479 | Train Acc: 1.0000 | Val Loss: 4099.9059 | Val Acc: 0.9845 | train_kl_div: 709878.9697
+2021-08-21 07:53:00,586 | MNIST: Epoch: 21 | Train Loss: 3634.0852 | Train Acc: 0.9999 | Val Loss: 4195.9240 | Val Acc: 0.9846 | train_kl_div: 708774.5274
+2021-08-21 07:53:09,676 | MNIST: Epoch: 22 | Train Loss: 3631.7866 | Train Acc: 0.9999 | Val Loss: 4542.7755 | Val Acc: 0.9819 | train_kl_div: 707670.8160
+2021-08-21 07:53:18,104 | MNIST: Epoch: 23 | Train Loss: 3625.2175 | Train Acc: 1.0000 | Val Loss: 4316.0961 | Val Acc: 0.9846 | train_kl_div: 706570.7994
+2021-08-21 07:53:26,943 | MNIST: Epoch: 24 | Train Loss: 3616.8684 | Train Acc: 1.0000 | Val Loss: 4301.2683 | Val Acc: 0.9834 | train_kl_div: 705469.5073
+2021-08-21 07:53:36,152 | MNIST: Epoch: 25 | Train Loss: 3613.3333 | Train Acc: 1.0000 | Val Loss: 4089.7245 | Val Acc: 0.9835 | train_kl_div: 704364.6814
+2021-08-21 07:53:45,096 | MNIST: Epoch: 26 | Train Loss: 3608.3633 | Train Acc: 1.0000 | Val Loss: 4458.6962 | Val Acc: 0.9829 | train_kl_div: 703264.5555
+2021-08-21 07:53:53,942 | MNIST: Epoch: 27 | Train Loss: 3602.8606 | Train Acc: 1.0000 | Val Loss: 4586.1584 | Val Acc: 0.9837 | train_kl_div: 702160.5778
+2021-08-21 07:54:03,518 | MNIST: Epoch: 28 | Train Loss: 3596.3960 | Train Acc: 0.9999 | Val Loss: 4176.3312 | Val Acc: 0.9840 | train_kl_div: 701057.3055
+2021-08-21 07:54:11,889 | MNIST: Epoch: 29 | Train Loss: 3591.8269 | Train Acc: 0.9999 | Val Loss: 4232.1435 | Val Acc: 0.9824 | train_kl_div: 699960.0890
+2021-08-21 07:54:20,445 | MNIST: Epoch: 30 | Train Loss: 3580.2764 | Train Acc: 1.0000 | Val Loss: 4290.5627 | Val Acc: 0.9828 | train_kl_div: 698863.7124
+2021-08-21 07:54:29,679 | MNIST: Epoch: 31 | Train Loss: 3577.3750 | Train Acc: 1.0000 | Val Loss: 4410.7361 | Val Acc: 0.9838 | train_kl_div: 697759.5539
+2021-08-21 07:54:38,554 | MNIST: Epoch: 32 | Train Loss: 3573.0947 | Train Acc: 0.9999 | Val Loss: 4314.2878 | Val Acc: 0.9852 | train_kl_div: 696661.7105
+2021-08-21 07:54:47,282 | MNIST: Epoch: 33 | Train Loss: 3564.4785 | Train Acc: 1.0000 | Val Loss: 4231.6094 | Val Acc: 0.9844 | train_kl_div: 695565.4404
+2021-08-21 07:54:55,886 | MNIST: Epoch: 34 | Train Loss: 3564.2710 | Train Acc: 1.0000 | Val Loss: 4455.6553 | Val Acc: 0.9832 | train_kl_div: 694466.6527
+2021-08-21 07:55:04,796 | MNIST: Epoch: 35 | Train Loss: 3552.8562 | Train Acc: 1.0000 | Val Loss: 4459.9173 | Val Acc: 0.9851 | train_kl_div: 693370.2758
+2021-08-21 07:55:14,221 | MNIST: Epoch: 36 | Train Loss: 3544.2417 | Train Acc: 1.0000 | Val Loss: 4573.3805 | Val Acc: 0.9848 | train_kl_div: 692269.2207
+2021-08-21 07:55:22,850 | MNIST: Epoch: 37 | Train Loss: 3537.5188 | Train Acc: 1.0000 | Val Loss: 4370.4930 | Val Acc: 0.9851 | train_kl_div: 691318.6754
+2021-08-21 07:55:31,575 | MNIST: Epoch: 38 | Train Loss: 3532.9258 | Train Acc: 1.0000 | Val Loss: 4179.4531 | Val Acc: 0.9829 | train_kl_div: 690441.5029
+2021-08-21 07:55:41,010 | MNIST: Epoch: 39 | Train Loss: 3537.7231 | Train Acc: 0.9999 | Val Loss: 4594.0178 | Val Acc: 0.9811 | train_kl_div: 689557.8549
+2021-08-21 07:55:49,892 | MNIST: Epoch: 40 | Train Loss: 3530.9968 | Train Acc: 1.0000 | Val Loss: 4334.8547 | Val Acc: 0.9851 | train_kl_div: 688691.3434
+2021-08-21 07:55:58,688 | MNIST: Epoch: 41 | Train Loss: 3529.3909 | Train Acc: 0.9999 | Val Loss: 4379.8728 | Val Acc: 0.9842 | train_kl_div: 687826.8275
+2021-08-21 07:56:07,258 | MNIST: Epoch: 42 | Train Loss: 3521.9834 | Train Acc: 0.9999 | Val Loss: 4247.6153 | Val Acc: 0.9846 | train_kl_div: 686967.1907
+2021-08-21 07:56:16,325 | MNIST: Epoch: 43 | Train Loss: 3520.0034 | Train Acc: 1.0000 | Val Loss: 4286.4463 | Val Acc: 0.9835 | train_kl_div: 686112.1145
+2021-08-21 07:56:25,373 | MNIST: Epoch: 44 | Train Loss: 3513.4167 | Train Acc: 1.0000 | Val Loss: 4154.2745 | Val Acc: 0.9858 | train_kl_div: 685261.0609
+2021-08-21 07:56:34,040 | MNIST: Epoch: 45 | Train Loss: 3516.1936 | Train Acc: 0.9999 | Val Loss: 4177.1700 | Val Acc: 0.9846 | train_kl_div: 684407.0969
+2021-08-21 07:56:43,711 | MNIST: Epoch: 46 | Train Loss: 3506.6233 | Train Acc: 0.9999 | Val Loss: 4459.9931 | Val Acc: 0.9836 | train_kl_div: 683560.1390
+2021-08-21 07:56:53,023 | MNIST: Epoch: 47 | Train Loss: 3500.3020 | Train Acc: 1.0000 | Val Loss: 4477.8416 | Val Acc: 0.9826 | train_kl_div: 682717.8890
+2021-08-21 07:57:01,933 | MNIST: Epoch: 48 | Train Loss: 3499.1384 | Train Acc: 1.0000 | Val Loss: 4699.9861 | Val Acc: 0.9841 | train_kl_div: 681991.4541
+2021-08-21 07:57:10,334 | MNIST: Epoch: 49 | Train Loss: 3494.2534 | Train Acc: 1.0000 | Val Loss: 4355.1767 | Val Acc: 0.9840 | train_kl_div: 681325.1853
+2021-08-21 07:57:18,845 | MNIST: Epoch: 50 | Train Loss: 3491.2761 | Train Acc: 0.9999 | Val Loss: 4384.7347 | Val Acc: 0.9860 | train_kl_div: 680661.8029
+2021-08-21 07:57:27,767 | MNIST: Epoch: 51 | Train Loss: 3487.3628 | Train Acc: 1.0000 | Val Loss: 4449.7654 | Val Acc: 0.9863 | train_kl_div: 679999.2143
+2021-08-21 07:57:37,397 | MNIST: Epoch: 52 | Train Loss: 3487.4023 | Train Acc: 0.9999 | Val Loss: 4550.3336 | Val Acc: 0.9841 | train_kl_div: 679338.1508
+2021-08-21 07:57:48,239 | MNIST: Epoch: 53 | Train Loss: 3486.3865 | Train Acc: 0.9999 | Val Loss: 4468.5878 | Val Acc: 0.9835 | train_kl_div: 678679.4541
+2021-08-21 07:57:57,179 | MNIST: Epoch: 54 | Train Loss: 3474.9456 | Train Acc: 1.0000 | Val Loss: 4298.1174 | Val Acc: 0.9849 | train_kl_div: 678027.2730
+2021-08-21 07:58:05,552 | MNIST: Epoch: 55 | Train Loss: 3474.7407 | Train Acc: 0.9999 | Val Loss: 4563.5566 | Val Acc: 0.9843 | train_kl_div: 677374.0459
+2021-08-21 07:58:14,832 | MNIST: Epoch: 56 | Train Loss: 3469.4753 | Train Acc: 1.0000 | Val Loss: 4321.5371 | Val Acc: 0.9840 | train_kl_div: 676722.0507
+2021-08-21 07:58:24,438 | MNIST: Epoch: 57 | Train Loss: 3471.7065 | Train Acc: 0.9999 | Val Loss: 4324.3030 | Val Acc: 0.9856 | train_kl_div: 676069.6049
+2021-08-21 07:58:33,247 | MNIST: Epoch: 58 | Train Loss: 3469.1572 | Train Acc: 0.9999 | Val Loss: 4291.3989 | Val Acc: 0.9819 | train_kl_div: 675425.7761
+2021-08-21 07:58:42,207 | MNIST: Epoch: 59 | Train Loss: 3459.6460 | Train Acc: 1.0000 | Val Loss: 4383.8169 | Val Acc: 0.9824 | train_kl_div: 674877.2959
+2021-08-21 07:58:51,346 | MNIST: Epoch: 60 | Train Loss: 3461.5554 | Train Acc: 0.9999 | Val Loss: 4388.5849 | Val Acc: 0.9835 | train_kl_div: 674376.9050
+2021-08-21 07:59:00,603 | MNIST: Epoch: 61 | Train Loss: 3454.6497 | Train Acc: 1.0000 | Val Loss: 4266.1586 | Val Acc: 0.9854 | train_kl_div: 673879.1642
+2021-08-21 07:59:09,674 | MNIST: Epoch: 62 | Train Loss: 3460.5862 | Train Acc: 0.9999 | Val Loss: 4343.5004 | Val Acc: 0.9848 | train_kl_div: 673378.4541
+2021-08-21 07:59:18,588 | MNIST: Epoch: 63 | Train Loss: 3452.2874 | Train Acc: 0.9999 | Val Loss: 4491.2979 | Val Acc: 0.9828 | train_kl_div: 672882.4318
+2021-08-21 07:59:27,649 | MNIST: Epoch: 64 | Train Loss: 3448.0642 | Train Acc: 1.0000 | Val Loss: 4606.6768 | Val Acc: 0.9837 | train_kl_div: 672389.7439
+2021-08-21 07:59:36,310 | MNIST: Epoch: 65 | Train Loss: 3444.6514 | Train Acc: 1.0000 | Val Loss: 4188.0084 | Val Acc: 0.9862 | train_kl_div: 671894.0596
+2021-08-21 07:59:45,376 | MNIST: Epoch: 66 | Train Loss: 3444.1113 | Train Acc: 1.0000 | Val Loss: 4406.1326 | Val Acc: 0.9828 | train_kl_div: 671395.8603
+2021-08-21 07:59:55,034 | MNIST: Epoch: 67 | Train Loss: 3442.9385 | Train Acc: 0.9999 | Val Loss: 4383.4513 | Val Acc: 0.9829 | train_kl_div: 670899.3198
+2021-08-21 08:00:03,645 | MNIST: Epoch: 68 | Train Loss: 3441.3669 | Train Acc: 0.9999 | Val Loss: 4061.4167 | Val Acc: 0.9868 | train_kl_div: 670405.3428
+2021-08-21 08:00:03,646 | MNIST: Val Acc ⬆ (0.9865 --> 0.9868).  Saving model ...
+2021-08-21 08:00:12,831 | MNIST: Epoch: 69 | Train Loss: 3433.7917 | Train Acc: 1.0000 | Val Loss: 4706.0424 | Val Acc: 0.9827 | train_kl_div: 669911.7624
+2021-08-21 08:00:21,371 | MNIST: Epoch: 70 | Train Loss: 3433.7800 | Train Acc: 0.9999 | Val Loss: 4531.4780 | Val Acc: 0.9823 | train_kl_div: 669415.7701
+2021-08-21 08:00:30,022 | MNIST: Epoch: 71 | Train Loss: 3431.2874 | Train Acc: 0.9999 | Val Loss: 4346.4009 | Val Acc: 0.9844 | train_kl_div: 668921.2436
+2021-08-21 08:00:38,822 | MNIST: Epoch: 72 | Train Loss: 3429.0820 | Train Acc: 0.9999 | Val Loss: 4300.2834 | Val Acc: 0.9852 | train_kl_div: 668424.9174
+2021-08-21 08:00:47,529 | MNIST: Epoch: 73 | Train Loss: 3424.8323 | Train Acc: 0.9999 | Val Loss: 4368.7994 | Val Acc: 0.9828 | train_kl_div: 667929.5867
+2021-08-21 08:00:56,329 | MNIST: Epoch: 74 | Train Loss: 3418.9602 | Train Acc: 1.0000 | Val Loss: 4633.2740 | Val Acc: 0.9849 | train_kl_div: 667432.9573
+2021-08-21 08:01:05,648 | MNIST: Epoch: 75 | Train Loss: 3432.2373 | Train Acc: 0.9998 | Val Loss: 4383.1284 | Val Acc: 0.9834 | train_kl_div: 666933.9206
+2021-08-21 08:01:14,084 | MNIST: Epoch: 76 | Train Loss: 3422.4155 | Train Acc: 0.9999 | Val Loss: 4252.1246 | Val Acc: 0.9844 | train_kl_div: 666442.4640
+2021-08-21 08:01:23,390 | MNIST: Epoch: 77 | Train Loss: 3415.0591 | Train Acc: 0.9999 | Val Loss: 4722.9649 | Val Acc: 0.9829 | train_kl_div: 665953.3042
+2021-08-21 08:01:31,953 | MNIST: Epoch: 78 | Train Loss: 3413.3469 | Train Acc: 0.9999 | Val Loss: 4236.7633 | Val Acc: 0.9837 | train_kl_div: 665461.5784
+2021-08-21 08:01:40,513 | MNIST: Epoch: 79 | Train Loss: 3411.0334 | Train Acc: 0.9999 | Val Loss: 4162.0031 | Val Acc: 0.9858 | train_kl_div: 664973.7452
+2021-08-21 08:01:49,095 | MNIST: Epoch: 80 | Train Loss: 3413.9153 | Train Acc: 0.9999 | Val Loss: 4686.0693 | Val Acc: 0.9812 | train_kl_div: 664548.1177
+2021-08-21 08:01:58,237 | MNIST: Epoch: 81 | Train Loss: 3403.1782 | Train Acc: 1.0000 | Val Loss: 4480.4587 | Val Acc: 0.9817 | train_kl_div: 664151.1578
+2021-08-21 08:02:07,414 | MNIST: Epoch: 82 | Train Loss: 3402.0896 | Train Acc: 1.0000 | Val Loss: 4373.3639 | Val Acc: 0.9856 | train_kl_div: 663753.8064
+2021-08-21 08:02:16,220 | MNIST: Epoch: 83 | Train Loss: 3404.8508 | Train Acc: 0.9999 | Val Loss: 4752.0103 | Val Acc: 0.9831 | train_kl_div: 663355.3820
+2021-08-21 08:02:25,554 | MNIST: Epoch: 84 | Train Loss: 3399.6501 | Train Acc: 1.0000 | Val Loss: 4469.4447 | Val Acc: 0.9842 | train_kl_div: 662956.5156
+2021-08-21 08:03:14,720 | MNIST: Prep | Loading datasets...
+2021-08-21 08:03:18,601 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 08:03:18,601 | MNIST: Prep | Loading model...
+2021-08-21 08:03:21,533 | MNIST: Prep | Model loaded!
+2021-08-21 08:03:21,576 | MNIST: Prep | Model weight loaded!
+2021-08-21 08:03:21,576 | MNIST: Train | Training...
+2021-08-21 08:03:31,258 | MNIST: Epoch: 0 | Train Loss: 3429.5962 | Train Acc: 1.0000 | Val Loss: 3503.0853 | Val Acc: 0.9856 | train_kl_div: 669626.1142
+2021-08-21 08:03:41,712 | MNIST: Epoch: 1 | Train Loss: 3431.6289 | Train Acc: 1.0000 | Val Loss: 3362.6222 | Val Acc: 0.9854 | train_kl_div: 668551.0641
+2021-08-21 08:03:51,694 | MNIST: Epoch: 2 | Train Loss: 3421.7659 | Train Acc: 1.0000 | Val Loss: 3214.5393 | Val Acc: 0.9852 | train_kl_div: 667483.8211
+2021-08-21 08:04:02,164 | MNIST: Epoch: 3 | Train Loss: 3426.1965 | Train Acc: 0.9999 | Val Loss: 3530.8560 | Val Acc: 0.9854 | train_kl_div: 666410.9882
+2021-08-21 08:04:12,011 | MNIST: Epoch: 4 | Train Loss: 3412.6919 | Train Acc: 0.9999 | Val Loss: 3285.7217 | Val Acc: 0.9856 | train_kl_div: 665368.1502
+2021-08-21 08:04:21,911 | MNIST: Epoch: 5 | Train Loss: 3408.4211 | Train Acc: 1.0000 | Val Loss: 3284.2201 | Val Acc: 0.9847 | train_kl_div: 664327.2848
+2021-08-21 08:04:32,443 | MNIST: Epoch: 6 | Train Loss: 3405.1855 | Train Acc: 0.9999 | Val Loss: 3369.4562 | Val Acc: 0.9854 | train_kl_div: 663285.8823
+2021-08-21 08:04:42,990 | MNIST: Epoch: 7 | Train Loss: 3399.6174 | Train Acc: 1.0000 | Val Loss: 3311.1362 | Val Acc: 0.9845 | train_kl_div: 662247.2152
+2021-08-21 08:04:52,907 | MNIST: Epoch: 8 | Train Loss: 3391.0552 | Train Acc: 1.0000 | Val Loss: 3380.0183 | Val Acc: 0.9850 | train_kl_div: 661213.7930
+2021-08-21 08:05:02,832 | MNIST: Epoch: 9 | Train Loss: 3384.8003 | Train Acc: 1.0000 | Val Loss: 3232.2156 | Val Acc: 0.9852 | train_kl_div: 660178.9018
+2021-08-21 08:05:12,554 | MNIST: Epoch: 10 | Train Loss: 3382.4792 | Train Acc: 0.9999 | Val Loss: 3323.3772 | Val Acc: 0.9874 | train_kl_div: 659147.7921
+2021-08-21 08:05:12,554 | MNIST: Val Acc ⬆ (0.9865 --> 0.9874).  Saving model ...
+2021-08-21 08:05:22,390 | MNIST: Epoch: 11 | Train Loss: 3378.5781 | Train Acc: 1.0000 | Val Loss: 3345.0179 | Val Acc: 0.9850 | train_kl_div: 658122.0676
+2021-08-21 08:05:32,347 | MNIST: Epoch: 12 | Train Loss: 3372.4785 | Train Acc: 0.9999 | Val Loss: 3203.8332 | Val Acc: 0.9880 | train_kl_div: 657108.4802
+2021-08-21 08:05:32,347 | MNIST: Val Acc ⬆ (0.9874 --> 0.9880).  Saving model ...
+2021-08-21 08:05:41,982 | MNIST: Prep | Loading datasets...
+2021-08-21 08:05:42,355 | MNIST: Epoch: 13 | Train Loss: 3370.3010 | Train Acc: 0.9999 | Val Loss: 3376.6163 | Val Acc: 0.9852 | train_kl_div: 656097.6368
+2021-08-21 08:05:46,208 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 08:05:46,209 | MNIST: Prep | Loading model...
+2021-08-21 08:05:49,086 | MNIST: Prep | Model loaded!
+2021-08-21 08:05:49,131 | MNIST: Prep | Model weight loaded!
+2021-08-21 08:05:49,132 | MNIST: Eval | Evaluating...
+2021-08-21 08:05:51,773 | MNIST: Eval | Test loss: 2990.0868041321637 | Test acc:0.98681640625 | Test error:1.318359375
+2021-08-21 08:05:52,982 | MNIST: Epoch: 14 | Train Loss: 3360.4866 | Train Acc: 0.9999 | Val Loss: 3269.4545 | Val Acc: 0.9856 | train_kl_div: 655096.1687
+2021-08-21 08:06:03,086 | MNIST: Epoch: 15 | Train Loss: 3359.8997 | Train Acc: 0.9999 | Val Loss: 3314.6869 | Val Acc: 0.9852 | train_kl_div: 654096.0711
+2021-08-21 08:06:13,399 | MNIST: Epoch: 16 | Train Loss: 3345.8958 | Train Acc: 1.0000 | Val Loss: 3288.3282 | Val Acc: 0.9855 | train_kl_div: 653097.9994
+2021-08-21 08:06:23,045 | MNIST: Epoch: 17 | Train Loss: 3348.2832 | Train Acc: 0.9999 | Val Loss: 3236.4879 | Val Acc: 0.9873 | train_kl_div: 652095.5558
+2021-08-21 08:06:32,835 | MNIST: Epoch: 18 | Train Loss: 3339.6780 | Train Acc: 0.9999 | Val Loss: 3397.5629 | Val Acc: 0.9850 | train_kl_div: 651102.0915
+2021-08-21 08:06:43,053 | MNIST: Epoch: 19 | Train Loss: 3335.1877 | Train Acc: 1.0000 | Val Loss: 3276.5864 | Val Acc: 0.9850 | train_kl_div: 650101.5115
+2021-08-21 08:06:52,738 | MNIST: Epoch: 20 | Train Loss: 3333.4250 | Train Acc: 0.9999 | Val Loss: 3299.0173 | Val Acc: 0.9847 | train_kl_div: 649101.1046
+2021-08-21 08:07:02,853 | MNIST: Epoch: 21 | Train Loss: 3323.7727 | Train Acc: 1.0000 | Val Loss: 3314.2756 | Val Acc: 0.9847 | train_kl_div: 648103.7899
+2021-08-21 08:07:12,890 | MNIST: Epoch: 22 | Train Loss: 3324.4556 | Train Acc: 0.9999 | Val Loss: 3169.8187 | Val Acc: 0.9857 | train_kl_div: 647108.3224
+2021-08-21 08:07:23,253 | MNIST: Epoch: 23 | Train Loss: 3316.6355 | Train Acc: 1.0000 | Val Loss: 3332.1547 | Val Acc: 0.9842 | train_kl_div: 646115.6435
+2021-08-21 08:07:43,569 | MNIST: Epoch: 25 | Train Loss: 3301.7363 | Train Acc: 1.0000 | Val Loss: 3304.3940 | Val Acc: 0.9857 | train_kl_div: 644136.0405
+2021-08-21 08:07:53,932 | MNIST: Epoch: 26 | Train Loss: 3300.2598 | Train Acc: 0.9999 | Val Loss: 3247.5912 | Val Acc: 0.9854 | train_kl_div: 643140.7216
+2021-08-21 08:08:03,447 | MNIST: Epoch: 27 | Train Loss: 3296.0664 | Train Acc: 0.9999 | Val Loss: 3388.8237 | Val Acc: 0.9854 | train_kl_div: 642148.9381
+2021-08-21 08:08:13,267 | MNIST: Epoch: 28 | Train Loss: 3291.9841 | Train Acc: 1.0000 | Val Loss: 3487.2612 | Val Acc: 0.9853 | train_kl_div: 641161.0724
+2021-08-21 08:08:23,198 | MNIST: Epoch: 29 | Train Loss: 3289.4316 | Train Acc: 0.9999 | Val Loss: 3418.4535 | Val Acc: 0.9853 | train_kl_div: 640179.0443
+2021-08-21 08:08:33,688 | MNIST: Epoch: 30 | Train Loss: 3287.6667 | Train Acc: 0.9999 | Val Loss: 3342.2725 | Val Acc: 0.9850 | train_kl_div: 639202.7672
+2021-08-21 08:08:43,338 | MNIST: Epoch: 31 | Train Loss: 3272.9197 | Train Acc: 1.0000 | Val Loss: 3283.6890 | Val Acc: 0.9867 | train_kl_div: 638233.8916
+2021-08-21 08:08:53,226 | MNIST: Epoch: 32 | Train Loss: 3269.2227 | Train Acc: 1.0000 | Val Loss: 3291.8302 | Val Acc: 0.9850 | train_kl_div: 637257.9174
+2021-08-21 08:09:04,319 | MNIST: Epoch: 33 | Train Loss: 3267.6934 | Train Acc: 1.0000 | Val Loss: 3319.2929 | Val Acc: 0.9828 | train_kl_div: 636283.2085
+2021-08-21 08:09:14,359 | MNIST: Epoch: 34 | Train Loss: 3263.4722 | Train Acc: 0.9999 | Val Loss: 3327.2295 | Val Acc: 0.9856 | train_kl_div: 635455.0297
+2021-08-21 08:09:24,589 | MNIST: Epoch: 35 | Train Loss: 3255.5000 | Train Acc: 1.0000 | Val Loss: 3187.0241 | Val Acc: 0.9845 | train_kl_div: 634703.8182
+2021-08-21 08:09:34,725 | MNIST: Epoch: 36 | Train Loss: 3248.4438 | Train Acc: 1.0000 | Val Loss: 3386.2033 | Val Acc: 0.9847 | train_kl_div: 633951.1633
+2021-08-21 08:09:44,498 | MNIST: Epoch: 37 | Train Loss: 3250.5344 | Train Acc: 0.9999 | Val Loss: 3439.5099 | Val Acc: 0.9854 | train_kl_div: 633196.3578
+2021-08-21 08:09:54,620 | MNIST: Prep | Loading datasets...
+2021-08-21 08:09:55,057 | MNIST: Epoch: 38 | Train Loss: 3250.1904 | Train Acc: 0.9999 | Val Loss: 3448.9500 | Val Acc: 0.9855 | train_kl_div: 632447.8925
+2021-08-21 08:09:58,560 | MNIST: Prep | Train num:50000 | Val num:10000 | Test num:10000
+2021-08-21 08:09:58,560 | MNIST: Prep | Loading model...
+2021-08-21 08:10:01,618 | MNIST: Prep | Model loaded!
+2021-08-21 08:10:01,681 | MNIST: Prep | Model weight loaded!
+2021-08-21 08:10:01,681 | MNIST: Eval | Evaluating...
+2021-08-21 08:10:04,258 | MNIST: Eval | Test loss: 2990.0868041321637 | Test acc:0.98681640625 | Test error:1.318359375
