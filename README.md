@@ -16,11 +16,11 @@
 
 下面是跑了二百轮的指标，具体要达到精度还需要在跑会。
 
-![acc](./image/acc.png)
+![acc](./bayes_kl_paddle/image/acc.png)
 
-![test_error](./image/error.png)
+![test_error](./bayes_kl_paddle/image/error.png)
 
-![loss](./image/loss.png)
+![loss](./bayes_kl_paddle/image/loss.png)
 
 ## 三、数据集
 
