@@ -14,14 +14,6 @@
 
  MNIST测试集上，Test Error=1.3183%
 
-下面是跑了二百轮的指标，具体要达到精度还需要在跑会。
-
-![acc](./bayes_kl_paddle/image/acc.png)
-
-![test_error](./bayes_kl_paddle/image/error.png)
-
-![loss](./bayes_kl_paddle/image/loss.png)
-
 ## 三、数据集
 
 MNIST手写数字数据集，共有6w训练集、1w测试集，像素为32。本项目从训练集划出1w做为验证集，用于选择模型，并把所有像素除126作为预处理。
