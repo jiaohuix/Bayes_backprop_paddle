@@ -127,12 +127,13 @@ model:
 
 ### 7.1 相关信息
 
-| 数据集 | 模型                          | Test-error | 权重链接                                                     |
-| ------ | ----------------------------- | ---------- | ------------------------------------------------------------ |
-| MNIST  | bayesfc2-bbb(1200units/layer)  | 1.3183%    | [链接:](https://pan.baidu.com/s/1z_SIme8HOhrxqctBbJ-S1w)  提取码: opq3 |
-| MNIST  | bayesfc2-lrt(1200units/layer) | 1.3183%    | 同上                                                         |
+| 数据集  | 模型                          | Test-error | 权重链接                                                     |
+| ------- | ----------------------------- | ---------- | ------------------------------------------------------------ |
+| MNIST32 | bayesfc2-bbb(1200units/layer) | 1.3183%    | [链接:](https://pan.baidu.com/s/1luZ0ndOsPRJ0Xxcoe0F8aw)  提取码: yv6b |
+| MNIST28 | bayesfc2-bbb(1200units/layer) | 1.3183%    | [链接:](https://pan.baidu.com/s/1z_SIme8HOhrxqctBbJ-S1w)  提取码: opq3 |
+| MNIST28 | bayesfc2-lrt(1200units/layer) | 1.3183%    | 同上                                                         |
 
-注：用lrt加载bbb的权重能达到1.289%
+注：mnist28中用lrt加载bbb的权重能达到1.289%,而mist32的是第250轮保存的权重
 
 [aistudio地址](https://aistudio.baidu.com/aistudio/projectdetail/2291689?shared=1)
 
