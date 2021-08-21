@@ -96,7 +96,7 @@ data:
 hparas:
   seeds: 2021 # 随机种子
   start_epoch: 0 # 开始训练轮数
-  num_epochs: 600 # 总训练轮数
+  num_epochs: 500 # 总训练轮数
   batch_size: 256 # batch大小
   learning_strategy:
     lr_start: 1e-3 # 初始学习率        
