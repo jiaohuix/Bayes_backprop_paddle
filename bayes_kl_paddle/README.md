@@ -7,24 +7,15 @@
 
   传统的神经网络学习的权重w是个固定的值，而本文的贝叶斯神经网络学习的是权重的分布。该网络在推理时用蒙特卡罗法采样，生成多个不同的权重,然后对相同输入推理为不同概率分布，然后再取平均，相当于起到了集成模型的作用，本文认为潜在不确定性的权重能够提升网络的泛化能力。
 
-   本项目还原的是kumar-shridhar的repo，由于损失函数中kl用的是高斯的kl散度，故名为bayes_kl_paddle。
+​	本项目还原的是kumar-shridhar的repo，由于损失函数中kl用的是高斯的kl散度，故名为bayes_kl_paddle。
 
 ## 二、复现精度
  MNIST测试集上，Test Error=1.3183%
-
-下面是跑了二百轮的指标，具体要达到精度还需要在跑会。
-
-![acc](./image/acc.png)
-
-![test_error](./image/error.png)
-
-![loss](./image/loss.png)
-
 ## 三、数据集
 MNIST手写数字数据集，共有6w训练集、1w测试集，像素为28。本项目从训练集划出1w做为验证集，用于选择模型，并把所有像素除126作为预处理。
 ## 四、环境依赖
 - 硬件：
-  - Aistudio 至尊版本 V100（bbb）/ 3060(lrt)
+  - Aistudio 至尊版本 V100（mnist28 bbb）/ 3060(mnist28lrt，mnist32 bbb)
 - 框架
   - PaddlePaddle >=2.0.0
 
@@ -92,7 +83,7 @@ hparas:
   seeds: 2021 # 随机种子
   start_epoch: 0 # 开始训练轮数
   num_epochs: 600 # 总训练轮数
-  batch_size: 256 # batch大小
+  batch_size: 128 # batch大小
   learning_strategy:
     lr_start: 1e-3 # 初始学习率        
     lr_decay: 0.95 # 学习率衰减比
@@ -107,7 +98,7 @@ model:
   activation_type: relu  # 'softplus' or 'relu' # 激活函数
   beta_type: Blundell # 'Blundell', 'Standard',或常量 （Blundell是论文里对mini-batch的加权法）
   train_ens: 1 # 训练时模型集成数
-  valid_ens: 5 # 验证时模型集成数（大点有助于收敛）
+  valid_ens: 5 # 验证时模型集成数
   priors: # 先验+后验
     # prior
     prior_mu:   0
@@ -124,13 +115,9 @@ model:
 
 | 数据集 | 模型                          | Test-error | 权重链接                                                     |
 | ------ | ----------------------------- | ---------- | ------------------------------------------------------------ |
-| MNIST  | bayesfc2-bbb(1200units/layer)  | 1.3183% | [链接:](https://pan.baidu.com/s/1z_SIme8HOhrxqctBbJ-S1w)  提取码: opq3 |
-| MNIST  | bayesfc2-lrt(1200units/layer) | 1.3183%     | 同上                                                         |
+| MNIST32 | bayesfc2-bbb(1200units/layer) | 1.3183% | [链接:](https://pan.baidu.com/s/1luZ0ndOsPRJ0Xxcoe0F8aw)  提取码: yv6b |
+| MNIST28 | bayesfc2-bbb(1200units/layer) | 1.3183% | [链接:](https://pan.baidu.com/s/1z_SIme8HOhrxqctBbJ-S1w)  提取码: opq3 |
+| MNIST28 | bayesfc2-lrt(1200units/layer) | 1.3183%     | 同上                                                         |
 
-注：用lrt加载bbb的权重能达到1.289%
+注：mnist28中用lrt加载bbb的权重能达到1.289%,而mist32的是第250轮保存的权重
 
-[aistudio地址](https://aistudio.baidu.com/aistudio/projectdetail/2291689?shared=1)
-
-### 7.2 参考
-
-https://github.com/kumar-shridhar/PyTorch-BayesianCNN
