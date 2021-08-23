@@ -1,1 +1,39 @@
+############### Configuration file for Bayesian ###############
+data:
+  name: MNIST # 'MNIST','CIFAR10','CIFAR100' # 数据集名
+  input_size: [1,32,32] # 数据集大小
+  # 归一化
+  mean: [0.]
+  std: [126.]
+  class_dim: 10 #类别数
+  valid_size: 10000 #验证集大小，如果是0-1间小数则按比例取，如果是整数则取valid_size个验证集
+  num_workers: 0 # 加载数据的线程数
 
+hparas:
+  seeds: 2021 # 随机种子
+  start_epoch: 0 # 开始训练轮数
+  num_epochs: 500 # 总训练轮数
+  batch_size: 256 # batch大小
+  learning_strategy:
+    lr_start: 1e-3 # 初始学习率
+    lr_decay: 0.8 # 学习率衰减比
+    weight_decay: 0.015 #权重衰减
+  visual_epochs: 50 # 画图间隔
+  save_epochs: 50 #保存模型间隔
+
+model:
+  name: 2fc # [lenet,alex,3conv3fc,2fc] 模型名
+  layer_type: bbb  # 'bbb' or 'lrt' # 层类型，贝叶斯反向传播、或带有局部重参数化trick的bayes层
+  load_name: model_best_bbb.pdparams # model_best_bbb,model_best_lrt #加载训练好的模型
+  activation_type: relu  # 'softplus' or 'relu' # 激活函数
+  beta_type: Blundell # 'Blundell', 'Standard',或常量 （Blundell是论文里对mini-batch的加权法）
+  train_ens: 1 # 训练时模型集成数
+  valid_ens: 5 # 验证时模型集成数（大点有助于收敛）
+  priors: # 先验+后验
+    # prior
+    prior_mu:   0
+    prior_sigma: 0.1
+    # gaussian posterior
+    posterior_mu_initial: [0, 0.1]  # (mean, std) normal_
+    posterior_rho_initial: [-5, 0.1] # (mean, std) normal_
+  save_dir: "checkpoints" # 保存模型目录
