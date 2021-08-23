@@ -30,19 +30,19 @@ MNIST手写数字数据集，共有6w训练集、1w测试集，像素为32。本
 ### 5.1训练
 
 ```
-python main.py --config ./conf/base.yaml --mode train
+python main.py --config ./config/base.yaml --mode train
 ```
 
 ### 5.2 评估
 
 ```
-python main.py  --config ./conf/base.yaml --mode eval
+python main.py  --config ./config/base.yaml --mode eval
 ```
 
 ### 5.3 预测
 
 ```
-python main.py  --config ./conf/base.yaml --mode pred
+python main.py  --config ./config/base.yaml --mode pred
 ```
 
 ## 六、代码结构与详细说明
@@ -92,8 +92,8 @@ hparas:
   batch_size: 256 # batch大小
   learning_strategy:
     lr_start: 1e-3 # 初始学习率        
-    lr_decay: 0.95 # 学习率衰减比
-    weight_decay: 0.15 #权重衰减
+    lr_decay: 0.8 # 学习率衰减比
+    weight_decay: 0.015 #权重衰减
   visual_epochs: 50 # 画图间隔
   save_epochs: 50 #保存模型间隔
 
