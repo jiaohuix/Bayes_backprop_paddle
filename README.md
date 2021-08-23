@@ -125,7 +125,7 @@ model:
 | MNIST28 | bayesfc2-bbb(1200units/layer) | 1.3183%    | [链接:](https://pan.baidu.com/s/1z_SIme8HOhrxqctBbJ-S1w)  提取码: opq3 |
 | MNIST28 | bayesfc2-lrt(1200units/layer) | 1.3183%    | 同上                                                         |
 
-注：mnist28中用lrt加载bbb的权重能达到1.289%,而mist32的是第250轮保存的权重
+注：mnist28中用lrt加载bbb的权重能达到1.289%,而mnist32的是第250轮保存的权重
 
 [aistudio地址](https://aistudio.baidu.com/aistudio/projectdetail/2291689?shared=1)
 
