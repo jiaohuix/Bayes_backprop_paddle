@@ -11,13 +11,11 @@ from utils import logger,draw_process,metrics
 
 def prep_model(conf,model,trainset_num):
     strategy=conf['hparas']['learning_strategy']
-    warmup_steps, lr_start, lr_peak, lr_decay=strategy['warmup_steps'], eval(strategy['lr_start']),\
-                                                      eval(strategy['lr_peak']),strategy['lr_decay']
+    lr_start,lr_decay=eval(strategy['lr_start']),eval(strategy['lr_peak']),strategy['lr_decay']
     weight_decay=strategy['weight_decay']
     criterion = metrics.ELBO(trainset_num)
-    clip = paddle.nn.ClipGradByGlobalNorm(clip_norm=1.0)
-    lr_sched = ReduceOnPlateau(learning_rate=lr_peak,patience=30,factor=0.5,verbose=True)
-    optimizer = paddle.optimizer.AdamW(learning_rate=lr_sched,parameters=model.parameters(),grad_clip=clip,weight_decay=weight_decay)
+    lr_sched = ReduceOnPlateau(learning_rate=lr_peak,patience=10,factor=0.8,verbose=True)
+    optimizer = paddle.optimizer.AdamW(learning_rate=lr_sched,parameters=model.parameters(),weight_decay=weight_decay)
     return criterion,optimizer,lr_sched
 
 
